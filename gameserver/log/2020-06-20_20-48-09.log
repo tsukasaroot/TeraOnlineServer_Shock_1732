@@ -1,0 +1,939 @@
+INFO 20:48:09:680 ServerControl: open server socket on 2101 port.
+INFO 20:48:09:686 ExecutorManager: initialized.
+INFO 20:48:11:649 CleaningManager: delete 0 reuses from a character_skill_reuses.
+INFO 20:48:11:805 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 20:48:12:361 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 20:48:12:455 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 20:48:12:576 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 20:48:12:705 CleaningManager: delete 0 skills from a character_skills.
+INFO 20:48:12:904 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 20:48:13:003 CleaningManager: delete 0 chars from a character_friends.
+INFO 20:48:13:033 CleaningManager: delete 0 friends from a character_friends.
+INFO 20:48:13:130 CleaningManager: delete 0 settings from a character_settings.
+INFO 20:48:13:378 CleaningManager: delete 0 emty items from a items.
+INFO 20:48:13:379 CleaningManager: delete 0 no owner items from a items.
+INFO 20:48:13:483 CleaningManager: delete 0 no owner guild items from a items.
+INFO 20:48:13:817 CleaningManager: create buffer table items.
+INFO 20:48:14:025 CleaningManager: copy 30 items to buffer_items.
+INFO 20:48:14:026 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 20:48:14:142 CleaningManager: drop buffer table items.
+INFO 20:48:14:275 CleaningManager: delete 0 from a quests.
+INFO 20:48:14:341 CleaningManager: delete 0 from a quest variables.
+INFO 20:48:14:424 CleaningManager: delete 0 from a guild ranks.
+INFO 20:48:16:097 ClientPacketType: client packets prepared.
+INFO 20:48:16:254 EffectParser: initialized.
+INFO 20:48:16:256 RandomManager: initialized.
+INFO 20:48:16:258 IdFactory: prepare npc ids...
+INFO 20:48:16:260 BitSetIdGenerator: 102912 id's available.
+INFO 20:48:16:260 IdFactory: prepare objects ids...
+INFO 20:48:16:261 BitSetIdGenerator: 102912 id's available.
+INFO 20:48:16:262 IdFactory: prepare players ids...
+INFO 20:48:16:292 BitSetIdGenerator: extracted 3 ids.
+INFO 20:48:16:292 BitSetIdGenerator: 102912 id's available.
+INFO 20:48:16:293 IdFactory: prepare guilds ids...
+INFO 20:48:16:294 BitSetIdGenerator: extracted 0 ids.
+INFO 20:48:16:294 BitSetIdGenerator: 102912 id's available.
+INFO 20:48:16:294 IdFactory: prepare item ids...
+INFO 20:48:16:295 BitSetIdGenerator: extracted 30 ids.
+INFO 20:48:16:295 BitSetIdGenerator: 102912 id's available.
+INFO 20:48:16:418 ServerVarManager: loaded 0 variables.
+INFO 20:48:16:582 BossSpawnManager: loaded 0 boss spawns.
+INFO 20:48:17:640 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 20:48:18:842 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 20:48:18:870 ConditionParser: initializable.
+WARNING 20:48:23:601 DocumentSkill: incorrect file .\data\skills\player_skills\lancer.xml, and skill id="67298964"
+WARNING 20:48:23:603 DocumentSkill: IllegalArgumentException : No enum constant tera.gameserver.model.skillengine.EffectType.DAMAGE_TRANSFER : stack trace:
+java.base/java.lang.Enum.valueOf(Enum.java:266)
+rlib.util.VarTable.getEnum(VarTable.java:473)
+tera.gameserver.templates.EffectTemplate.<init>(EffectTemplate.java:115)
+tera.gameserver.parser.EffectParser.paraseEffects(EffectParser.java:90)
+tera.gameserver.document.DocumentSkill.parseSkill(DocumentSkill.java:239)
+tera.gameserver.document.DocumentSkill.parse(DocumentSkill.java:53)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.SkillTable.<init>(SkillTable.java:220)
+tera.gameserver.tables.SkillTable.getInstance(SkillTable.java:51)
+tera.gameserver.GameServer.run(GameServer.java:245)
+
+WARNING 20:48:24:018 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67388964"
+WARNING 20:48:24:018 DocumentSkill: IllegalArgumentException : No enum constant tera.gameserver.model.skillengine.EffectType.INVUL : stack trace:
+java.base/java.lang.Enum.valueOf(Enum.java:266)
+rlib.util.VarTable.getEnum(VarTable.java:473)
+tera.gameserver.templates.EffectTemplate.<init>(EffectTemplate.java:115)
+tera.gameserver.parser.EffectParser.paraseEffects(EffectParser.java:90)
+tera.gameserver.document.DocumentSkill.parseSkill(DocumentSkill.java:239)
+tera.gameserver.document.DocumentSkill.parse(DocumentSkill.java:53)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.SkillTable.<init>(SkillTable.java:220)
+tera.gameserver.tables.SkillTable.getInstance(SkillTable.java:51)
+tera.gameserver.GameServer.run(GameServer.java:245)
+
+WARNING 20:48:24:186 DocumentSkill: incorrect file .\data\skills\player_skills\wariror.xml, and skill id="67338964"
+WARNING 20:48:24:186 DocumentSkill: IllegalArgumentException : No enum constant tera.gameserver.model.skillengine.EffectType.TURN : stack trace:
+java.base/java.lang.Enum.valueOf(Enum.java:266)
+rlib.util.VarTable.getEnum(VarTable.java:473)
+tera.gameserver.templates.EffectTemplate.<init>(EffectTemplate.java:115)
+tera.gameserver.parser.EffectParser.paraseEffects(EffectParser.java:90)
+tera.gameserver.document.DocumentSkill.parseSkill(DocumentSkill.java:239)
+tera.gameserver.document.DocumentSkill.parse(DocumentSkill.java:53)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.SkillTable.<init>(SkillTable.java:220)
+tera.gameserver.tables.SkillTable.getInstance(SkillTable.java:51)
+tera.gameserver.GameServer.run(GameServer.java:245)
+
+WARNING 20:48:24:187 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 20:48:24:486 SkillTable: loaded 4610 skills for 19 classes.
+INFO 20:48:28:517 ItemTable: loaded 10138 items.
+INFO 20:48:28:688 Race: race appearances initializable.
+INFO 20:48:28:834 PlayerTable: loaded 104 player templates.
+INFO 20:48:31:316 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 20:48:31:492 TownTable: initialized.
+WARNING 20:48:31:856 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:857 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:858 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:859 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:860 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:860 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:861 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:861 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:862 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:862 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:863 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:864 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:864 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:865 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:865 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:866 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:866 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:868 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:869 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:870 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:870 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:871 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:872 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:873 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:873 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:874 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:874 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:874 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:874 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:875 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:896 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPandMP : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:897 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPMPStamina : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:898 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPandMP : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:899 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPMPStamina : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:899 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPandMP : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:900 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPMPStamina : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:900 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPandMP : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:901 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPMPStamina : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:902 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPandMP : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:902 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPMPStamina : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:903 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPandMP : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:904 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPMPStamina : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:905 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPandMP : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:905 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPMPStamina : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:906 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPandMP : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:906 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPMPStamina : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:907 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPandMP : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:909 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyRestoreHPMPStamina : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:909 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+WARNING 20:48:31:932 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:932 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:934 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+WARNING 20:48:31:934 DocumentDialog: ClassNotFoundException : tera.gameserver.model.npc.interaction.replyes.ReplyCityTeleport : stack trace:
+java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+java.base/java.lang.Class.forName0(Native Method)
+java.base/java.lang.Class.forName(Class.java:333)
+tera.gameserver.document.DocumentDialog.parseLink(DocumentDialog.java:64)
+tera.gameserver.document.DocumentDialog.parseNpc(DocumentDialog.java:136)
+tera.gameserver.document.DocumentDialog.parse(DocumentDialog.java:99)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcDialogTable.<init>(NpcDialogTable.java:63)
+tera.gameserver.tables.NpcDialogTable.getInstance(NpcDialogTable.java:32)
+tera.gameserver.GameServer.run(GameServer.java:263)
+
+INFO 20:48:32:329 NpcDialogTable: loaded 87 dialogs.
+INFO 20:48:32:461 MessagePackageTable: loaded 34 message packages.
+INFO 20:48:32:942 ConfigAITable: loaded 45 npc ai configs.
+INFO 20:48:33:183 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 20:48:35:606 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+WARNING 20:48:35:621 DocumentNpc: incorrect file .\data\npcs\summons\smoke_aggresion.xml
+WARNING 20:48:35:622 DocumentNpc: IllegalArgumentException : No enum constant tera.gameserver.model.npc.NpcType.SMOKE_SUMMON : stack trace:
+java.base/java.lang.Enum.valueOf(Enum.java:266)
+tera.gameserver.model.npc.NpcType.valueOf(NpcType.java:1)
+tera.gameserver.templates.NpcTemplate.<init>(NpcTemplate.java:125)
+tera.gameserver.document.DocumentNpc.parseTemplate(DocumentNpc.java:82)
+tera.gameserver.document.DocumentNpc.parse(DocumentNpc.java:47)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcTable.<init>(NpcTable.java:68)
+tera.gameserver.tables.NpcTable.getInstance(NpcTable.java:37)
+tera.gameserver.GameServer.run(GameServer.java:275)
+
+INFO 20:48:35:780 NpcTable: loaded  808 npcs.
+INFO 20:48:36:047 ResourseTable: loaded  253 resourses.
+INFO 20:48:36:165 MinionTable: loaded 303 minions for 42 npcs.
+INFO 20:48:36:180 RegenTaskManager: initializable.
+INFO 20:48:36:304 Formulas: initialized.
+INFO 20:48:36:305 EffectTaskManager: initialized.
+INFO 20:48:39:962 ObjectEventManager: initialized.
+INFO 20:48:39:963 MoveTaskManager: initialized.
+INFO 20:48:40:280 SpawnTable: loaded 19515 spawns for 617 npcs and 2013 spawns for 60 resourses.
+INFO 20:48:40:342 GeoMap3D: start fast import geodata_1.dat
+INFO 20:48:40:784 GeoMap3D: import ended. load 1867238 quards.
+INFO 20:48:40:785 GeoMap3D: start fast import geodata_2.dat
+INFO 20:48:40:896 GeoMap3D: import ended. load 440227 quards.
+INFO 20:48:40:906 GeoMap3D: start fast import geodata_3.dat
+INFO 20:48:40:966 GeoMap3D: import ended. load 58040 quards.
+INFO 20:48:40:976 GeoManager: initialized.
+INFO 20:48:41:000 ItemExecutorManager: loaded 0 executor items.
+INFO 20:48:41:129 CommandManager: loaded 95 commands.
+INFO 20:48:41:179 SkillLearnManager: loaded 947 skill learn's for 8 clases.
+INFO 20:48:41:201 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 20:48:41:205 AccountManager: initialized.
+INFO 20:48:41:219 GuildManager: loaded 0 guilds.
+INFO 20:48:42:950 QuestManager: loaded 455 quests.
+INFO 20:48:42:950 OnlineManager: initialized.
+INFO 20:48:43:064 GameLogManager: initialized.
+INFO 20:48:44:166 Region: next battle "Veritas District" in 2020.06.21 16:00.
+INFO 20:48:44:169 Region: next battle "Ostgarath" in 2020.06.21 16:00.
+INFO 20:48:44:172 Region: next battle "Val Palrada" in 2020.06.27 20:00.
+INFO 20:48:44:176 Region: next battle "Val Aureum" in 2020.06.27 20:00.
+INFO 20:48:44:176 EventManager: loaded 4 events.
+INFO 20:48:44:284 EventManager: the nearest event in 31 minutes.
+INFO 20:48:44:306 PlayerManager: initialized.
+INFO 20:48:44:313 Network: started.
+INFO 20:48:44:314 GameServer: started.
+INFO 20:51:54:928 AccountManager: authed islanzadie
+WARNING 20:52:22:282 DataBaseManager: not found skill id 67388964 class 4
+WARNING 20:55:38:273 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:76)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 20:55:41:350 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:76)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 20:56:22:264 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:76)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 20:57:57:058 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.model.Character.teleToLocation(Character.java:4189)
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:79)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 21:00:01:360 CommandManager: NumberFormatException : null : stack trace:
+java.base/java.lang.Integer.parseInt(Integer.java:620)
+java.base/java.lang.Integer.parseInt(Integer.java:776)
+tera.gameserver.scripts.commands.NpcCommands.execution(NpcCommands.java:70)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 21:00:26:408 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+WARNING 21:00:26:414 DocumentNpc: incorrect file .\data\npcs\summons\smoke_aggresion.xml
+WARNING 21:00:26:415 DocumentNpc: IllegalArgumentException : No enum constant tera.gameserver.model.npc.NpcType.SMOKE_SUMMON : stack trace:
+java.base/java.lang.Enum.valueOf(Enum.java:266)
+tera.gameserver.model.npc.NpcType.valueOf(NpcType.java:1)
+tera.gameserver.templates.NpcTemplate.<init>(NpcTemplate.java:125)
+tera.gameserver.document.DocumentNpc.parseTemplate(DocumentNpc.java:82)
+tera.gameserver.document.DocumentNpc.parse(DocumentNpc.java:47)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcTable.reload(NpcTable.java:169)
+tera.gameserver.scripts.commands.NpcCommands.execution(NpcCommands.java:192)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+INFO 21:00:26:424 NpcTable: npcs reloaded.
+INFO 21:04:58:770 AccountManager: close islanzadie

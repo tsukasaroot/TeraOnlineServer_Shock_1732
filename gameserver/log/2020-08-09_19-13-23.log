@@ -1,0 +1,121 @@
+INFO 19:13:23:281 ServerControl: open server socket on 2101 port.
+INFO 19:13:23:359 ExecutorManager: initialized.
+INFO 19:13:24:473 CleaningManager: delete 0 reuses from a character_skill_reuses.
+INFO 19:13:24:510 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 19:13:24:594 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 19:13:24:654 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 19:13:24:681 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 19:13:24:756 CleaningManager: delete 0 skills from a character_skills.
+INFO 19:13:24:784 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 19:13:24:809 CleaningManager: delete 0 chars from a character_friends.
+INFO 19:13:24:810 CleaningManager: delete 0 friends from a character_friends.
+INFO 19:13:24:860 CleaningManager: delete 0 settings from a character_settings.
+INFO 19:13:24:908 CleaningManager: delete 0 empty items from a items.
+INFO 19:13:24:921 CleaningManager: delete 0 no owner items from a items.
+INFO 19:13:24:962 CleaningManager: delete 0 no owner guild items from a items.
+INFO 19:13:25:046 CleaningManager: create buffer table items.
+INFO 19:13:25:048 CleaningManager: copy 274 items to buffer_items.
+INFO 19:13:25:049 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 19:13:25:060 CleaningManager: drop buffer table items.
+INFO 19:13:25:142 CleaningManager: delete 0 from a quests.
+INFO 19:13:25:165 CleaningManager: delete 0 from a quest variables.
+INFO 19:13:25:202 CleaningManager: delete 0 from a guild ranks.
+INFO 19:13:25:383 ClientPacketType: client packets prepared.
+INFO 19:13:25:433 EffectParser: initialized.
+INFO 19:13:25:455 RandomManager: initialized.
+INFO 19:13:25:455 IdFactory: prepare npc ids...
+INFO 19:13:25:490 BitSetIdGenerator: 102912 id's available.
+INFO 19:13:25:491 IdFactory: prepare objects ids...
+INFO 19:13:25:491 BitSetIdGenerator: 102912 id's available.
+INFO 19:13:25:492 IdFactory: prepare players ids...
+INFO 19:13:25:494 BitSetIdGenerator: extracted 14 ids.
+INFO 19:13:25:494 BitSetIdGenerator: 102912 id's available.
+INFO 19:13:25:494 IdFactory: prepare guilds ids...
+INFO 19:13:25:495 BitSetIdGenerator: extracted 1 ids.
+INFO 19:13:25:495 BitSetIdGenerator: 102912 id's available.
+INFO 19:13:25:496 IdFactory: prepare item ids...
+INFO 19:13:25:497 BitSetIdGenerator: extracted 274 ids.
+INFO 19:13:25:498 BitSetIdGenerator: 102912 id's available.
+INFO 19:13:25:559 ServerVarManager: loaded 0 variables.
+INFO 19:13:25:574 BossSpawnManager: loaded 0 boss spawns.
+INFO 19:13:26:283 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 19:13:27:548 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 19:13:27:550 ConditionParser: initializable.
+WARNING 19:13:28:410 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 19:13:28:475 SkillTable: loaded 4613 skills for 19 classes.
+WARNING 19:13:28:516 ItemTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\items\adaptations.txt
+INFO 19:13:29:195 ItemTable: loaded 10138 items.
+INFO 19:13:29:256 Race: race appearances initializable.
+INFO 19:13:29:273 PlayerTable: loaded 104 player templates.
+WARNING 19:13:29:575 DropTable: not found items [50048]
+INFO 19:13:29:576 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 19:13:29:593 TownTable: initialized.
+WARNING 19:13:29:627 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 19:13:29:718 NpcDialogTable: loaded 87 dialogs.
+INFO 19:13:29:739 MessagePackageTable: loaded 34 message packages.
+INFO 19:13:29:815 ConfigAITable: loaded 45 npc ai configs.
+INFO 19:13:29:846 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 19:13:30:086 DocumentNpc: incorrect file .\data\npcs\playable\bandits.xml
+WARNING 19:13:30:086 DocumentNpc: SAXParseException : The string "--" is not permitted within comments. : stack trace:
+java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:206)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:55)
+tera.gameserver.tables.NpcTable.<init>(NpcTable.java:68)
+tera.gameserver.tables.NpcTable.getInstance(NpcTable.java:37)
+tera.gameserver.GameServer.run(GameServer.java:224)
+
+WARNING 19:13:30:087 DocumentNpc: incorrect file .\data\npcs\playable\bandits.xml
+WARNING 19:13:30:087 DocumentNpc: NullPointerException : null : stack trace:
+tera.gameserver.document.DocumentNpc.parse(DocumentNpc.java:42)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcTable.<init>(NpcTable.java:68)
+tera.gameserver.tables.NpcTable.getInstance(NpcTable.java:37)
+tera.gameserver.GameServer.run(GameServer.java:224)
+
+WARNING 19:13:30:359 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 19:13:30:405 NpcTable: loaded  815 npcs.
+INFO 19:13:30:473 ResourseTable: loaded  253 resourses.
+INFO 19:13:30:491 MinionTable: loaded 303 minions for 42 npcs.
+INFO 19:13:30:603 RegenTaskManager: initializable.
+INFO 19:13:30:625 Formulas: initialized.
+INFO 19:13:30:626 EffectTaskManager: initialized.
+INFO 19:13:31:317 ObjectEventManager: initialized.
+INFO 19:13:31:318 MoveTaskManager: initialized.
+INFO 19:13:31:660 SpawnTable: loaded 19523 spawns for 622 npcs and 2013 spawns for 60 resourses.
+INFO 19:13:31:682 GeoMap3D: start fast import geodata_1.dat
+INFO 19:13:32:004 GeoMap3D: import ended. load 1867238 quards.
+INFO 19:13:32:005 GeoMap3D: start fast import geodata_2.dat
+INFO 19:13:32:141 GeoMap3D: import ended. load 440227 quards.
+INFO 19:13:32:145 GeoMap3D: start fast import geodata_3.dat
+INFO 19:13:32:188 GeoMap3D: import ended. load 58040 quards.
+INFO 19:13:32:190 GeoManager: initialized.
+INFO 19:13:32:198 ItemExecutorManager: loaded 0 executor items.
+INFO 19:13:32:232 CommandManager: loaded 96 commands.
+INFO 19:13:32:257 SkillLearnManager: loaded 950 skill learn's for 8 clases.
+INFO 19:13:32:272 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 19:13:32:274 AccountManager: initialized.
+INFO 19:13:32:295 GuildManager: loaded 1 guilds.
+INFO 19:13:32:897 QuestManager: loaded 455 quests.
+INFO 19:13:32:902 OnlineManager: initialized.
+INFO 19:13:32:927 GameLogManager: initialized.
+INFO 19:13:33:206 Region: next battle "Veritas District" in 2020.08.16 16:00.
+INFO 19:13:33:210 Region: next battle "Ostgarath" in 2020.08.16 16:00.
+INFO 19:13:33:212 Region: next battle "Val Palrada" in 2020.08.15 20:00.
+INFO 19:13:33:213 Region: next battle "Val Aureum" in 2020.08.15 20:00.
+INFO 19:13:33:214 EventManager: loaded 5 events.
+INFO 19:13:33:612 EventManager: the nearest event in 39 minutes.
+INFO 19:13:33:616 PlayerManager: initialized.
+INFO 19:13:33:713 Network: started.
+INFO 19:13:33:713 GameServer: started.
+INFO 19:17:02:272 AccountManager: authed islanzadie
+WARNING 19:19:28:871 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+INFO 19:46:08:231 AccountManager: close islanzadie

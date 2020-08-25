@@ -1,0 +1,100 @@
+INFO 10:16:35:919 ServerControl: open server socket on 2101 port.
+INFO 10:16:35:926 ExecutorManager: initialized.
+INFO 10:16:36:242 CleaningManager: delete 0 reuses from a character_skill_reuses.
+INFO 10:16:36:243 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 10:16:36:244 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 10:16:36:244 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 10:16:36:245 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 10:16:36:245 CleaningManager: delete 0 skills from a character_skills.
+INFO 10:16:36:246 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 10:16:36:247 CleaningManager: delete 0 chars from a character_friends.
+INFO 10:16:36:247 CleaningManager: delete 0 friends from a character_friends.
+INFO 10:16:36:248 CleaningManager: delete 0 settings from a character_settings.
+INFO 10:16:36:249 CleaningManager: delete 13 empty items from a items.
+INFO 10:16:36:250 CleaningManager: delete 0 no owner items from a items.
+INFO 10:16:36:250 CleaningManager: delete 0 no owner guild items from a items.
+INFO 10:16:36:295 CleaningManager: create buffer table items.
+INFO 10:16:36:297 CleaningManager: copy 36 items to buffer_items.
+INFO 10:16:36:297 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 10:16:36:307 CleaningManager: drop buffer table items.
+INFO 10:16:36:308 CleaningManager: delete 0 from a quests.
+INFO 10:16:36:309 CleaningManager: delete 0 from a quest variables.
+INFO 10:16:36:309 CleaningManager: delete 0 from a guild ranks.
+INFO 10:16:36:347 ClientPacketType: client packets prepared.
+INFO 10:16:36:359 EffectParser: initialized.
+INFO 10:16:36:361 RandomManager: initialized.
+INFO 10:16:36:361 IdFactory: prepare npc ids...
+INFO 10:16:36:363 BitSetIdGenerator: 102912 id's available.
+INFO 10:16:36:363 IdFactory: prepare objects ids...
+INFO 10:16:36:363 BitSetIdGenerator: 102912 id's available.
+INFO 10:16:36:364 IdFactory: prepare players ids...
+INFO 10:16:36:366 BitSetIdGenerator: extracted 4 ids.
+INFO 10:16:36:366 BitSetIdGenerator: 102912 id's available.
+INFO 10:16:36:367 IdFactory: prepare guilds ids...
+INFO 10:16:36:367 BitSetIdGenerator: extracted 0 ids.
+INFO 10:16:36:368 BitSetIdGenerator: 102912 id's available.
+INFO 10:16:36:368 IdFactory: prepare item ids...
+INFO 10:16:36:369 BitSetIdGenerator: extracted 36 ids.
+INFO 10:16:36:370 BitSetIdGenerator: 102912 id's available.
+INFO 10:16:36:380 ServerVarManager: loaded 0 variables.
+INFO 10:16:36:382 BossSpawnManager: loaded 0 boss spawns.
+INFO 10:16:36:938 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 10:16:37:963 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 10:16:37:964 ConditionParser: initializable.
+WARNING 10:16:38:278 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 10:16:38:291 SkillTable: loaded 4613 skills for 19 classes.
+INFO 10:16:38:540 ItemTable: loaded 10138 items.
+INFO 10:16:38:549 Race: race appearances initializable.
+INFO 10:16:38:555 PlayerTable: loaded 104 player templates.
+INFO 10:16:38:750 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 10:16:38:760 TownTable: initialized.
+WARNING 10:16:38:781 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 10:16:38:813 NpcDialogTable: loaded 87 dialogs.
+INFO 10:16:38:821 MessagePackageTable: loaded 34 message packages.
+INFO 10:16:38:858 ConfigAITable: loaded 45 npc ai configs.
+INFO 10:16:38:870 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 10:16:38:994 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 10:16:39:004 NpcTable: loaded  816 npcs.
+INFO 10:16:39:021 ResourseTable: loaded  253 resourses.
+INFO 10:16:39:032 MinionTable: loaded 303 minions for 42 npcs.
+INFO 10:16:39:033 RegenTaskManager: initializable.
+INFO 10:16:39:038 Formulas: initialized.
+INFO 10:16:39:039 EffectTaskManager: initialized.
+INFO 10:16:39:299 ObjectEventManager: initialized.
+INFO 10:16:39:300 MoveTaskManager: initialized.
+INFO 10:16:39:623 SpawnTable: loaded 19515 spawns for 617 npcs and 2013 spawns for 60 resourses.
+INFO 10:16:39:631 GeoMap3D: start fast import geodata_1.dat
+INFO 10:16:39:898 GeoMap3D: import ended. load 1867238 quards.
+INFO 10:16:39:900 GeoMap3D: start fast import geodata_2.dat
+INFO 10:16:39:957 GeoMap3D: import ended. load 440227 quards.
+INFO 10:16:39:958 GeoMap3D: start fast import geodata_3.dat
+INFO 10:16:39:972 GeoMap3D: import ended. load 58040 quards.
+INFO 10:16:39:973 GeoManager: initialized.
+INFO 10:16:39:975 ItemExecutorManager: loaded 0 executor items.
+INFO 10:16:39:986 CommandManager: loaded 94 commands.
+INFO 10:16:40:002 SkillLearnManager: loaded 950 skill learn's for 8 clases.
+INFO 10:16:40:007 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 10:16:40:009 AccountManager: initialized.
+INFO 10:16:40:013 GuildManager: loaded 0 guilds.
+INFO 10:16:40:237 QuestManager: loaded 455 quests.
+INFO 10:16:40:238 OnlineManager: initialized.
+INFO 10:16:40:243 GameLogManager: initialized.
+INFO 10:16:40:301 Region: next battle "Veritas District" in 2020.06.21 16:00.
+INFO 10:16:40:304 Region: next battle "Ostgarath" in 2020.06.21 16:00.
+INFO 10:16:40:307 Region: next battle "Val Palrada" in 2020.06.27 20:00.
+INFO 10:16:40:309 Region: next battle "Val Aureum" in 2020.06.27 20:00.
+INFO 10:16:40:309 EventManager: loaded 5 events.
+INFO 10:16:40:420 EventManager: the nearest event in 36 minutes.
+INFO 10:16:40:423 PlayerManager: initialized.
+INFO 10:16:40:440 Network: started.
+INFO 10:16:40:441 GameServer: started.
+INFO 10:17:32:814 AccountManager: authed islanzadie
+INFO 10:40:21:339 AccountManager: close islanzadie
+INFO 17:22:37:843 AccountManager: authed islanzadie
+INFO 17:46:13:574 AccountManager: authed Joalin
+INFO 17:46:20:385 AccountManager: close Joalin
+INFO 17:46:26:848 AccountManager: authed Joalin
+INFO 18:00:06:327 Region: next battle "Ostgarath" in 2020.06.28 16:00.
+INFO 18:00:06:342 Region: next battle "Veritas District" in 2020.06.28 16:00.
+INFO 18:12:16:922 AccountManager: close islanzadie
+INFO 18:27:42:553 AccountManager: close Joalin

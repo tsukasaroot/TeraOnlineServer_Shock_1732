@@ -1,0 +1,460 @@
+[Fri Oct 04 11:26:52.179641 2019] [ssl:warn] [pid 37792:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 11:26:52.218650 2019] [ssl:warn] [pid 37792:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 11:26:52.426708 2019] [mpm_winnt:notice] [pid 37792:tid 548] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Fri Oct 04 11:26:52.426708 2019] [mpm_winnt:notice] [pid 37792:tid 548] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Oct 04 11:26:52.426708 2019] [core:notice] [pid 37792:tid 548] AH00094: Command line: 'd:\\privateserver_tera\\teraserveronline\\web\\apache\\bin\\httpd.exe -d D:/privateServer_Tera/TeraServerOnline/web/apache'
+[Fri Oct 04 11:26:52.436698 2019] [mpm_winnt:notice] [pid 37792:tid 548] AH00418: Parent: Created child process 2988
+[Fri Oct 04 11:26:52.736984 2019] [ssl:warn] [pid 2988:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 11:26:52.767991 2019] [ssl:warn] [pid 2988:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 11:26:52.789996 2019] [mpm_winnt:notice] [pid 2988:tid 560] AH00354: Child: Starting 150 worker threads.
+[Fri Oct 04 11:27:43.899270 2019] [php7:warn] [pid 2988:tid 1812] [client 127.0.0.1:19032] PHP Warning:  POST Content-Length of 10712921 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[Fri Oct 04 11:28:10.232794 2019] [php7:warn] [pid 2988:tid 1820] [client 127.0.0.1:19072] PHP Warning:  POST Content-Length of 10713017 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[Fri Oct 04 11:29:58.014217 2019] [php7:error] [pid 2988:tid 1796] [client 87.250.233.77:41180] script 'D:/privateServer_Tera/TeraServerOnline/web/htdocs/news.php' not found or unable to stat
+[Fri Oct 04 11:36:56.768735 2019] [php7:error] [pid 2988:tid 1820] [client 46.229.168.129:18742] script 'D:/privateServer_Tera/TeraServerOnline/web/htdocs/page.php' not found or unable to stat
+[Fri Oct 04 11:41:46.423371 2019] [ssl:warn] [pid 2336:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 11:41:46.462389 2019] [core:warn] [pid 2336:tid 592] AH00098: pid file D:/privateServer_Tera/TeraServerOnline/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 04 11:41:46.468382 2019] [ssl:warn] [pid 2336:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 11:41:46.490386 2019] [mpm_winnt:notice] [pid 2336:tid 592] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Fri Oct 04 11:41:46.490386 2019] [mpm_winnt:notice] [pid 2336:tid 592] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Oct 04 11:41:46.490386 2019] [core:notice] [pid 2336:tid 592] AH00094: Command line: 'd:\\privateserver_tera\\teraserveronline\\web\\apache\\bin\\httpd.exe -d D:/privateServer_Tera/TeraServerOnline/web/apache'
+[Fri Oct 04 11:41:46.497390 2019] [mpm_winnt:notice] [pid 2336:tid 592] AH00418: Parent: Created child process 36736
+[Fri Oct 04 11:41:46.812561 2019] [ssl:warn] [pid 36736:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 11:41:46.843568 2019] [ssl:warn] [pid 36736:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 11:41:46.866573 2019] [mpm_winnt:notice] [pid 36736:tid 584] AH00354: Child: Starting 150 worker threads.
+[Fri Oct 04 11:42:27.494201 2019] [php7:error] [pid 36736:tid 1820] [client 127.0.0.1:19757] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.\r\n in D:\\privateServer_Tera\\TeraServerOnline\\web\\htdocs\\core\\connect\\database.php:9\nStack trace:\n#0 D:\\privateServer_Tera\\TeraServerOnline\\web\\htdocs\\core\\connect\\database.php(9): PDO->__construct('mysql:host=127....', 'root', '')\n#1 D:\\privateServer_Tera\\TeraServerOnline\\web\\htdocs\\core\\init.php(3): require('D:\\\\privateServe...')\n#2 D:\\privateServer_Tera\\TeraServerOnline\\web\\htdocs\\index.php(2): require('D:\\\\privateServe...')\n#3 {main}\n  thrown in D:\\privateServer_Tera\\TeraServerOnline\\web\\htdocs\\core\\connect\\database.php on line 9
+[Fri Oct 04 12:03:49.165888 2019] [php7:error] [pid 36736:tid 1820] [client 87.250.233.79:50401] script 'D:/privateServer_Tera/TeraServerOnline/web/htdocs/news.php' not found or unable to stat
+[Fri Oct 04 12:04:34.325013 2019] [php7:error] [pid 36736:tid 1812] [client 5.255.251.5:53487] script 'D:/privateServer_Tera/TeraServerOnline/web/htdocs/news.php' not found or unable to stat
+[Fri Oct 04 13:04:05.377114 2019] [php7:error] [pid 36736:tid 1812] [client 37.9.113.22:55191] script 'D:/privateServer_Tera/TeraServerOnline/web/htdocs/news.php' not found or unable to stat
+[Fri Oct 04 13:26:52.080971 2019] [php7:error] [pid 36736:tid 1812] [client 54.36.148.76:39414] script 'D:/privateServer_Tera/TeraServerOnline/web/htdocs/news.php' not found or unable to stat
+[Fri Oct 04 14:09:00.908602 2019] [ssl:warn] [pid 13456:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 14:09:00.941610 2019] [core:warn] [pid 13456:tid 592] AH00098: pid file D:/privateServer_Tera/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 04 14:09:00.947611 2019] [ssl:warn] [pid 13456:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 14:09:01.174723 2019] [mpm_winnt:notice] [pid 13456:tid 592] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Fri Oct 04 14:09:01.174723 2019] [mpm_winnt:notice] [pid 13456:tid 592] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Oct 04 14:09:01.174723 2019] [core:notice] [pid 13456:tid 592] AH00094: Command line: 'd:\\privateserver_tera\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d D:/privateServer_Tera/TeraOnlineServer_Shock_1732/web/apache'
+[Fri Oct 04 14:09:01.179724 2019] [mpm_winnt:notice] [pid 13456:tid 592] AH00418: Parent: Created child process 26448
+[Fri Oct 04 14:09:01.492501 2019] [ssl:warn] [pid 26448:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 14:09:01.524507 2019] [ssl:warn] [pid 26448:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 04 14:09:01.547512 2019] [mpm_winnt:notice] [pid 26448:tid 564] AH00354: Child: Starting 150 worker threads.
+[Sun May 03 17:28:35.661991 2020] [ssl:warn] [pid 2976:tid 524] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 03 17:28:35.795433 2020] [core:warn] [pid 2976:tid 524] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 03 17:28:35.801446 2020] [ssl:warn] [pid 2976:tid 524] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 03 17:28:37.543218 2020] [mpm_winnt:notice] [pid 2976:tid 524] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sun May 03 17:28:37.543218 2020] [mpm_winnt:notice] [pid 2976:tid 524] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun May 03 17:28:37.543218 2020] [core:notice] [pid 2976:tid 524] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sun May 03 17:28:37.546228 2020] [mpm_winnt:notice] [pid 2976:tid 524] AH00418: Parent: Created child process 7184
+[Sun May 03 17:28:38.038858 2020] [ssl:warn] [pid 7184:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 03 17:28:38.113095 2020] [ssl:warn] [pid 7184:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 03 17:28:38.137175 2020] [mpm_winnt:notice] [pid 7184:tid 620] AH00354: Child: Starting 150 worker threads.
+[Fri Jun 19 10:12:06.757397 2020] [ssl:warn] [pid 1200:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 10:12:06.969095 2020] [core:warn] [pid 1200:tid 532] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 19 10:12:06.977123 2020] [ssl:warn] [pid 1200:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 10:12:08.412880 2020] [mpm_winnt:notice] [pid 1200:tid 532] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Fri Jun 19 10:12:08.412880 2020] [mpm_winnt:notice] [pid 1200:tid 532] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Jun 19 10:12:08.412880 2020] [core:notice] [pid 1200:tid 532] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Fri Jun 19 10:12:08.416894 2020] [mpm_winnt:notice] [pid 1200:tid 532] AH00418: Parent: Created child process 8140
+[Fri Jun 19 10:12:08.792136 2020] [ssl:warn] [pid 8140:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 10:12:08.984765 2020] [ssl:warn] [pid 8140:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 10:12:09.015868 2020] [mpm_winnt:notice] [pid 8140:tid 548] AH00354: Child: Starting 150 worker threads.
+[Fri Jun 19 19:17:24.092881 2020] [ssl:warn] [pid 1252:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 19:17:24.214290 2020] [core:warn] [pid 1252:tid 476] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 19 19:17:24.220304 2020] [ssl:warn] [pid 1252:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 19:17:26.219928 2020] [mpm_winnt:notice] [pid 1252:tid 476] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Fri Jun 19 19:17:26.219928 2020] [mpm_winnt:notice] [pid 1252:tid 476] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Jun 19 19:17:26.219928 2020] [core:notice] [pid 1252:tid 476] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Fri Jun 19 19:17:26.221926 2020] [mpm_winnt:notice] [pid 1252:tid 476] AH00418: Parent: Created child process 11872
+[Fri Jun 19 19:17:26.670416 2020] [ssl:warn] [pid 11872:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 19:17:26.810880 2020] [ssl:warn] [pid 11872:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 19:17:26.838973 2020] [mpm_winnt:notice] [pid 11872:tid 548] AH00354: Child: Starting 150 worker threads.
+[Fri Jun 19 21:27:41.389130 2020] [ssl:warn] [pid 3876:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 21:27:41.487963 2020] [core:warn] [pid 3876:tid 552] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 19 21:27:41.493983 2020] [ssl:warn] [pid 3876:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 21:27:42.700014 2020] [mpm_winnt:notice] [pid 3876:tid 552] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Fri Jun 19 21:27:42.700014 2020] [mpm_winnt:notice] [pid 3876:tid 552] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Jun 19 21:27:42.700014 2020] [core:notice] [pid 3876:tid 552] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Fri Jun 19 21:27:42.702020 2020] [mpm_winnt:notice] [pid 3876:tid 552] AH00418: Parent: Created child process 12852
+[Fri Jun 19 21:27:43.147487 2020] [ssl:warn] [pid 12852:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 21:27:43.235288 2020] [ssl:warn] [pid 12852:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 21:27:43.265891 2020] [mpm_winnt:notice] [pid 12852:tid 552] AH00354: Child: Starting 150 worker threads.
+[Fri Jun 19 22:47:46.595167 2020] [ssl:warn] [pid 2128:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 22:47:46.708550 2020] [core:warn] [pid 2128:tid 540] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 19 22:47:46.714570 2020] [ssl:warn] [pid 2128:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 22:47:46.742664 2020] [mpm_winnt:notice] [pid 2128:tid 540] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Fri Jun 19 22:47:46.742664 2020] [mpm_winnt:notice] [pid 2128:tid 540] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Jun 19 22:47:46.742664 2020] [core:notice] [pid 2128:tid 540] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Fri Jun 19 22:47:46.744663 2020] [mpm_winnt:notice] [pid 2128:tid 540] AH00418: Parent: Created child process 2220
+[Fri Jun 19 22:47:47.108868 2020] [ssl:warn] [pid 2220:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 22:47:47.186130 2020] [ssl:warn] [pid 2220:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 19 22:47:47.214215 2020] [mpm_winnt:notice] [pid 2220:tid 548] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 20 20:48:04.108679 2020] [ssl:warn] [pid 9660:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 20:48:04.312045 2020] [core:warn] [pid 9660:tid 536] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 20 20:48:04.317910 2020] [ssl:warn] [pid 9660:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 20:48:06.286063 2020] [mpm_winnt:notice] [pid 9660:tid 536] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sat Jun 20 20:48:06.286063 2020] [mpm_winnt:notice] [pid 9660:tid 536] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sat Jun 20 20:48:06.286063 2020] [core:notice] [pid 9660:tid 536] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sat Jun 20 20:48:06.288996 2020] [mpm_winnt:notice] [pid 9660:tid 536] AH00418: Parent: Created child process 984
+[Sat Jun 20 20:48:06.696712 2020] [ssl:warn] [pid 984:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 20:48:06.808174 2020] [ssl:warn] [pid 984:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 20:48:06.833586 2020] [mpm_winnt:notice] [pid 984:tid 564] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 20 23:19:35.262873 2020] [ssl:warn] [pid 12308:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:19:35.363204 2020] [core:warn] [pid 12308:tid 536] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 20 23:19:35.368212 2020] [ssl:warn] [pid 12308:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:19:36.146792 2020] [mpm_winnt:notice] [pid 12308:tid 536] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sat Jun 20 23:19:36.146792 2020] [mpm_winnt:notice] [pid 12308:tid 536] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sat Jun 20 23:19:36.146792 2020] [core:notice] [pid 12308:tid 536] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sat Jun 20 23:19:36.148797 2020] [mpm_winnt:notice] [pid 12308:tid 536] AH00418: Parent: Created child process 12052
+[Sat Jun 20 23:19:36.499959 2020] [ssl:warn] [pid 12052:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:19:36.573202 2020] [ssl:warn] [pid 12052:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:19:36.599288 2020] [mpm_winnt:notice] [pid 12052:tid 544] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 20 23:36:15.796003 2020] [ssl:warn] [pid 9096:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:36:15.904864 2020] [core:warn] [pid 9096:tid 564] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 20 23:36:15.910891 2020] [ssl:warn] [pid 9096:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:36:15.935967 2020] [mpm_winnt:notice] [pid 9096:tid 564] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sat Jun 20 23:36:15.935967 2020] [mpm_winnt:notice] [pid 9096:tid 564] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sat Jun 20 23:36:15.935967 2020] [core:notice] [pid 9096:tid 564] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sat Jun 20 23:36:15.938977 2020] [mpm_winnt:notice] [pid 9096:tid 564] AH00418: Parent: Created child process 1032
+[Sat Jun 20 23:36:16.276101 2020] [ssl:warn] [pid 1032:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:36:16.339814 2020] [ssl:warn] [pid 1032:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:36:16.365894 2020] [mpm_winnt:notice] [pid 1032:tid 544] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 20 23:38:46.792946 2020] [ssl:warn] [pid 14024:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:38:46.896289 2020] [core:warn] [pid 14024:tid 560] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 20 23:38:46.903312 2020] [ssl:warn] [pid 14024:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:38:46.927401 2020] [mpm_winnt:notice] [pid 14024:tid 560] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sat Jun 20 23:38:46.927401 2020] [mpm_winnt:notice] [pid 14024:tid 560] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sat Jun 20 23:38:46.927401 2020] [core:notice] [pid 14024:tid 560] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sat Jun 20 23:38:46.929399 2020] [mpm_winnt:notice] [pid 14024:tid 560] AH00418: Parent: Created child process 13924
+[Sat Jun 20 23:38:47.271530 2020] [ssl:warn] [pid 13924:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:38:47.356822 2020] [ssl:warn] [pid 13924:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:38:47.381897 2020] [mpm_winnt:notice] [pid 13924:tid 592] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 20 23:40:27.221574 2020] [ssl:warn] [pid 3948:tid 156] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:40:27.283781 2020] [core:warn] [pid 3948:tid 156] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 20 23:40:27.288798 2020] [ssl:warn] [pid 3948:tid 156] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:40:27.311875 2020] [mpm_winnt:notice] [pid 3948:tid 156] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sat Jun 20 23:40:27.311875 2020] [mpm_winnt:notice] [pid 3948:tid 156] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sat Jun 20 23:40:27.311875 2020] [core:notice] [pid 3948:tid 156] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sat Jun 20 23:40:27.313873 2020] [mpm_winnt:notice] [pid 3948:tid 156] AH00418: Parent: Created child process 6416
+[Sat Jun 20 23:40:27.636949 2020] [ssl:warn] [pid 6416:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:40:27.703168 2020] [ssl:warn] [pid 6416:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:40:27.727248 2020] [mpm_winnt:notice] [pid 6416:tid 548] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 20 23:43:12.707113 2020] [ssl:warn] [pid 13924:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:43:12.781358 2020] [core:warn] [pid 13924:tid 552] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 20 23:43:12.787377 2020] [ssl:warn] [pid 13924:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:43:12.809443 2020] [mpm_winnt:notice] [pid 13924:tid 552] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sat Jun 20 23:43:12.809443 2020] [mpm_winnt:notice] [pid 13924:tid 552] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sat Jun 20 23:43:12.809443 2020] [core:notice] [pid 13924:tid 552] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sat Jun 20 23:43:12.811450 2020] [mpm_winnt:notice] [pid 13924:tid 552] AH00418: Parent: Created child process 10124
+[Sat Jun 20 23:43:13.158598 2020] [ssl:warn] [pid 10124:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:43:13.221808 2020] [ssl:warn] [pid 10124:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 20 23:43:13.247895 2020] [mpm_winnt:notice] [pid 10124:tid 556] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 21 00:06:43.740140 2020] [ssl:warn] [pid 896:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 00:06:43.811376 2020] [core:warn] [pid 896:tid 572] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 21 00:06:43.827430 2020] [ssl:warn] [pid 896:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 00:06:43.853516 2020] [mpm_winnt:notice] [pid 896:tid 572] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sun Jun 21 00:06:43.853516 2020] [mpm_winnt:notice] [pid 896:tid 572] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jun 21 00:06:43.853516 2020] [core:notice] [pid 896:tid 572] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sun Jun 21 00:06:43.855522 2020] [mpm_winnt:notice] [pid 896:tid 572] AH00418: Parent: Created child process 10352
+[Sun Jun 21 00:06:44.366222 2020] [ssl:warn] [pid 10352:tid 512] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 00:06:44.473577 2020] [ssl:warn] [pid 10352:tid 512] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 00:06:44.499664 2020] [mpm_winnt:notice] [pid 10352:tid 512] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 21 09:18:33.433225 2020] [ssl:warn] [pid 6740:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 09:18:33.547106 2020] [core:warn] [pid 6740:tid 464] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 21 09:18:33.555141 2020] [ssl:warn] [pid 6740:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 09:18:34.351315 2020] [mpm_winnt:notice] [pid 6740:tid 464] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sun Jun 21 09:18:34.351315 2020] [mpm_winnt:notice] [pid 6740:tid 464] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jun 21 09:18:34.351315 2020] [core:notice] [pid 6740:tid 464] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sun Jun 21 09:18:34.353826 2020] [mpm_winnt:notice] [pid 6740:tid 464] AH00418: Parent: Created child process 11044
+[Sun Jun 21 09:18:34.672904 2020] [ssl:warn] [pid 11044:tid 500] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 09:18:34.756698 2020] [ssl:warn] [pid 11044:tid 500] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 09:18:34.781773 2020] [mpm_winnt:notice] [pid 11044:tid 500] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 21 19:20:59.740195 2020] [ssl:warn] [pid 8164:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 19:20:59.806413 2020] [core:warn] [pid 8164:tid 472] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 21 19:20:59.812433 2020] [ssl:warn] [pid 8164:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 19:21:00.376300 2020] [mpm_winnt:notice] [pid 8164:tid 472] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sun Jun 21 19:21:00.376300 2020] [mpm_winnt:notice] [pid 8164:tid 472] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jun 21 19:21:00.376300 2020] [core:notice] [pid 8164:tid 472] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sun Jun 21 19:21:00.378299 2020] [mpm_winnt:notice] [pid 8164:tid 472] AH00418: Parent: Created child process 14256
+[Sun Jun 21 19:21:00.777619 2020] [ssl:warn] [pid 14256:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 19:21:00.849867 2020] [ssl:warn] [pid 14256:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 19:21:00.872942 2020] [mpm_winnt:notice] [pid 14256:tid 556] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 21 23:34:27.637825 2020] [ssl:warn] [pid 7000:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 23:34:27.717086 2020] [core:warn] [pid 7000:tid 552] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 21 23:34:27.722104 2020] [ssl:warn] [pid 7000:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 23:34:28.087313 2020] [mpm_winnt:notice] [pid 7000:tid 552] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sun Jun 21 23:34:28.087313 2020] [mpm_winnt:notice] [pid 7000:tid 552] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jun 21 23:34:28.087313 2020] [core:notice] [pid 7000:tid 552] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sun Jun 21 23:34:28.089319 2020] [mpm_winnt:notice] [pid 7000:tid 552] AH00418: Parent: Created child process 10208
+[Sun Jun 21 23:34:28.535788 2020] [ssl:warn] [pid 10208:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 23:34:28.607031 2020] [ssl:warn] [pid 10208:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 21 23:34:28.631111 2020] [mpm_winnt:notice] [pid 10208:tid 556] AH00354: Child: Starting 150 worker threads.
+[Mon Jun 22 08:52:04.618937 2020] [ssl:warn] [pid 10560:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 22 08:52:04.777467 2020] [core:warn] [pid 10560:tid 472] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 22 08:52:04.783488 2020] [ssl:warn] [pid 10560:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 22 08:52:06.639632 2020] [mpm_winnt:notice] [pid 10560:tid 472] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Mon Jun 22 08:52:06.639632 2020] [mpm_winnt:notice] [pid 10560:tid 472] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jun 22 08:52:06.639632 2020] [core:notice] [pid 10560:tid 472] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Mon Jun 22 08:52:06.642635 2020] [mpm_winnt:notice] [pid 10560:tid 472] AH00418: Parent: Created child process 9316
+[Mon Jun 22 08:52:06.999824 2020] [ssl:warn] [pid 9316:tid 488] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 22 08:52:07.090114 2020] [ssl:warn] [pid 9316:tid 488] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 22 08:52:07.114194 2020] [mpm_winnt:notice] [pid 9316:tid 488] AH00354: Child: Starting 150 worker threads.
+[Mon Jun 22 18:47:56.136334 2020] [ssl:warn] [pid 4264:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 22 18:47:56.363078 2020] [core:warn] [pid 4264:tid 468] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 22 18:47:56.370101 2020] [ssl:warn] [pid 4264:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 22 18:47:59.544706 2020] [mpm_winnt:notice] [pid 4264:tid 468] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Mon Jun 22 18:47:59.544706 2020] [mpm_winnt:notice] [pid 4264:tid 468] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jun 22 18:47:59.544706 2020] [core:notice] [pid 4264:tid 468] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Mon Jun 22 18:47:59.547716 2020] [mpm_winnt:notice] [pid 4264:tid 468] AH00418: Parent: Created child process 408
+[Mon Jun 22 18:47:59.947590 2020] [ssl:warn] [pid 408:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 22 18:48:00.085496 2020] [ssl:warn] [pid 408:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 22 18:48:00.186339 2020] [mpm_winnt:notice] [pid 408:tid 560] AH00354: Child: Starting 150 worker threads.
+[Tue Jun 23 08:44:09.445130 2020] [ssl:warn] [pid 3404:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 23 08:44:09.656822 2020] [core:warn] [pid 3404:tid 540] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 23 08:44:09.662842 2020] [ssl:warn] [pid 3404:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 23 08:44:11.900257 2020] [mpm_winnt:notice] [pid 3404:tid 540] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Tue Jun 23 08:44:11.900257 2020] [mpm_winnt:notice] [pid 3404:tid 540] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Jun 23 08:44:11.900257 2020] [core:notice] [pid 3404:tid 540] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Tue Jun 23 08:44:11.903275 2020] [mpm_winnt:notice] [pid 3404:tid 540] AH00418: Parent: Created child process 8608
+[Tue Jun 23 08:44:12.256443 2020] [ssl:warn] [pid 8608:tid 528] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 23 08:44:12.342730 2020] [ssl:warn] [pid 8608:tid 528] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 23 08:44:12.370821 2020] [mpm_winnt:notice] [pid 8608:tid 528] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 24 08:46:33.744973 2020] [ssl:warn] [pid 10556:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 24 08:46:33.902901 2020] [core:warn] [pid 10556:tid 536] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 24 08:46:33.908514 2020] [ssl:warn] [pid 10556:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 24 08:46:36.152936 2020] [mpm_winnt:notice] [pid 10556:tid 536] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Wed Jun 24 08:46:36.153941 2020] [mpm_winnt:notice] [pid 10556:tid 536] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Jun 24 08:46:36.153941 2020] [core:notice] [pid 10556:tid 536] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Wed Jun 24 08:46:36.156951 2020] [mpm_winnt:notice] [pid 10556:tid 536] AH00418: Parent: Created child process 2700
+[Wed Jun 24 08:46:36.606429 2020] [ssl:warn] [pid 2700:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 24 08:46:36.705764 2020] [ssl:warn] [pid 2700:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 24 08:46:36.733857 2020] [mpm_winnt:notice] [pid 2700:tid 544] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 24 19:56:30.358236 2020] [ssl:warn] [pid 14940:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 24 19:56:30.448533 2020] [core:warn] [pid 14940:tid 540] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 24 19:56:30.454554 2020] [ssl:warn] [pid 14940:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 24 19:56:30.647183 2020] [mpm_winnt:notice] [pid 14940:tid 540] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Wed Jun 24 19:56:30.647183 2020] [mpm_winnt:notice] [pid 14940:tid 540] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Jun 24 19:56:30.647183 2020] [core:notice] [pid 14940:tid 540] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Wed Jun 24 19:56:30.650202 2020] [mpm_winnt:notice] [pid 14940:tid 540] AH00418: Parent: Created child process 15192
+[Wed Jun 24 19:56:31.000352 2020] [ssl:warn] [pid 15192:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 24 19:56:31.074597 2020] [ssl:warn] [pid 15192:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 24 19:56:31.103694 2020] [mpm_winnt:notice] [pid 15192:tid 544] AH00354: Child: Starting 150 worker threads.
+[Thu Jun 25 08:53:42.599683 2020] [ssl:warn] [pid 6736:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 25 08:53:42.816401 2020] [core:warn] [pid 6736:tid 536] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 25 08:53:42.822413 2020] [ssl:warn] [pid 6736:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 25 08:53:43.707344 2020] [mpm_winnt:notice] [pid 6736:tid 536] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Thu Jun 25 08:53:43.707344 2020] [mpm_winnt:notice] [pid 6736:tid 536] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Thu Jun 25 08:53:43.707344 2020] [core:notice] [pid 6736:tid 536] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Thu Jun 25 08:53:43.709351 2020] [mpm_winnt:notice] [pid 6736:tid 536] AH00418: Parent: Created child process 4816
+[Thu Jun 25 08:53:44.089608 2020] [ssl:warn] [pid 4816:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 25 08:53:44.176904 2020] [ssl:warn] [pid 4816:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 25 08:53:44.206001 2020] [mpm_winnt:notice] [pid 4816:tid 560] AH00354: Child: Starting 150 worker threads.
+[Fri Jun 26 08:40:43.114934 2020] [ssl:warn] [pid 10324:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 26 08:40:43.322621 2020] [core:warn] [pid 10324:tid 540] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 26 08:40:43.327639 2020] [ssl:warn] [pid 10324:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 26 08:40:45.093484 2020] [mpm_winnt:notice] [pid 10324:tid 540] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Fri Jun 26 08:40:45.093484 2020] [mpm_winnt:notice] [pid 10324:tid 540] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Jun 26 08:40:45.093484 2020] [core:notice] [pid 10324:tid 540] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Fri Jun 26 08:40:45.096492 2020] [mpm_winnt:notice] [pid 10324:tid 540] AH00418: Parent: Created child process 10948
+[Fri Jun 26 08:40:45.568057 2020] [ssl:warn] [pid 10948:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 26 08:40:45.659359 2020] [ssl:warn] [pid 10948:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 26 08:40:45.687446 2020] [mpm_winnt:notice] [pid 10948:tid 548] AH00354: Child: Starting 150 worker threads.
+[Fri Jun 26 16:14:51.964272 2020] [ssl:warn] [pid 11080:tid 508] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 26 16:14:52.057571 2020] [core:warn] [pid 11080:tid 508] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 26 16:14:52.063591 2020] [ssl:warn] [pid 11080:tid 508] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 26 16:14:53.032805 2020] [mpm_winnt:notice] [pid 11080:tid 508] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Fri Jun 26 16:14:53.032805 2020] [mpm_winnt:notice] [pid 11080:tid 508] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Jun 26 16:14:53.032805 2020] [core:notice] [pid 11080:tid 508] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Fri Jun 26 16:14:53.034803 2020] [mpm_winnt:notice] [pid 11080:tid 508] AH00418: Parent: Created child process 11708
+[Fri Jun 26 16:14:53.401013 2020] [ssl:warn] [pid 11708:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 26 16:14:53.526428 2020] [ssl:warn] [pid 11708:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 26 16:14:53.556528 2020] [mpm_winnt:notice] [pid 11708:tid 544] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 28 08:47:35.118837 2020] [ssl:warn] [pid 11880:tid 500] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 28 08:47:35.311489 2020] [core:warn] [pid 11880:tid 500] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 28 08:47:35.317510 2020] [ssl:warn] [pid 11880:tid 500] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 28 08:47:37.168592 2020] [mpm_winnt:notice] [pid 11880:tid 500] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sun Jun 28 08:47:37.168592 2020] [mpm_winnt:notice] [pid 11880:tid 500] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Jun 28 08:47:37.168592 2020] [core:notice] [pid 11880:tid 500] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sun Jun 28 08:47:37.171595 2020] [mpm_winnt:notice] [pid 11880:tid 500] AH00418: Parent: Created child process 12152
+[Sun Jun 28 08:47:37.637673 2020] [ssl:warn] [pid 12152:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 28 08:47:37.710909 2020] [ssl:warn] [pid 12152:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 28 08:47:37.739008 2020] [mpm_winnt:notice] [pid 12152:tid 556] AH00354: Child: Starting 150 worker threads.
+[Mon Jun 29 08:38:34.196981 2020] [ssl:warn] [pid 7292:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 29 08:38:34.394634 2020] [core:warn] [pid 7292:tid 536] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 08:38:34.399652 2020] [ssl:warn] [pid 7292:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 29 08:38:35.601619 2020] [mpm_winnt:notice] [pid 7292:tid 536] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Mon Jun 29 08:38:35.601619 2020] [mpm_winnt:notice] [pid 7292:tid 536] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Jun 29 08:38:35.601619 2020] [core:notice] [pid 7292:tid 536] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Mon Jun 29 08:38:35.604630 2020] [mpm_winnt:notice] [pid 7292:tid 536] AH00418: Parent: Created child process 6356
+[Mon Jun 29 08:38:35.986901 2020] [ssl:warn] [pid 6356:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 29 08:38:36.066157 2020] [ssl:warn] [pid 6356:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 29 08:38:36.094256 2020] [mpm_winnt:notice] [pid 6356:tid 548] AH00354: Child: Starting 150 worker threads.
+[Tue Jun 30 08:40:41.927481 2020] [ssl:warn] [pid 5632:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 30 08:40:42.077978 2020] [core:warn] [pid 5632:tid 516] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 30 08:40:42.085007 2020] [ssl:warn] [pid 5632:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 30 08:40:43.012076 2020] [mpm_winnt:notice] [pid 5632:tid 516] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Tue Jun 30 08:40:43.012076 2020] [mpm_winnt:notice] [pid 5632:tid 516] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Jun 30 08:40:43.012076 2020] [core:notice] [pid 5632:tid 516] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Tue Jun 30 08:40:43.015079 2020] [mpm_winnt:notice] [pid 5632:tid 516] AH00418: Parent: Created child process 7064
+[Tue Jun 30 08:40:43.429457 2020] [ssl:warn] [pid 7064:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 30 08:40:43.621091 2020] [ssl:warn] [pid 7064:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 30 08:40:43.649184 2020] [mpm_winnt:notice] [pid 7064:tid 544] AH00354: Child: Starting 150 worker threads.
+[Tue Jun 30 13:45:13.074291 2020] [ssl:warn] [pid 5588:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 30 13:45:13.165096 2020] [core:warn] [pid 5588:tid 532] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 30 13:45:13.171124 2020] [ssl:warn] [pid 5588:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 30 13:45:13.375313 2020] [mpm_winnt:notice] [pid 5588:tid 532] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Tue Jun 30 13:45:13.375313 2020] [mpm_winnt:notice] [pid 5588:tid 532] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Jun 30 13:45:13.375313 2020] [core:notice] [pid 5588:tid 532] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Tue Jun 30 13:45:13.378315 2020] [mpm_winnt:notice] [pid 5588:tid 532] AH00418: Parent: Created child process 7360
+[Tue Jun 30 13:45:13.780173 2020] [ssl:warn] [pid 7360:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 30 13:45:13.855946 2020] [ssl:warn] [pid 7360:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 30 13:45:13.884031 2020] [mpm_winnt:notice] [pid 7360:tid 556] AH00354: Child: Starting 150 worker threads.
+[Tue Jun 30 18:38:24.122069 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53290] PHP Warning:  mysqli::__construct(): (HY000/2002): Aucune connexion n\xef\xbf\xbda pu \xef\xbf\xbdtre \xef\xbf\xbdtablie car l\xef\xbf\xbdordinateur cible l\xef\xbf\xbda express\xef\xbf\xbdment refus\xef\xbf\xbde.\r\n in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth-config.php on line 23
+[Tue Jun 30 18:38:24.122069 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53290] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 31
+[Tue Jun 30 18:38:24.122069 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53290] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 33
+[Tue Jun 30 18:38:24.122069 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53290] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 35
+[Tue Jun 30 18:38:24.123072 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53290] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 37
+[Tue Jun 30 18:38:24.123072 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53290] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 51
+[Tue Jun 30 18:38:24.123072 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53290] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 60
+[Tue Jun 30 18:38:26.175871 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53293] PHP Warning:  mysqli::__construct(): (HY000/2002): Aucune connexion n\xef\xbf\xbda pu \xef\xbf\xbdtre \xef\xbf\xbdtablie car l\xef\xbf\xbdordinateur cible l\xef\xbf\xbda express\xef\xbf\xbdment refus\xef\xbf\xbde.\r\n in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth-config.php on line 23
+[Tue Jun 30 18:38:26.175871 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53293] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 31
+[Tue Jun 30 18:38:26.175871 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53293] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 33
+[Tue Jun 30 18:38:26.176878 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53293] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 35
+[Tue Jun 30 18:38:26.176878 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53293] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 37
+[Tue Jun 30 18:38:26.176878 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53293] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 51
+[Tue Jun 30 18:38:26.176878 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53293] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 60
+[Tue Jun 30 18:38:33.635558 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53296] PHP Warning:  mysqli::__construct(): (HY000/2002): Aucune connexion n\xef\xbf\xbda pu \xef\xbf\xbdtre \xef\xbf\xbdtablie car l\xef\xbf\xbdordinateur cible l\xef\xbf\xbda express\xef\xbf\xbdment refus\xef\xbf\xbde.\r\n in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth-config.php on line 23
+[Tue Jun 30 18:38:33.635558 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53296] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 31
+[Tue Jun 30 18:38:33.635558 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53296] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 33
+[Tue Jun 30 18:38:33.636555 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53296] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 35
+[Tue Jun 30 18:38:33.636555 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53296] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 37
+[Tue Jun 30 18:38:33.636555 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53296] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 51
+[Tue Jun 30 18:38:33.636555 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53296] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 60
+[Tue Jun 30 18:38:37.348276 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53299] PHP Warning:  mysqli::__construct(): (HY000/2002): Aucune connexion n\xef\xbf\xbda pu \xef\xbf\xbdtre \xef\xbf\xbdtablie car l\xef\xbf\xbdordinateur cible l\xef\xbf\xbda express\xef\xbf\xbdment refus\xef\xbf\xbde.\r\n in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth-config.php on line 23
+[Tue Jun 30 18:38:37.348839 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53299] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 31
+[Tue Jun 30 18:38:37.348839 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53299] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 33
+[Tue Jun 30 18:38:37.348839 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53299] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 35
+[Tue Jun 30 18:38:37.348839 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53299] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 37
+[Tue Jun 30 18:38:37.348839 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53299] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 51
+[Tue Jun 30 18:38:37.349850 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53299] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 60
+[Tue Jun 30 18:38:55.568133 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53302] PHP Warning:  mysqli::__construct(): (HY000/2002): Aucune connexion n\xef\xbf\xbda pu \xef\xbf\xbdtre \xef\xbf\xbdtablie car l\xef\xbf\xbdordinateur cible l\xef\xbf\xbda express\xef\xbf\xbdment refus\xef\xbf\xbde.\r\n in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth-config.php on line 23
+[Tue Jun 30 18:38:55.568133 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53302] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 31
+[Tue Jun 30 18:38:55.568133 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53302] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 33
+[Tue Jun 30 18:38:55.568133 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53302] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 35
+[Tue Jun 30 18:38:55.569137 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53302] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 37
+[Tue Jun 30 18:38:55.569137 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53302] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 51
+[Tue Jun 30 18:38:55.569137 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53302] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 60
+[Tue Jun 30 18:39:09.100925 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53308] PHP Warning:  mysqli::__construct(): (HY000/2002): Aucune connexion n\xef\xbf\xbda pu \xef\xbf\xbdtre \xef\xbf\xbdtablie car l\xef\xbf\xbdordinateur cible l\xef\xbf\xbda express\xef\xbf\xbdment refus\xef\xbf\xbde.\r\n in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth-config.php on line 23
+[Tue Jun 30 18:39:09.100925 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53308] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 31
+[Tue Jun 30 18:39:09.100925 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53308] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 33
+[Tue Jun 30 18:39:09.101922 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53308] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 35
+[Tue Jun 30 18:39:09.101922 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53308] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 37
+[Tue Jun 30 18:39:09.101922 2020] [php7:notice] [pid 7360:tid 1828] [client 192.168.0.254:53308] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 51
+[Tue Jun 30 18:39:09.101922 2020] [php7:warn] [pid 7360:tid 1828] [client 192.168.0.254:53308] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\htdocs\\auth.php on line 60
+[Wed Jul 01 08:36:11.687474 2020] [ssl:warn] [pid 3928:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 01 08:36:11.838983 2020] [core:warn] [pid 3928:tid 532] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 01 08:36:11.844995 2020] [ssl:warn] [pid 3928:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 01 08:36:13.364023 2020] [mpm_winnt:notice] [pid 3928:tid 532] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Wed Jul 01 08:36:13.364023 2020] [mpm_winnt:notice] [pid 3928:tid 532] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Jul 01 08:36:13.364023 2020] [core:notice] [pid 3928:tid 532] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Wed Jul 01 08:36:13.367041 2020] [mpm_winnt:notice] [pid 3928:tid 532] AH00418: Parent: Created child process 8180
+[Wed Jul 01 08:36:13.757332 2020] [ssl:warn] [pid 8180:tid 144] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 01 08:36:13.915858 2020] [ssl:warn] [pid 8180:tid 144] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 01 08:36:13.942947 2020] [mpm_winnt:notice] [pid 8180:tid 144] AH00354: Child: Starting 150 worker threads.
+[Thu Jul 02 08:49:31.397175 2020] [ssl:warn] [pid 6848:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 02 08:49:31.550692 2020] [core:warn] [pid 6848:tid 548] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jul 02 08:49:31.556711 2020] [ssl:warn] [pid 6848:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 02 08:49:32.467719 2020] [mpm_winnt:notice] [pid 6848:tid 548] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Thu Jul 02 08:49:32.467719 2020] [mpm_winnt:notice] [pid 6848:tid 548] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Thu Jul 02 08:49:32.467719 2020] [core:notice] [pid 6848:tid 548] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Thu Jul 02 08:49:32.470729 2020] [mpm_winnt:notice] [pid 6848:tid 548] AH00418: Parent: Created child process 400
+[Thu Jul 02 08:49:32.836949 2020] [ssl:warn] [pid 400:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 02 08:49:32.932263 2020] [ssl:warn] [pid 400:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 02 08:49:32.959353 2020] [mpm_winnt:notice] [pid 400:tid 544] AH00354: Child: Starting 150 worker threads.
+[Fri Jul 03 08:27:32.733194 2020] [ssl:warn] [pid 7920:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 03 08:27:32.896735 2020] [core:warn] [pid 7920:tid 544] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jul 03 08:27:32.902755 2020] [ssl:warn] [pid 7920:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 03 08:27:35.138154 2020] [mpm_winnt:notice] [pid 7920:tid 544] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Fri Jul 03 08:27:35.139159 2020] [mpm_winnt:notice] [pid 7920:tid 544] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Jul 03 08:27:35.139159 2020] [core:notice] [pid 7920:tid 544] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Fri Jul 03 08:27:35.142170 2020] [mpm_winnt:notice] [pid 7920:tid 544] AH00418: Parent: Created child process 2060
+[Fri Jul 03 08:27:35.496347 2020] [ssl:warn] [pid 2060:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 03 08:27:35.595668 2020] [ssl:warn] [pid 2060:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 03 08:27:35.623769 2020] [mpm_winnt:notice] [pid 2060:tid 548] AH00354: Child: Starting 150 worker threads.
+[Thu Jul 09 10:34:33.861206 2020] [ssl:warn] [pid 9612:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 09 10:34:34.301282 2020] [core:warn] [pid 9612:tid 536] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jul 09 10:34:34.306300 2020] [ssl:warn] [pid 9612:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 09 10:34:35.944713 2020] [mpm_winnt:notice] [pid 9612:tid 536] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Thu Jul 09 10:34:35.944713 2020] [mpm_winnt:notice] [pid 9612:tid 536] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Thu Jul 09 10:34:35.944713 2020] [core:notice] [pid 9612:tid 536] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Thu Jul 09 10:34:35.947724 2020] [mpm_winnt:notice] [pid 9612:tid 536] AH00418: Parent: Created child process 7560
+[Thu Jul 09 10:34:36.412267 2020] [ssl:warn] [pid 7560:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 09 10:34:36.518619 2020] [ssl:warn] [pid 7560:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 09 10:34:36.561762 2020] [mpm_winnt:notice] [pid 7560:tid 544] AH00354: Child: Starting 150 worker threads.
+[Thu Jul 09 10:46:50.877885 2020] [ssl:warn] [pid 11804:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 09 10:46:50.965687 2020] [core:warn] [pid 11804:tid 552] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jul 09 10:46:50.971706 2020] [ssl:warn] [pid 11804:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 09 10:46:50.999808 2020] [mpm_winnt:notice] [pid 11804:tid 552] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Thu Jul 09 10:46:50.999808 2020] [mpm_winnt:notice] [pid 11804:tid 552] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Thu Jul 09 10:46:50.999808 2020] [core:notice] [pid 11804:tid 552] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Thu Jul 09 10:46:51.002810 2020] [mpm_winnt:notice] [pid 11804:tid 552] AH00418: Parent: Created child process 11640
+[Thu Jul 09 10:46:51.361006 2020] [ssl:warn] [pid 11640:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 09 10:46:51.442277 2020] [ssl:warn] [pid 11640:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 09 10:46:51.471879 2020] [mpm_winnt:notice] [pid 11640:tid 576] AH00354: Child: Starting 150 worker threads.
+[Fri Jul 10 10:27:58.902774 2020] [ssl:warn] [pid 10460:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 10 10:27:59.163153 2020] [core:warn] [pid 10460:tid 440] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jul 10 10:27:59.172690 2020] [ssl:warn] [pid 10460:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 10 10:28:00.207653 2020] [mpm_winnt:notice] [pid 10460:tid 440] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Fri Jul 10 10:28:00.207653 2020] [mpm_winnt:notice] [pid 10460:tid 440] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Fri Jul 10 10:28:00.207653 2020] [core:notice] [pid 10460:tid 440] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Fri Jul 10 10:28:00.210664 2020] [mpm_winnt:notice] [pid 10460:tid 440] AH00418: Parent: Created child process 116
+[Fri Jul 10 10:28:00.620025 2020] [ssl:warn] [pid 116:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 10 10:28:00.713839 2020] [ssl:warn] [pid 116:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 10 10:28:00.842770 2020] [mpm_winnt:notice] [pid 116:tid 564] AH00354: Child: Starting 150 worker threads.
+[Sat Jul 11 11:28:48.664562 2020] [ssl:warn] [pid 12672:tid 496] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 11 11:28:48.927426 2020] [core:warn] [pid 12672:tid 496] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jul 11 11:28:48.933451 2020] [ssl:warn] [pid 12672:tid 496] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 11 11:28:50.311003 2020] [mpm_winnt:notice] [pid 12672:tid 496] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sat Jul 11 11:28:50.311003 2020] [mpm_winnt:notice] [pid 12672:tid 496] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sat Jul 11 11:28:50.311003 2020] [core:notice] [pid 12672:tid 496] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sat Jul 11 11:28:50.315017 2020] [mpm_winnt:notice] [pid 12672:tid 496] AH00418: Parent: Created child process 1084
+[Sat Jul 11 11:28:50.714336 2020] [ssl:warn] [pid 1084:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 11 11:28:50.868855 2020] [ssl:warn] [pid 1084:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 11 11:28:50.895938 2020] [mpm_winnt:notice] [pid 1084:tid 564] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 09 19:13:16.493149 2020] [ssl:warn] [pid 3388:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 09 19:13:16.770058 2020] [core:warn] [pid 3388:tid 536] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Aug 09 19:13:16.776087 2020] [ssl:warn] [pid 3388:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 09 19:13:18.804791 2020] [mpm_winnt:notice] [pid 3388:tid 536] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sun Aug 09 19:13:18.804791 2020] [mpm_winnt:notice] [pid 3388:tid 536] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Aug 09 19:13:18.804791 2020] [core:notice] [pid 3388:tid 536] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sun Aug 09 19:13:18.807801 2020] [mpm_winnt:notice] [pid 3388:tid 536] AH00418: Parent: Created child process 8444
+[Sun Aug 09 19:13:19.246257 2020] [ssl:warn] [pid 8444:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 09 19:13:19.361639 2020] [ssl:warn] [pid 8444:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 09 19:13:19.386715 2020] [mpm_winnt:notice] [pid 8444:tid 548] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 09 23:47:57.493798 2020] [ssl:warn] [pid 10584:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 09 23:47:57.595643 2020] [core:warn] [pid 10584:tid 544] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Aug 09 23:47:57.605670 2020] [ssl:warn] [pid 10584:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 09 23:47:57.640795 2020] [mpm_winnt:notice] [pid 10584:tid 544] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sun Aug 09 23:47:57.640795 2020] [mpm_winnt:notice] [pid 10584:tid 544] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Aug 09 23:47:57.640795 2020] [core:notice] [pid 10584:tid 544] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sun Aug 09 23:47:57.642792 2020] [mpm_winnt:notice] [pid 10584:tid 544] AH00418: Parent: Created child process 5756
+[Sun Aug 09 23:47:57.997490 2020] [ssl:warn] [pid 5756:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 09 23:47:58.088785 2020] [ssl:warn] [pid 5756:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 09 23:47:58.115874 2020] [mpm_winnt:notice] [pid 5756:tid 448] AH00354: Child: Starting 150 worker threads.
+[Mon Aug 10 14:04:59.607496 2020] [ssl:warn] [pid 10284:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 10 14:04:59.919547 2020] [core:warn] [pid 10284:tid 536] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Aug 10 14:04:59.925566 2020] [ssl:warn] [pid 10284:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 10 14:05:00.891808 2020] [mpm_winnt:notice] [pid 10284:tid 536] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Mon Aug 10 14:05:00.891808 2020] [mpm_winnt:notice] [pid 10284:tid 536] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Aug 10 14:05:00.891808 2020] [core:notice] [pid 10284:tid 536] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Mon Aug 10 14:05:00.894817 2020] [mpm_winnt:notice] [pid 10284:tid 536] AH00418: Parent: Created child process 11120
+[Mon Aug 10 14:05:02.464921 2020] [ssl:warn] [pid 11120:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 10 14:05:02.643515 2020] [ssl:warn] [pid 11120:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 10 14:05:02.671608 2020] [mpm_winnt:notice] [pid 11120:tid 596] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 22 01:21:24.676551 2020] [ssl:warn] [pid 1444:tid 384] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 01:21:24.887805 2020] [core:warn] [pid 1444:tid 384] AH00098: pid file C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Aug 22 01:21:24.893825 2020] [ssl:warn] [pid 1444:tid 384] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 01:21:26.321550 2020] [mpm_winnt:notice] [pid 1444:tid 384] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sat Aug 22 01:21:26.321550 2020] [mpm_winnt:notice] [pid 1444:tid 384] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sat Aug 22 01:21:26.321550 2020] [core:notice] [pid 1444:tid 384] AH00094: Command line: 'c:\\users\\jorou\\downloads\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/jorou/Downloads/TeraOnlineServer_Shock_1732/web/apache'
+[Sat Aug 22 01:21:26.323566 2020] [mpm_winnt:notice] [pid 1444:tid 384] AH00418: Parent: Created child process 7320
+[Sat Aug 22 01:21:26.701815 2020] [ssl:warn] [pid 7320:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 01:21:26.810174 2020] [ssl:warn] [pid 7320:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 22 01:21:26.834253 2020] [mpm_winnt:notice] [pid 7320:tid 548] AH00354: Child: Starting 150 worker threads.

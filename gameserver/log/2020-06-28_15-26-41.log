@@ -1,0 +1,228 @@
+INFO 15:26:41:493 ServerControl: open server socket on 2101 port.
+INFO 15:26:41:499 ExecutorManager: initialized.
+INFO 15:26:41:954 CleaningManager: delete 0 reuses from a character_skill_reuses.
+INFO 15:26:41:956 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 15:26:41:957 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 15:26:41:957 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 15:26:41:960 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 15:26:41:963 CleaningManager: delete 0 skills from a character_skills.
+INFO 15:26:41:964 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 15:26:41:965 CleaningManager: delete 0 chars from a character_friends.
+INFO 15:26:41:967 CleaningManager: delete 0 friends from a character_friends.
+INFO 15:26:41:968 CleaningManager: delete 0 settings from a character_settings.
+INFO 15:26:41:968 CleaningManager: delete 4 empty items from a items.
+INFO 15:26:41:971 CleaningManager: delete 0 no owner items from a items.
+INFO 15:26:41:972 CleaningManager: delete 0 no owner guild items from a items.
+INFO 15:26:42:015 CleaningManager: create buffer table items.
+INFO 15:26:42:018 CleaningManager: copy 259 items to buffer_items.
+INFO 15:26:42:019 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 15:26:42:043 CleaningManager: drop buffer table items.
+INFO 15:26:42:046 CleaningManager: delete 0 from a quests.
+INFO 15:26:42:047 CleaningManager: delete 0 from a quest variables.
+INFO 15:26:42:048 CleaningManager: delete 0 from a guild ranks.
+INFO 15:26:42:097 ClientPacketType: client packets prepared.
+INFO 15:26:42:120 EffectParser: initialized.
+INFO 15:26:42:124 RandomManager: initialized.
+INFO 15:26:42:125 IdFactory: prepare npc ids...
+INFO 15:26:42:126 BitSetIdGenerator: 102912 id's available.
+INFO 15:26:42:127 IdFactory: prepare objects ids...
+INFO 15:26:42:127 BitSetIdGenerator: 102912 id's available.
+INFO 15:26:42:127 IdFactory: prepare players ids...
+INFO 15:26:42:131 BitSetIdGenerator: extracted 13 ids.
+INFO 15:26:42:131 BitSetIdGenerator: 102912 id's available.
+INFO 15:26:42:132 IdFactory: prepare guilds ids...
+INFO 15:26:42:133 BitSetIdGenerator: extracted 1 ids.
+INFO 15:26:42:134 BitSetIdGenerator: 102912 id's available.
+INFO 15:26:42:134 IdFactory: prepare item ids...
+INFO 15:26:42:136 BitSetIdGenerator: extracted 259 ids.
+INFO 15:26:42:137 BitSetIdGenerator: 102912 id's available.
+INFO 15:26:42:150 ServerVarManager: loaded 0 variables.
+INFO 15:26:42:155 BossSpawnManager: loaded 0 boss spawns.
+INFO 15:26:43:244 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 15:26:45:053 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 15:26:45:055 ConditionParser: initializable.
+WARNING 15:26:45:965 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 15:26:46:060 SkillTable: loaded 4613 skills for 19 classes.
+WARNING 15:26:46:068 ItemTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\items\adaptations.txt
+INFO 15:26:47:049 ItemTable: loaded 10138 items.
+INFO 15:26:47:080 Race: race appearances initializable.
+INFO 15:26:47:086 PlayerTable: loaded 104 player templates.
+WARNING 15:26:47:365 DropTable: not found items [50048]
+INFO 15:26:47:365 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 15:26:47:369 TownTable: initialized.
+WARNING 15:26:47:395 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 15:26:47:449 NpcDialogTable: loaded 87 dialogs.
+INFO 15:26:47:461 MessagePackageTable: loaded 34 message packages.
+INFO 15:26:47:522 ConfigAITable: loaded 45 npc ai configs.
+INFO 15:26:47:543 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 15:26:47:768 NpcTable: found duplicate npc template NpcTemplate npcId = 30002, exp = 0, attack = 300000, defense = 1000, owerAttack = 15000, owerDefense = 13000, level = 100, aggro = 100, factionRange = 5000, name = *Elleon*, title = Valkyon's Hero, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 15:26:47:769 NpcTable: found duplicate npc template NpcTemplate npcId = 30004, exp = 0, attack = 40000, defense = 4000, owerAttack = 1500, owerDefense = 7000, level = 100, aggro = 100, factionRange = 5000, name = *Klaris*, title = Wise mage, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 15:26:47:769 NpcTable: found duplicate npc template NpcTemplate npcId = 30005, exp = 0, attack = 91000, defense = 5000, owerAttack = 1500, owerDefense = 10000, level = 100, aggro = 100, factionRange = 5000, name = *Joff*, title = Open minded, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 30.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 15:26:47:769 NpcTable: found duplicate npc template NpcTemplate npcId = 30007, exp = 0, attack = 300000, defense = 5000, owerAttack = 14500, owerDefense = 15000, level = 100, aggro = 100, factionRange = 5000, name = *KLei*, title = Testing, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 25.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 15:26:47:769 NpcTable: found duplicate npc template NpcTemplate npcId = 30008, exp = 0, attack = 91000, defense = 11000, owerAttack = 1000, owerDefense = 20000, level = 100, aggro = 100, factionRange = 5000, name = *Arei*, title = HUrrrr durrrr, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 30.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 15:26:47:769 NpcTable: found duplicate npc template NpcTemplate npcId = 30010, exp = 0, attack = 410000, defense = 4000, owerAttack = 1500, owerDefense = 7000, level = 100, aggro = 100, factionRange = 5000, name = *Lola*, title = Lover, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 15:26:47:788 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 15:26:47:807 NpcTable: loaded  816 npcs.
+INFO 15:26:47:835 ResourseTable: loaded  253 resourses.
+INFO 15:26:47:900 MinionTable: loaded 303 minions for 42 npcs.
+INFO 15:26:47:900 RegenTaskManager: initializable.
+INFO 15:26:47:912 Formulas: initialized.
+INFO 15:26:47:917 EffectTaskManager: initialized.
+INFO 15:26:48:518 ObjectEventManager: initialized.
+INFO 15:26:48:518 MoveTaskManager: initialized.
+INFO 15:26:49:242 SpawnTable: loaded 19523 spawns for 622 npcs and 2013 spawns for 60 resourses.
+INFO 15:26:49:339 GeoMap3D: start fast import geodata_1.dat
+INFO 15:26:49:694 GeoMap3D: import ended. load 1867238 quards.
+INFO 15:26:49:731 GeoMap3D: start fast import geodata_2.dat
+INFO 15:26:49:806 GeoMap3D: import ended. load 440227 quards.
+INFO 15:26:49:880 GeoMap3D: start fast import geodata_3.dat
+INFO 15:26:49:944 GeoMap3D: import ended. load 58040 quards.
+INFO 15:26:49:952 GeoManager: initialized.
+INFO 15:26:49:959 ItemExecutorManager: loaded 0 executor items.
+INFO 15:26:49:975 CommandManager: loaded 96 commands.
+INFO 15:26:50:023 SkillLearnManager: loaded 950 skill learn's for 8 clases.
+INFO 15:26:50:053 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 15:26:50:064 AccountManager: initialized.
+INFO 15:26:50:120 GuildManager: loaded 1 guilds.
+INFO 15:26:50:653 QuestManager: loaded 455 quests.
+INFO 15:26:50:662 OnlineManager: initialized.
+INFO 15:26:50:679 GameLogManager: initialized.
+INFO 15:26:50:774 Region: next battle "Veritas District" in 2020.06.28 16:00.
+INFO 15:26:50:779 Region: next battle "Ostgarath" in 2020.06.28 16:00.
+INFO 15:26:50:785 Region: next battle "Val Palrada" in 2020.07.04 20:00.
+INFO 15:26:50:786 Region: next battle "Val Aureum" in 2020.07.04 20:00.
+INFO 15:26:50:787 EventManager: loaded 5 events.
+INFO 15:26:51:007 EventManager: the nearest event in 32 minutes.
+INFO 15:26:51:011 PlayerManager: initialized.
+INFO 15:26:51:022 Network: started.
+INFO 15:26:51:024 GameServer: started.
+INFO 15:26:59:076 AccountManager: authed islanzadie
+WARNING 16:48:12:541 ItemCommand: Exception : not create donate item for id 13224 : stack trace:
+tera.gameserver.scripts.commands.ItemCommand.execution(ItemCommand.java:124)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+INFO 16:48:29:693 Config: reloaded.
+WARNING 16:48:34:136 ItemCommand: Exception : not create donate item for id 13224 : stack trace:
+tera.gameserver.scripts.commands.ItemCommand.execution(ItemCommand.java:124)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 16:48:48:161 ItemCommand: Exception : not create donate item for id 13224 : stack trace:
+tera.gameserver.scripts.commands.ItemCommand.execution(ItemCommand.java:60)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 16:49:09:325 ItemCommand: Exception : not create donate item for id 13187 : stack trace:
+tera.gameserver.scripts.commands.ItemCommand.execution(ItemCommand.java:124)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 16:51:47:605 ItemCommand: Exception : not create donate item for id 13232 : stack trace:
+tera.gameserver.scripts.commands.ItemCommand.execution(ItemCommand.java:124)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 17:03:44:411 ItemTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\items\adaptations.txt
+INFO 17:03:45:283 ItemTable: reloaded items.
+WARNING 17:05:28:384 ItemTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\items\adaptations.txt
+INFO 17:05:28:876 ItemTable: reloaded items.
+WARNING 17:11:41:614 ItemTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\items\adaptations.txt
+INFO 17:11:42:239 ItemTable: reloaded items.
+INFO 18:00:05:325 Region: next battle "Ostgarath" in 2020.07.05 16:00.
+INFO 18:00:05:385 Region: next battle "Veritas District" in 2020.07.05 16:00.
+INFO 18:37:22:244 AccountManager: authed tsuka
+WARNING 18:49:55:593 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 18:49:55:631 NpcTable: npcs reloaded.
+INFO 18:49:59:402 SpawnTable: reloaded.
+WARNING 18:53:40:909 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 18:53:41:087 SkillTable: skills reloaded.
+WARNING 18:53:52:338 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 18:53:52:455 SkillTable: skills reloaded.
+WARNING 18:56:07:562 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 18:56:07:609 NpcTable: npcs reloaded.
+INFO 18:56:12:753 SpawnTable: reloaded.
+WARNING 18:57:18:780 DocumentNpc: incorrect file .\data\npcs\playable\bandits.xml
+WARNING 18:57:18:785 DocumentNpc: SAXParseException : The string "--" is not permitted within comments. : stack trace:
+java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:206)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:55)
+tera.gameserver.tables.NpcTable.reload(NpcTable.java:169)
+tera.gameserver.scripts.commands.NpcCommands.execution(NpcCommands.java:187)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 18:57:18:786 DocumentNpc: incorrect file .\data\npcs\playable\bandits.xml
+WARNING 18:57:18:788 DocumentNpc: NullPointerException : null : stack trace:
+tera.gameserver.document.DocumentNpc.parse(DocumentNpc.java:42)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcTable.reload(NpcTable.java:169)
+tera.gameserver.scripts.commands.NpcCommands.execution(NpcCommands.java:187)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 18:57:19:050 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 18:57:19:060 NpcTable: npcs reloaded.
+INFO 18:57:21:087 SpawnTable: reloaded.
+WARNING 18:58:18:939 DocumentNpc: incorrect file .\data\npcs\playable\bandits.xml
+WARNING 18:58:18:941 DocumentNpc: SAXParseException : The string "--" is not permitted within comments. : stack trace:
+java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:206)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:55)
+tera.gameserver.tables.NpcTable.reload(NpcTable.java:169)
+tera.gameserver.scripts.commands.NpcCommands.execution(NpcCommands.java:187)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 18:58:18:942 DocumentNpc: incorrect file .\data\npcs\playable\bandits.xml
+WARNING 18:58:18:943 DocumentNpc: NullPointerException : null : stack trace:
+tera.gameserver.document.DocumentNpc.parse(DocumentNpc.java:42)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.NpcTable.reload(NpcTable.java:169)
+tera.gameserver.scripts.commands.NpcCommands.execution(NpcCommands.java:187)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 18:58:19:061 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 18:58:19:084 NpcTable: npcs reloaded.
+INFO 18:58:21:052 SpawnTable: reloaded.
+INFO 19:26:36:093 AccountManager: close tsuka
+INFO 19:26:46:949 AccountManager: close islanzadie

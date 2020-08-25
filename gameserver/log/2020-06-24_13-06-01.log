@@ -1,0 +1,120 @@
+INFO 13:06:01:123 ServerControl: open server socket on 2101 port.
+INFO 13:06:01:129 ExecutorManager: initialized.
+INFO 13:06:01:502 CleaningManager: delete 0 reuses from a character_skill_reuses.
+INFO 13:06:01:503 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 13:06:01:504 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 13:06:01:505 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 13:06:01:505 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 13:06:01:506 CleaningManager: delete 0 skills from a character_skills.
+INFO 13:06:01:507 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 13:06:01:508 CleaningManager: delete 0 chars from a character_friends.
+INFO 13:06:01:509 CleaningManager: delete 0 friends from a character_friends.
+INFO 13:06:01:510 CleaningManager: delete 0 settings from a character_settings.
+INFO 13:06:01:510 CleaningManager: delete 0 empty items from a items.
+INFO 13:06:01:511 CleaningManager: delete 0 no owner items from a items.
+INFO 13:06:01:513 CleaningManager: delete 0 no owner guild items from a items.
+INFO 13:06:01:559 CleaningManager: create buffer table items.
+INFO 13:06:01:562 CleaningManager: copy 217 items to buffer_items.
+INFO 13:06:01:563 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 13:06:01:574 CleaningManager: drop buffer table items.
+INFO 13:06:01:575 CleaningManager: delete 0 from a quests.
+INFO 13:06:01:576 CleaningManager: delete 0 from a quest variables.
+INFO 13:06:01:577 CleaningManager: delete 0 from a guild ranks.
+INFO 13:06:01:623 ClientPacketType: client packets prepared.
+INFO 13:06:01:639 EffectParser: initialized.
+INFO 13:06:01:641 RandomManager: initialized.
+INFO 13:06:01:641 IdFactory: prepare npc ids...
+INFO 13:06:01:643 BitSetIdGenerator: 102912 id's available.
+INFO 13:06:01:644 IdFactory: prepare objects ids...
+INFO 13:06:01:644 BitSetIdGenerator: 102912 id's available.
+INFO 13:06:01:645 IdFactory: prepare players ids...
+INFO 13:06:01:648 BitSetIdGenerator: extracted 12 ids.
+INFO 13:06:01:648 BitSetIdGenerator: 102912 id's available.
+INFO 13:06:01:648 IdFactory: prepare guilds ids...
+INFO 13:06:01:649 BitSetIdGenerator: extracted 1 ids.
+INFO 13:06:01:649 BitSetIdGenerator: 102912 id's available.
+INFO 13:06:01:650 IdFactory: prepare item ids...
+INFO 13:06:01:652 BitSetIdGenerator: extracted 217 ids.
+INFO 13:06:01:652 BitSetIdGenerator: 102912 id's available.
+INFO 13:06:01:663 ServerVarManager: loaded 0 variables.
+INFO 13:06:01:665 BossSpawnManager: loaded 0 boss spawns.
+INFO 13:06:02:312 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 13:06:03:551 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 13:06:03:553 ConditionParser: initializable.
+WARNING 13:06:04:078 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 13:06:04:117 SkillTable: loaded 4613 skills for 19 classes.
+WARNING 13:06:04:129 ItemTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\items\adaptations.txt
+INFO 13:06:04:624 ItemTable: loaded 10138 items.
+INFO 13:06:04:642 Race: race appearances initializable.
+INFO 13:06:04:649 PlayerTable: loaded 104 player templates.
+WARNING 13:06:04:863 DropTable: not found items [50048]
+INFO 13:06:04:864 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 13:06:04:868 TownTable: initialized.
+WARNING 13:06:04:891 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 13:06:04:926 NpcDialogTable: loaded 87 dialogs.
+INFO 13:06:04:933 MessagePackageTable: loaded 34 message packages.
+INFO 13:06:04:964 ConfigAITable: loaded 45 npc ai configs.
+INFO 13:06:04:976 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 13:06:05:112 NpcTable: found duplicate npc template NpcTemplate npcId = 30001, exp = 0, attack = 300000, defense = 1000, owerAttack = 15000, owerDefense = 13000, level = 100, aggro = 100, factionRange = 100, name = *Elleon*, title = Valkyon's Hero, factionId = Элита, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika.xml
+WARNING 13:06:05:118 NpcTable: found duplicate npc template NpcTemplate npcId = 30002, exp = 0, attack = 40000, defense = 4000, owerAttack = 1500, owerDefense = 7000, level = 100, aggro = 100, factionRange = 5000, name = *Взрывная*, title = Магистр Высшей Магии, factionId = Элита, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika.xml
+WARNING 13:06:05:136 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 13:06:05:149 NpcTable: loaded  816 npcs.
+INFO 13:06:05:163 ResourseTable: loaded  253 resourses.
+INFO 13:06:05:181 MinionTable: loaded 303 minions for 42 npcs.
+INFO 13:06:05:184 RegenTaskManager: initializable.
+INFO 13:06:05:197 Formulas: initialized.
+INFO 13:06:05:198 EffectTaskManager: initialized.
+INFO 13:06:05:559 ObjectEventManager: initialized.
+INFO 13:06:05:560 MoveTaskManager: initialized.
+INFO 13:06:05:999 SpawnTable: loaded 19517 spawns for 619 npcs and 2013 spawns for 60 resourses.
+INFO 13:06:06:067 GeoMap3D: start fast import geodata_1.dat
+INFO 13:06:06:274 GeoMap3D: import ended. load 1867238 quards.
+INFO 13:06:06:276 GeoMap3D: start fast import geodata_2.dat
+INFO 13:06:06:354 GeoMap3D: import ended. load 440227 quards.
+INFO 13:06:06:356 GeoMap3D: start fast import geodata_3.dat
+INFO 13:06:06:380 GeoMap3D: import ended. load 58040 quards.
+INFO 13:06:06:380 GeoManager: initialized.
+INFO 13:06:06:390 ItemExecutorManager: loaded 0 executor items.
+INFO 13:06:06:406 CommandManager: loaded 95 commands.
+INFO 13:06:06:427 SkillLearnManager: loaded 950 skill learn's for 8 clases.
+INFO 13:06:06:443 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 13:06:06:445 AccountManager: initialized.
+INFO 13:06:06:459 GuildManager: loaded 1 guilds.
+INFO 13:06:06:788 QuestManager: loaded 455 quests.
+INFO 13:06:06:790 OnlineManager: initialized.
+INFO 13:06:06:801 GameLogManager: initialized.
+INFO 13:06:06:883 Region: next battle "Veritas District" in 2020.06.28 16:00.
+INFO 13:06:06:888 Region: next battle "Ostgarath" in 2020.06.28 16:00.
+INFO 13:06:06:890 Region: next battle "Val Palrada" in 2020.06.27 20:00.
+INFO 13:06:06:891 Region: next battle "Val Aureum" in 2020.06.27 20:00.
+INFO 13:06:06:892 EventManager: loaded 5 events.
+INFO 13:06:07:006 EventManager: the nearest event in 43 minutes.
+INFO 13:06:07:010 PlayerManager: initialized.
+INFO 13:06:07:017 Network: started.
+INFO 13:06:07:017 GameServer: started.
+INFO 13:06:08:823 AccountManager: authed islanzadie
+WARNING 13:08:03:888 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 13:08:03:961 NpcTable: npcs reloaded.
+INFO 13:08:07:105 SpawnTable: reloaded.
+WARNING 13:11:32:992 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 13:11:33:000 NpcTable: npcs reloaded.
+INFO 13:11:38:196 SpawnTable: reloaded.
+WARNING 13:14:30:273 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 13:14:30:280 NpcTable: npcs reloaded.
+INFO 13:14:35:172 SpawnTable: reloaded.
+WARNING 14:15:45:908 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 14:15:45:919 NpcTable: npcs reloaded.
+INFO 14:15:48:511 SpawnTable: reloaded.
+WARNING 14:18:16:280 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 14:18:16:295 NpcTable: npcs reloaded.
+INFO 14:18:18:815 SpawnTable: reloaded.
+WARNING 14:19:05:147 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 14:19:05:159 NpcTable: npcs reloaded.
+INFO 14:19:07:268 SpawnTable: reloaded.
+INFO 14:19:27:839 SpawnTable: reloaded.
+WARNING 14:20:51:214 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 14:20:51:226 NpcTable: npcs reloaded.
+INFO 14:20:52:377 SpawnTable: reloaded.
+WARNING 14:41:43:063 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 14:41:43:197 SkillTable: skills reloaded.
+INFO 14:43:54:531 AccountManager: close islanzadie

@@ -1,0 +1,100 @@
+INFO 14:20:30:850 ServerControl: open server socket on 2101 port.
+INFO 14:20:30:857 ExecutorManager: initialized.
+INFO 14:20:31:292 CleaningManager: delete 0 reuses from a character_skill_reuses.
+INFO 14:20:31:293 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 14:20:31:297 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 14:20:31:299 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 14:20:31:299 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 14:20:31:300 CleaningManager: delete 0 skills from a character_skills.
+INFO 14:20:31:301 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 14:20:31:305 CleaningManager: delete 0 chars from a character_friends.
+INFO 14:20:31:306 CleaningManager: delete 0 friends from a character_friends.
+INFO 14:20:31:308 CleaningManager: delete 0 settings from a character_settings.
+INFO 14:20:31:309 CleaningManager: delete 1 empty items from a items.
+INFO 14:20:31:310 CleaningManager: delete 0 no owner items from a items.
+INFO 14:20:31:311 CleaningManager: delete 0 no owner guild items from a items.
+INFO 14:20:31:351 CleaningManager: create buffer table items.
+INFO 14:20:31:355 CleaningManager: copy 254 items to buffer_items.
+INFO 14:20:31:357 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 14:20:31:381 CleaningManager: drop buffer table items.
+INFO 14:20:31:410 CleaningManager: delete 0 from a quests.
+INFO 14:20:31:433 CleaningManager: delete 0 from a quest variables.
+INFO 14:20:31:439 CleaningManager: delete 0 from a guild ranks.
+INFO 14:20:31:484 ClientPacketType: client packets prepared.
+INFO 14:20:31:497 EffectParser: initialized.
+INFO 14:20:31:500 RandomManager: initialized.
+INFO 14:20:31:501 IdFactory: prepare npc ids...
+INFO 14:20:31:504 BitSetIdGenerator: 102912 id's available.
+INFO 14:20:31:504 IdFactory: prepare objects ids...
+INFO 14:20:31:506 BitSetIdGenerator: 102912 id's available.
+INFO 14:20:31:506 IdFactory: prepare players ids...
+INFO 14:20:31:509 BitSetIdGenerator: extracted 13 ids.
+INFO 14:20:31:509 BitSetIdGenerator: 102912 id's available.
+INFO 14:20:31:510 IdFactory: prepare guilds ids...
+INFO 14:20:31:511 BitSetIdGenerator: extracted 1 ids.
+INFO 14:20:31:511 BitSetIdGenerator: 102912 id's available.
+INFO 14:20:31:512 IdFactory: prepare item ids...
+INFO 14:20:31:515 BitSetIdGenerator: extracted 254 ids.
+INFO 14:20:31:515 BitSetIdGenerator: 102912 id's available.
+INFO 14:20:31:528 ServerVarManager: loaded 0 variables.
+INFO 14:20:31:532 BossSpawnManager: loaded 0 boss spawns.
+INFO 14:20:32:413 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 14:20:34:185 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 14:20:34:189 ConditionParser: initializable.
+WARNING 14:20:35:057 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 14:20:35:097 SkillTable: loaded 4613 skills for 19 classes.
+WARNING 14:20:35:103 ItemTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\items\adaptations.txt
+INFO 14:20:35:768 ItemTable: loaded 10138 items.
+INFO 14:20:35:833 Race: race appearances initializable.
+INFO 14:20:35:840 PlayerTable: loaded 104 player templates.
+WARNING 14:20:36:112 DropTable: not found items [50048]
+INFO 14:20:36:113 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 14:20:36:126 TownTable: initialized.
+WARNING 14:20:36:178 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 14:20:36:238 NpcDialogTable: loaded 87 dialogs.
+INFO 14:20:36:244 MessagePackageTable: loaded 34 message packages.
+INFO 14:20:36:289 ConfigAITable: loaded 45 npc ai configs.
+INFO 14:20:36:313 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 14:20:36:510 NpcTable: found duplicate npc template NpcTemplate npcId = 30002, exp = 0, attack = 300000, defense = 1000, owerAttack = 15000, owerDefense = 13000, level = 100, aggro = 100, factionRange = 5000, name = *Elleon*, title = Valkyon's Hero, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 14:20:36:523 NpcTable: found duplicate npc template NpcTemplate npcId = 30004, exp = 0, attack = 40000, defense = 4000, owerAttack = 1500, owerDefense = 7000, level = 100, aggro = 100, factionRange = 5000, name = *Klaris*, title = Wise mage, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 14:20:36:525 NpcTable: found duplicate npc template NpcTemplate npcId = 30005, exp = 0, attack = 91000, defense = 5000, owerAttack = 1500, owerDefense = 10000, level = 100, aggro = 100, factionRange = 5000, name = *Joff*, title = Open minded, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 30.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 14:20:36:526 NpcTable: found duplicate npc template NpcTemplate npcId = 30007, exp = 0, attack = 300000, defense = 5000, owerAttack = 14500, owerDefense = 15000, level = 100, aggro = 100, factionRange = 5000, name = *KLei*, title = Testing, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 25.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 14:20:36:527 NpcTable: found duplicate npc template NpcTemplate npcId = 30008, exp = 0, attack = 91000, defense = 11000, owerAttack = 1000, owerDefense = 20000, level = 100, aggro = 100, factionRange = 5000, name = *Arei*, title = HUrrrr durrrr, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 30.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 14:20:36:528 NpcTable: found duplicate npc template NpcTemplate npcId = 30010, exp = 0, attack = 410000, defense = 4000, owerAttack = 1500, owerDefense = 7000, level = 100, aggro = 100, factionRange = 5000, name = *Lola*, title = Lover, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 14:20:36:548 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 14:20:36:564 NpcTable: loaded  816 npcs.
+INFO 14:20:36:626 ResourseTable: loaded  253 resourses.
+INFO 14:20:36:637 MinionTable: loaded 303 minions for 42 npcs.
+INFO 14:20:36:648 RegenTaskManager: initializable.
+INFO 14:20:36:655 Formulas: initialized.
+INFO 14:20:36:658 EffectTaskManager: initialized.
+INFO 14:20:37:058 ObjectEventManager: initialized.
+INFO 14:20:37:059 MoveTaskManager: initialized.
+INFO 14:20:37:580 SpawnTable: loaded 19523 spawns for 622 npcs and 2013 spawns for 60 resourses.
+INFO 14:20:37:684 GeoMap3D: start fast import geodata_1.dat
+INFO 14:20:37:954 GeoMap3D: import ended. load 1867238 quards.
+INFO 14:20:37:961 GeoMap3D: start fast import geodata_2.dat
+INFO 14:20:38:029 GeoMap3D: import ended. load 440227 quards.
+INFO 14:20:38:050 GeoMap3D: start fast import geodata_3.dat
+INFO 14:20:38:093 GeoMap3D: import ended. load 58040 quards.
+INFO 14:20:38:100 GeoManager: initialized.
+INFO 14:20:38:105 ItemExecutorManager: loaded 0 executor items.
+INFO 14:20:38:129 CommandManager: loaded 96 commands.
+INFO 14:20:38:140 SkillLearnManager: loaded 950 skill learn's for 8 clases.
+INFO 14:20:38:155 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 14:20:38:157 AccountManager: initialized.
+INFO 14:20:38:202 GuildManager: loaded 1 guilds.
+INFO 14:20:38:655 QuestManager: loaded 455 quests.
+INFO 14:20:38:662 OnlineManager: initialized.
+INFO 14:20:38:669 GameLogManager: initialized.
+INFO 14:20:38:757 Region: next battle "Veritas District" in 2020.06.28 16:00.
+INFO 14:20:38:766 Region: next battle "Ostgarath" in 2020.06.28 16:00.
+INFO 14:20:38:769 Region: next battle "Val Palrada" in 2020.07.04 20:00.
+INFO 14:20:38:779 Region: next battle "Val Aureum" in 2020.07.04 20:00.
+INFO 14:20:38:780 EventManager: loaded 5 events.
+INFO 14:20:38:919 EventManager: the nearest event in 60 minutes.
+INFO 14:20:38:922 PlayerManager: initialized.
+INFO 14:20:38:932 Network: started.
+INFO 14:20:38:933 GameServer: started.
+INFO 14:20:46:853 AccountManager: authed islanzadie
+INFO 14:25:53:789 AccountManager: close islanzadie

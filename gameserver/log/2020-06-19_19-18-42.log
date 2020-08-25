@@ -1,0 +1,179 @@
+INFO 19:18:42:919 ServerControl: open server socket on 2101 port.
+INFO 19:18:42:926 ExecutorManager: initialized.
+INFO 19:18:43:254 CleaningManager: delete 0 reuses from a character_skill_reuses.
+INFO 19:18:43:256 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 19:18:43:266 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 19:18:43:267 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 19:18:43:268 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 19:18:43:270 CleaningManager: delete 0 skills from a character_skills.
+INFO 19:18:43:278 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 19:18:43:280 CleaningManager: delete 0 chars from a character_friends.
+INFO 19:18:43:281 CleaningManager: delete 0 friends from a character_friends.
+INFO 19:18:43:289 CleaningManager: delete 0 settings from a character_settings.
+INFO 19:18:43:290 CleaningManager: delete 0 empty items from a items.
+INFO 19:18:43:291 CleaningManager: delete 0 no owner items from a items.
+INFO 19:18:43:293 CleaningManager: delete 0 no owner guild items from a items.
+INFO 19:18:43:356 CleaningManager: create buffer table items.
+INFO 19:18:43:357 CleaningManager: copy 21 items to buffer_items.
+INFO 19:18:43:358 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 19:18:43:369 CleaningManager: drop buffer table items.
+INFO 19:18:43:377 CleaningManager: delete 0 from a quests.
+INFO 19:18:43:378 CleaningManager: delete 0 from a quest variables.
+INFO 19:18:43:380 CleaningManager: delete 0 from a guild ranks.
+INFO 19:18:43:428 ClientPacketType: client packets prepared.
+INFO 19:18:43:439 EffectParser: initialized.
+INFO 19:18:43:442 RandomManager: initialized.
+INFO 19:18:43:442 IdFactory: prepare npc ids...
+INFO 19:18:43:444 BitSetIdGenerator: 102912 id's available.
+INFO 19:18:43:445 IdFactory: prepare objects ids...
+INFO 19:18:43:445 BitSetIdGenerator: 102912 id's available.
+INFO 19:18:43:445 IdFactory: prepare players ids...
+INFO 19:18:43:448 BitSetIdGenerator: extracted 3 ids.
+INFO 19:18:43:448 BitSetIdGenerator: 102912 id's available.
+INFO 19:18:43:448 IdFactory: prepare guilds ids...
+INFO 19:18:43:449 BitSetIdGenerator: extracted 0 ids.
+INFO 19:18:43:449 BitSetIdGenerator: 102912 id's available.
+INFO 19:18:43:450 IdFactory: prepare item ids...
+INFO 19:18:43:451 BitSetIdGenerator: extracted 21 ids.
+INFO 19:18:43:451 BitSetIdGenerator: 102912 id's available.
+INFO 19:18:43:462 ServerVarManager: loaded 0 variables.
+INFO 19:18:43:465 BossSpawnManager: loaded 0 boss spawns.
+INFO 19:18:44:272 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 19:18:45:706 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 19:18:45:708 ConditionParser: initializable.
+WARNING 19:18:46:075 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 19:18:46:094 SkillTable: loaded 4613 skills for 19 classes.
+INFO 19:18:46:400 ItemTable: loaded 10138 items.
+INFO 19:18:46:409 Race: race appearances initializable.
+INFO 19:18:46:415 PlayerTable: loaded 104 player templates.
+INFO 19:18:46:593 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 19:18:46:600 TownTable: initialized.
+WARNING 19:18:46:620 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 19:18:46:654 NpcDialogTable: loaded 87 dialogs.
+INFO 19:18:46:660 MessagePackageTable: loaded 34 message packages.
+INFO 19:18:46:692 ConfigAITable: loaded 45 npc ai configs.
+INFO 19:18:46:703 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 19:18:46:806 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 19:18:46:814 NpcTable: loaded  816 npcs.
+INFO 19:18:46:826 ResourseTable: loaded  253 resourses.
+INFO 19:18:46:834 MinionTable: loaded 303 minions for 42 npcs.
+INFO 19:18:46:835 RegenTaskManager: initializable.
+INFO 19:18:46:840 Formulas: initialized.
+INFO 19:18:46:842 EffectTaskManager: initialized.
+INFO 19:18:47:136 ObjectEventManager: initialized.
+INFO 19:18:47:142 MoveTaskManager: initialized.
+INFO 19:18:47:509 SpawnTable: loaded 19515 spawns for 617 npcs and 2013 spawns for 60 resourses.
+INFO 19:18:47:514 GeoMap3D: start fast import geodata_1.dat
+INFO 19:18:47:819 GeoMap3D: import ended. load 1867238 quards.
+INFO 19:18:47:820 GeoMap3D: start fast import geodata_2.dat
+INFO 19:18:47:914 GeoMap3D: import ended. load 440227 quards.
+INFO 19:18:47:915 GeoMap3D: start fast import geodata_3.dat
+INFO 19:18:47:921 GeoMap3D: import ended. load 58040 quards.
+INFO 19:18:47:921 GeoManager: initialized.
+INFO 19:18:47:925 ItemExecutorManager: loaded 0 executor items.
+INFO 19:18:47:934 CommandManager: loaded 94 commands.
+INFO 19:18:47:945 SkillLearnManager: loaded 950 skill learn's for 8 clases.
+INFO 19:18:47:949 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 19:18:47:951 AccountManager: initialized.
+INFO 19:18:47:956 GuildManager: loaded 0 guilds.
+INFO 19:18:48:210 QuestManager: loaded 455 quests.
+INFO 19:18:48:211 OnlineManager: initialized.
+INFO 19:18:48:216 GameLogManager: initialized.
+INFO 19:18:48:294 Region: next battle "Veritas District" in 2020.06.21 16:00.
+INFO 19:18:48:300 Region: next battle "Ostgarath" in 2020.06.21 16:00.
+INFO 19:18:48:302 Region: next battle "Val Palrada" in 2020.06.20 20:00.
+INFO 19:18:48:304 Region: next battle "Val Aureum" in 2020.06.20 20:00.
+INFO 19:18:48:304 EventManager: loaded 5 events.
+INFO 19:18:48:560 EventManager: the nearest event in 51 minutes.
+INFO 19:18:48:565 PlayerManager: initialized.
+INFO 19:18:48:592 Network: started.
+INFO 19:18:48:592 GameServer: started.
+INFO 19:27:30:790 AccountManager: authed islanzadie
+WARNING 19:38:21:844 ItemCommand: Exception : not create donate item for id 13226 : stack trace:
+tera.gameserver.scripts.commands.ItemCommand.execution(ItemCommand.java:119)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 19:46:13:330 CommandManager: NumberFormatException : For input string: "100000000000" : stack trace:
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+java.base/java.lang.Integer.parseInt(Integer.java:658)
+java.base/java.lang.Integer.parseInt(Integer.java:776)
+tera.gameserver.scripts.commands.ItemCommand.execution(ItemCommand.java:53)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 19:46:15:848 CommandManager: NumberFormatException : For input string: "10000000000" : stack trace:
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+java.base/java.lang.Integer.parseInt(Integer.java:658)
+java.base/java.lang.Integer.parseInt(Integer.java:776)
+tera.gameserver.scripts.commands.ItemCommand.execution(ItemCommand.java:53)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 19:46:28:855 CommandManager: NumberFormatException : For input string: "1000000000f" : stack trace:
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+java.base/java.lang.Integer.parseInt(Integer.java:658)
+java.base/java.lang.Integer.parseInt(Integer.java:776)
+tera.gameserver.scripts.commands.ItemCommand.execution(ItemCommand.java:53)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 19:47:03:903 ItemCommand: Exception : not create donate item for id 13226 : stack trace:
+tera.gameserver.scripts.commands.ItemCommand.execution(ItemCommand.java:58)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 19:47:20:010 ItemCommand: Exception : not create donate item for id 13224 : stack trace:
+tera.gameserver.scripts.commands.ItemCommand.execution(ItemCommand.java:58)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 19:48:19:261 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 19:48:19:416 SkillTable: skills reloaded.
+WARNING 19:48:34:616 CommandManager: NumberFormatException : null : stack trace:
+java.base/java.lang.Integer.parseInt(Integer.java:620)
+java.base/java.lang.Integer.parseInt(Integer.java:776)
+tera.gameserver.scripts.commands.SkillCommand.execution(SkillCommand.java:66)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 19:48:42:693 CommandManager: NumberFormatException : null : stack trace:
+java.base/java.lang.Integer.parseInt(Integer.java:620)
+java.base/java.lang.Integer.parseInt(Integer.java:776)
+tera.gameserver.scripts.commands.SkillCommand.execution(SkillCommand.java:47)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+INFO 19:49:05:162 AccountManager: close islanzadie

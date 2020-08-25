@@ -1,0 +1,195 @@
+INFO 15:10:33:726 ServerControl: open server socket on 2101 port.
+INFO 15:10:33:731 ExecutorManager: initialized.
+INFO 15:10:34:052 CleaningManager: delete 0 reuses from a character_skill_reuses.
+INFO 15:10:34:053 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 15:10:34:054 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 15:10:34:055 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 15:10:34:055 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 15:10:34:056 CleaningManager: delete 0 skills from a character_skills.
+INFO 15:10:34:056 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 15:10:34:057 CleaningManager: delete 0 chars from a character_friends.
+INFO 15:10:34:057 CleaningManager: delete 0 friends from a character_friends.
+INFO 15:10:34:058 CleaningManager: delete 0 settings from a character_settings.
+INFO 15:10:34:058 CleaningManager: delete 0 empty items from a items.
+INFO 15:10:34:059 CleaningManager: delete 0 no owner items from a items.
+INFO 15:10:34:060 CleaningManager: delete 0 no owner guild items from a items.
+INFO 15:10:34:107 CleaningManager: create buffer table items.
+INFO 15:10:34:109 CleaningManager: copy 92 items to buffer_items.
+INFO 15:10:34:110 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 15:10:34:160 CleaningManager: drop buffer table items.
+INFO 15:10:34:161 CleaningManager: delete 0 from a quests.
+INFO 15:10:34:161 CleaningManager: delete 0 from a quest variables.
+INFO 15:10:34:162 CleaningManager: delete 0 from a guild ranks.
+INFO 15:10:34:203 ClientPacketType: client packets prepared.
+INFO 15:10:34:214 EffectParser: initialized.
+INFO 15:10:34:216 RandomManager: initialized.
+INFO 15:10:34:217 IdFactory: prepare npc ids...
+INFO 15:10:34:218 BitSetIdGenerator: 102912 id's available.
+INFO 15:10:34:219 IdFactory: prepare objects ids...
+INFO 15:10:34:219 BitSetIdGenerator: 102912 id's available.
+INFO 15:10:34:220 IdFactory: prepare players ids...
+INFO 15:10:34:223 BitSetIdGenerator: extracted 7 ids.
+INFO 15:10:34:223 BitSetIdGenerator: 102912 id's available.
+INFO 15:10:34:224 IdFactory: prepare guilds ids...
+INFO 15:10:34:225 BitSetIdGenerator: extracted 0 ids.
+INFO 15:10:34:225 BitSetIdGenerator: 102912 id's available.
+INFO 15:10:34:225 IdFactory: prepare item ids...
+INFO 15:10:34:227 BitSetIdGenerator: extracted 92 ids.
+INFO 15:10:34:227 BitSetIdGenerator: 102912 id's available.
+INFO 15:10:34:238 ServerVarManager: loaded 0 variables.
+INFO 15:10:34:241 BossSpawnManager: loaded 0 boss spawns.
+INFO 15:10:34:815 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 15:10:35:991 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 15:10:36:004 ConditionParser: initializable.
+WARNING 15:10:36:342 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 15:10:36:355 SkillTable: loaded 4613 skills for 19 classes.
+INFO 15:10:36:623 ItemTable: loaded 10138 items.
+INFO 15:10:36:631 Race: race appearances initializable.
+INFO 15:10:36:638 PlayerTable: loaded 104 player templates.
+WARNING 15:10:36:817 DropTable: not found items [50048]
+INFO 15:10:36:818 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 15:10:36:825 TownTable: initialized.
+WARNING 15:10:36:844 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 15:10:36:868 NpcDialogTable: loaded 87 dialogs.
+INFO 15:10:36:874 MessagePackageTable: loaded 34 message packages.
+INFO 15:10:36:908 ConfigAITable: loaded 45 npc ai configs.
+INFO 15:10:36:919 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 15:10:37:020 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 15:10:37:028 NpcTable: loaded  816 npcs.
+INFO 15:10:37:036 ResourseTable: loaded  253 resourses.
+INFO 15:10:37:046 MinionTable: loaded 303 minions for 42 npcs.
+INFO 15:10:37:047 RegenTaskManager: initializable.
+INFO 15:10:37:051 Formulas: initialized.
+INFO 15:10:37:053 EffectTaskManager: initialized.
+INFO 15:10:37:313 ObjectEventManager: initialized.
+INFO 15:10:37:313 MoveTaskManager: initialized.
+INFO 15:10:37:685 SpawnTable: loaded 19515 spawns for 617 npcs and 2013 spawns for 60 resourses.
+INFO 15:10:37:747 GeoMap3D: start fast import geodata_1.dat
+INFO 15:10:37:981 GeoMap3D: import ended. load 1867238 quards.
+INFO 15:10:37:982 GeoMap3D: start fast import geodata_2.dat
+INFO 15:10:38:037 GeoMap3D: import ended. load 440227 quards.
+INFO 15:10:38:039 GeoMap3D: start fast import geodata_3.dat
+INFO 15:10:38:069 GeoMap3D: import ended. load 58040 quards.
+INFO 15:10:38:069 GeoManager: initialized.
+INFO 15:10:38:073 ItemExecutorManager: loaded 0 executor items.
+INFO 15:10:38:084 CommandManager: loaded 94 commands.
+INFO 15:10:38:095 SkillLearnManager: loaded 950 skill learn's for 8 clases.
+INFO 15:10:38:100 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 15:10:38:102 AccountManager: initialized.
+INFO 15:10:38:106 GuildManager: loaded 0 guilds.
+INFO 15:10:38:351 QuestManager: loaded 455 quests.
+INFO 15:10:38:356 OnlineManager: initialized.
+INFO 15:10:38:362 GameLogManager: initialized.
+INFO 15:10:38:452 Region: next battle "Veritas District" in 2020.06.28 16:00.
+INFO 15:10:38:456 Region: next battle "Ostgarath" in 2020.06.28 16:00.
+INFO 15:10:38:458 Region: next battle "Val Palrada" in 2020.06.27 20:00.
+INFO 15:10:38:460 Region: next battle "Val Aureum" in 2020.06.27 20:00.
+INFO 15:10:38:462 EventManager: loaded 5 events.
+INFO 15:10:38:574 EventManager: the nearest event in 54 minutes.
+INFO 15:10:38:577 PlayerManager: initialized.
+INFO 15:10:38:583 Network: started.
+INFO 15:10:38:583 GameServer: started.
+INFO 15:11:39:341 AccountManager: authed Joalin
+INFO 15:11:46:730 AccountManager: authed islanzadie
+WARNING 15:13:16:825 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 15:13:24:163 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 15:14:36:832 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 15:14:46:028 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 15:29:08:909 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 15:45:06:989 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 15:46:46:121 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 15:50:08:421 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 15:53:14:475 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 15:56:27:092 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 16:19:01:926 CommandManager: NullPointerException : null : stack trace:
+tera.gameserver.scripts.commands.WorldCommand.execution(WorldCommand.java:89)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+INFO 16:31:38:648 AccountManager: close Joalin
+INFO 16:39:57:496 AccountManager: authed Joalin
+INFO 17:13:48:325 AccountManager: close islanzadie

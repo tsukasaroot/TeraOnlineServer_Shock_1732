@@ -1,0 +1,17 @@
+{
+  "LauncherTitle": "{NeoLauncher}",
+  "LauncherVersion": "0.7.3",
+  "LauncherBuild": "Serenity",
+  "Theme": "DARK",
+  "PrimaryColor": "0x212121",
+  "DarkPrimaryColor": "0x6A5ACD",
+  "LightPrimaryColor": "0x6A5ACD",
+  "AccentColor": "0xFFF976",
+  "TextColor": "0x6A5ACD",
+  "LanguageID": 0,
+  "UseAuth": true,
+  "WebServerUrl": "http://127.0.0.1",
+  "ServerListDirectory": "/server/",
+  "ServerListFile": "serverlist",
+  "CryptMode": "md5"
+}

@@ -1,0 +1,197 @@
+INFO 08:53:45:915 ServerControl: open server socket on 2101 port.
+INFO 08:53:45:923 ExecutorManager: initialized.
+INFO 08:53:46:479 CleaningManager: delete 0 reuses from a character_skill_reuses.
+INFO 08:53:46:507 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 08:53:46:563 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 08:53:46:590 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 08:53:46:687 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 08:53:46:728 CleaningManager: delete 0 skills from a character_skills.
+INFO 08:53:46:762 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 08:53:46:807 CleaningManager: delete 0 chars from a character_friends.
+INFO 08:53:46:808 CleaningManager: delete 0 friends from a character_friends.
+INFO 08:53:46:823 CleaningManager: delete 0 settings from a character_settings.
+INFO 08:53:46:872 CleaningManager: delete 0 empty items from a items.
+INFO 08:53:46:873 CleaningManager: delete 0 no owner items from a items.
+INFO 08:53:46:931 CleaningManager: delete 0 no owner guild items from a items.
+INFO 08:53:46:997 CleaningManager: create buffer table items.
+INFO 08:53:46:999 CleaningManager: copy 220 items to buffer_items.
+INFO 08:53:47:000 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 08:53:47:010 CleaningManager: drop buffer table items.
+INFO 08:53:47:046 CleaningManager: delete 0 from a quests.
+INFO 08:53:47:068 CleaningManager: delete 0 from a quest variables.
+INFO 08:53:47:084 CleaningManager: delete 0 from a guild ranks.
+INFO 08:53:47:149 ClientPacketType: client packets prepared.
+INFO 08:53:47:160 EffectParser: initialized.
+INFO 08:53:47:186 RandomManager: initialized.
+INFO 08:53:47:186 IdFactory: prepare npc ids...
+INFO 08:53:47:189 BitSetIdGenerator: 102912 id's available.
+INFO 08:53:47:189 IdFactory: prepare objects ids...
+INFO 08:53:47:189 BitSetIdGenerator: 102912 id's available.
+INFO 08:53:47:190 IdFactory: prepare players ids...
+INFO 08:53:47:192 BitSetIdGenerator: extracted 12 ids.
+INFO 08:53:47:192 BitSetIdGenerator: 102912 id's available.
+INFO 08:53:47:192 IdFactory: prepare guilds ids...
+INFO 08:53:47:193 BitSetIdGenerator: extracted 1 ids.
+INFO 08:53:47:193 BitSetIdGenerator: 102912 id's available.
+INFO 08:53:47:194 IdFactory: prepare item ids...
+INFO 08:53:47:196 BitSetIdGenerator: extracted 220 ids.
+INFO 08:53:47:196 BitSetIdGenerator: 102912 id's available.
+INFO 08:53:47:261 ServerVarManager: loaded 0 variables.
+INFO 08:53:47:264 BossSpawnManager: loaded 0 boss spawns.
+INFO 08:53:47:894 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 08:53:49:125 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 08:53:49:126 ConditionParser: initializable.
+WARNING 08:53:49:516 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 08:53:49:530 SkillTable: loaded 4613 skills for 19 classes.
+WARNING 08:53:49:535 ItemTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\items\adaptations.txt
+INFO 08:53:49:826 ItemTable: loaded 10138 items.
+INFO 08:53:49:849 Race: race appearances initializable.
+INFO 08:53:49:855 PlayerTable: loaded 104 player templates.
+WARNING 08:53:50:024 DropTable: not found items [50048]
+INFO 08:53:50:025 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 08:53:50:029 TownTable: initialized.
+WARNING 08:53:50:049 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 08:53:50:077 NpcDialogTable: loaded 87 dialogs.
+INFO 08:53:50:082 MessagePackageTable: loaded 34 message packages.
+INFO 08:53:50:113 ConfigAITable: loaded 45 npc ai configs.
+INFO 08:53:50:126 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 08:53:50:251 NpcTable: found duplicate npc template NpcTemplate npcId = 30002, exp = 0, attack = 300000, defense = 1000, owerAttack = 15000, owerDefense = 13000, level = 100, aggro = 100, factionRange = 5000, name = *Elleon*, title = Valkyon's Hero, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 08:53:50:252 NpcTable: found duplicate npc template NpcTemplate npcId = 30004, exp = 0, attack = 40000, defense = 4000, owerAttack = 1500, owerDefense = 7000, level = 100, aggro = 100, factionRange = 5000, name = *Klaris*, title = Wise mage, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 08:53:50:253 NpcTable: found duplicate npc template NpcTemplate npcId = 30005, exp = 0, attack = 91000, defense = 5000, owerAttack = 1500, owerDefense = 10000, level = 100, aggro = 100, factionRange = 5000, name = *Joff*, title = Open minded, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 30.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 08:53:50:254 NpcTable: found duplicate npc template NpcTemplate npcId = 30007, exp = 0, attack = 300000, defense = 5000, owerAttack = 14500, owerDefense = 15000, level = 100, aggro = 100, factionRange = 5000, name = *KLei*, title = Testing, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 25.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 08:53:50:255 NpcTable: found duplicate npc template NpcTemplate npcId = 30008, exp = 0, attack = 91000, defense = 11000, owerAttack = 1000, owerDefense = 20000, level = 100, aggro = 100, factionRange = 5000, name = *Arei*, title = HUrrrr durrrr, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 30.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 08:53:50:255 NpcTable: found duplicate npc template NpcTemplate npcId = 30010, exp = 0, attack = 410000, defense = 4000, owerAttack = 1500, owerDefense = 7000, level = 100, aggro = 100, factionRange = 5000, name = *Lola*, title = Lover, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 08:53:50:265 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 08:53:50:276 NpcTable: loaded  816 npcs.
+INFO 08:53:50:287 ResourseTable: loaded  253 resourses.
+INFO 08:53:50:295 MinionTable: loaded 303 minions for 42 npcs.
+INFO 08:53:50:295 RegenTaskManager: initializable.
+INFO 08:53:50:300 Formulas: initialized.
+INFO 08:53:50:302 EffectTaskManager: initialized.
+INFO 08:53:50:585 ObjectEventManager: initialized.
+INFO 08:53:50:586 MoveTaskManager: initialized.
+INFO 08:53:50:881 SpawnTable: loaded 19523 spawns for 622 npcs and 2013 spawns for 60 resourses.
+INFO 08:53:50:889 GeoMap3D: start fast import geodata_1.dat
+INFO 08:53:51:298 GeoMap3D: import ended. load 1867238 quards.
+INFO 08:53:51:299 GeoMap3D: start fast import geodata_2.dat
+INFO 08:53:51:393 GeoMap3D: import ended. load 440227 quards.
+INFO 08:53:51:394 GeoMap3D: start fast import geodata_3.dat
+INFO 08:53:51:412 GeoMap3D: import ended. load 58040 quards.
+INFO 08:53:51:412 GeoManager: initialized.
+INFO 08:53:51:415 ItemExecutorManager: loaded 0 executor items.
+INFO 08:53:51:445 CommandManager: loaded 95 commands.
+INFO 08:53:51:457 SkillLearnManager: loaded 950 skill learn's for 8 clases.
+INFO 08:53:51:462 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 08:53:51:464 AccountManager: initialized.
+INFO 08:53:51:477 GuildManager: loaded 1 guilds.
+INFO 08:53:51:847 QuestManager: loaded 455 quests.
+INFO 08:53:51:848 OnlineManager: initialized.
+INFO 08:53:51:852 GameLogManager: initialized.
+INFO 08:53:51:978 Region: next battle "Veritas District" in 2020.06.28 16:00.
+INFO 08:53:51:981 Region: next battle "Ostgarath" in 2020.06.28 16:00.
+INFO 08:53:51:983 Region: next battle "Val Palrada" in 2020.06.27 20:00.
+INFO 08:53:51:985 Region: next battle "Val Aureum" in 2020.06.27 20:00.
+INFO 08:53:51:986 EventManager: loaded 5 events.
+INFO 08:53:52:164 EventManager: the nearest event in 31 minutes.
+INFO 08:53:52:167 PlayerManager: initialized.
+INFO 08:53:52:200 Network: started.
+INFO 08:53:52:200 GameServer: started.
+INFO 09:05:46:174 AccountManager: authed Islanzadie
+INFO 10:01:20:514 AccountManager: close Islanzadie
+INFO 13:00:49:480 AccountManager: authed islanzadie
+ INFO 13:06:12:652 DeveloperCommand: error parsing null
+INFO 13:08:33:502 AccountManager: close islanzadie
+INFO 13:09:40:087 AccountManager: authed tsuka
+WARNING 13:11:02:115 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 13:11:02:126 NpcTable: npcs reloaded.
+INFO 13:11:07:521 SpawnTable: reloaded.
+INFO 13:13:48:216 SpawnTable: reloaded.
+WARNING 13:13:56:980 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 13:13:57:020 NpcTable: npcs reloaded.
+INFO 13:13:58:917 SpawnTable: reloaded.
+INFO 13:17:58:136 SpawnTable: reloaded.
+WARNING 13:18:20:089 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 13:18:20:100 NpcTable: npcs reloaded.
+INFO 13:18:22:088 SpawnTable: reloaded.
+WARNING 13:19:55:867 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 13:19:55:883 NpcTable: npcs reloaded.
+INFO 13:19:57:729 SpawnTable: reloaded.
+ INFO 13:19:59:702 DeveloperCommand: error parsing null
+INFO 13:34:55:420 AccountManager: close tsuka
+INFO 14:08:28:824 AccountManager: authed tsuka
+INFO 15:31:20:399 AccountManager: close tsuka
+INFO 15:53:10:153 AccountManager: authed tsuka
+WARNING 16:21:18:653 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:21:18:741 SkillTable: skills reloaded.
+WARNING 16:21:49:217 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:21:49:306 SkillTable: skills reloaded.
+WARNING 16:22:06:690 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:22:06:709 SkillTable: skills reloaded.
+WARNING 16:22:14:555 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:22:14:566 SkillTable: skills reloaded.
+WARNING 16:24:36:986 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:24:37:003 SkillTable: skills reloaded.
+WARNING 16:24:48:694 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:24:48:707 SkillTable: skills reloaded.
+WARNING 16:25:00:467 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:25:00:480 SkillTable: skills reloaded.
+WARNING 16:26:54:309 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:26:54:320 SkillTable: skills reloaded.
+WARNING 16:27:08:168 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:27:08:184 SkillTable: skills reloaded.
+WARNING 16:27:17:034 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:27:17:079 SkillTable: skills reloaded.
+WARNING 16:27:25:663 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:27:25:679 SkillTable: skills reloaded.
+WARNING 16:27:36:606 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:27:36:615 SkillTable: skills reloaded.
+WARNING 16:28:34:140 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:28:34:151 SkillTable: skills reloaded.
+WARNING 16:28:56:283 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:28:56:296 SkillTable: skills reloaded.
+WARNING 16:29:15:888 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:29:15:931 SkillTable: skills reloaded.
+WARNING 16:29:29:393 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:29:29:414 SkillTable: skills reloaded.
+WARNING 16:30:22:553 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:30:22:562 SkillTable: skills reloaded.
+WARNING 16:30:34:352 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:30:34:359 SkillTable: skills reloaded.
+WARNING 16:32:07:644 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:32:07:656 SkillTable: skills reloaded.
+WARNING 16:32:33:202 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:32:33:212 SkillTable: skills reloaded.
+WARNING 16:33:19:528 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:33:19:543 SkillTable: skills reloaded.
+WARNING 16:34:00:703 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:34:00:724 SkillTable: skills reloaded.
+WARNING 16:34:19:670 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:34:19:681 SkillTable: skills reloaded.
+WARNING 16:34:43:251 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:34:43:259 SkillTable: skills reloaded.
+WARNING 16:34:57:620 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:34:57:631 SkillTable: skills reloaded.
+WARNING 16:35:09:453 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:35:09:481 SkillTable: skills reloaded.
+WARNING 16:35:20:149 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:35:20:158 SkillTable: skills reloaded.
+WARNING 16:36:13:759 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:36:13:771 SkillTable: skills reloaded.
+WARNING 16:36:50:962 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:36:50:976 SkillTable: skills reloaded.
+WARNING 16:37:09:414 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:37:09:422 SkillTable: skills reloaded.
+WARNING 16:37:30:926 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:37:30:938 SkillTable: skills reloaded.
+WARNING 16:37:46:164 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:37:46:193 SkillTable: skills reloaded.
+WARNING 16:38:00:660 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:38:00:670 SkillTable: skills reloaded.
+WARNING 16:38:13:918 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 16:38:13:929 SkillTable: skills reloaded.
+ INFO 16:39:40:499 DeveloperCommand: error parsing null
+INFO 16:50:38:040 SpawnTable: reloaded.
+WARNING 17:11:10:406 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 17:11:10:416 NpcTable: npcs reloaded.
+INFO 17:11:12:881 SpawnTable: reloaded.
+INFO 18:37:21:948 AccountManager: close tsuka

@@ -1,0 +1,134 @@
+INFO 14:41:13:055 ServerControl: open server socket on 2101 port.
+INFO 14:41:13:062 ExecutorManager: initialized.
+INFO 14:41:13:451 CleaningManager: delete 2 reuses from a character_skill_reuses.
+INFO 14:41:13:452 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 14:41:13:452 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 14:41:13:453 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 14:41:13:454 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 14:41:13:454 CleaningManager: delete 0 skills from a character_skills.
+INFO 14:41:13:455 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 14:41:13:456 CleaningManager: delete 0 chars from a character_friends.
+INFO 14:41:13:457 CleaningManager: delete 0 friends from a character_friends.
+INFO 14:41:13:458 CleaningManager: delete 0 settings from a character_settings.
+INFO 14:41:13:459 CleaningManager: delete 24 empty items from a items.
+INFO 14:41:13:460 CleaningManager: delete 0 no owner items from a items.
+INFO 14:41:13:461 CleaningManager: delete 0 no owner guild items from a items.
+INFO 14:41:13:531 CleaningManager: create buffer table items.
+INFO 14:41:13:533 CleaningManager: copy 92 items to buffer_items.
+INFO 14:41:13:533 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 14:41:13:544 CleaningManager: drop buffer table items.
+INFO 14:41:13:545 CleaningManager: delete 0 from a quests.
+INFO 14:41:13:545 CleaningManager: delete 0 from a quest variables.
+INFO 14:41:13:546 CleaningManager: delete 0 from a guild ranks.
+INFO 14:41:13:587 ClientPacketType: client packets prepared.
+INFO 14:41:13:600 EffectParser: initialized.
+INFO 14:41:13:603 RandomManager: initialized.
+INFO 14:41:13:603 IdFactory: prepare npc ids...
+INFO 14:41:13:605 BitSetIdGenerator: 102912 id's available.
+INFO 14:41:13:606 IdFactory: prepare objects ids...
+INFO 14:41:13:606 BitSetIdGenerator: 102912 id's available.
+INFO 14:41:13:606 IdFactory: prepare players ids...
+INFO 14:41:13:609 BitSetIdGenerator: extracted 7 ids.
+INFO 14:41:13:609 BitSetIdGenerator: 102912 id's available.
+INFO 14:41:13:610 IdFactory: prepare guilds ids...
+INFO 14:41:13:611 BitSetIdGenerator: extracted 0 ids.
+INFO 14:41:13:611 BitSetIdGenerator: 102912 id's available.
+INFO 14:41:13:611 IdFactory: prepare item ids...
+INFO 14:41:13:612 BitSetIdGenerator: extracted 92 ids.
+INFO 14:41:13:612 BitSetIdGenerator: 102912 id's available.
+INFO 14:41:13:623 ServerVarManager: loaded 0 variables.
+INFO 14:41:13:626 BossSpawnManager: loaded 0 boss spawns.
+INFO 14:41:14:319 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 14:41:15:783 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 14:41:15:795 ConditionParser: initializable.
+WARNING 14:41:16:257 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 14:41:16:269 SkillTable: loaded 4613 skills for 19 classes.
+INFO 14:41:16:711 ItemTable: loaded 10138 items.
+INFO 14:41:16:747 Race: race appearances initializable.
+INFO 14:41:16:761 PlayerTable: loaded 104 player templates.
+WARNING 14:41:16:993 DropTable: not found items [50048]
+INFO 14:41:16:993 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 14:41:16:997 TownTable: initialized.
+WARNING 14:41:17:016 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 14:41:17:040 NpcDialogTable: loaded 87 dialogs.
+INFO 14:41:17:054 MessagePackageTable: loaded 34 message packages.
+INFO 14:41:17:087 ConfigAITable: loaded 45 npc ai configs.
+INFO 14:41:17:103 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 14:41:17:228 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 14:41:17:236 NpcTable: loaded  816 npcs.
+INFO 14:41:17:261 ResourseTable: loaded  253 resourses.
+INFO 14:41:17:268 MinionTable: loaded 303 minions for 42 npcs.
+INFO 14:41:17:269 RegenTaskManager: initializable.
+INFO 14:41:17:277 Formulas: initialized.
+INFO 14:41:17:281 EffectTaskManager: initialized.
+INFO 14:41:17:552 ObjectEventManager: initialized.
+INFO 14:41:17:553 MoveTaskManager: initialized.
+INFO 14:41:18:031 SpawnTable: loaded 19515 spawns for 617 npcs and 2013 spawns for 60 resourses.
+INFO 14:41:18:080 GeoMap3D: start fast import geodata_1.dat
+INFO 14:41:18:283 GeoMap3D: import ended. load 1867238 quards.
+INFO 14:41:18:284 GeoMap3D: start fast import geodata_2.dat
+INFO 14:41:18:370 GeoMap3D: import ended. load 440227 quards.
+INFO 14:41:18:370 GeoMap3D: start fast import geodata_3.dat
+INFO 14:41:18:410 GeoMap3D: import ended. load 58040 quards.
+INFO 14:41:18:411 GeoManager: initialized.
+INFO 14:41:18:415 ItemExecutorManager: loaded 0 executor items.
+INFO 14:41:18:424 CommandManager: loaded 94 commands.
+INFO 14:41:18:431 SkillLearnManager: loaded 950 skill learn's for 8 clases.
+INFO 14:41:18:434 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 14:41:18:436 AccountManager: initialized.
+INFO 14:41:18:456 GuildManager: loaded 0 guilds.
+INFO 14:41:18:783 QuestManager: loaded 455 quests.
+INFO 14:41:18:786 OnlineManager: initialized.
+INFO 14:41:18:791 GameLogManager: initialized.
+INFO 14:41:18:902 Region: next battle "Veritas District" in 2020.06.28 16:00.
+INFO 14:41:18:912 Region: next battle "Ostgarath" in 2020.06.28 16:00.
+INFO 14:41:18:917 Region: next battle "Val Palrada" in 2020.06.27 20:00.
+INFO 14:41:18:919 Region: next battle "Val Aureum" in 2020.06.27 20:00.
+INFO 14:41:18:919 EventManager: loaded 5 events.
+INFO 14:41:19:108 EventManager: the nearest event in 48 minutes.
+INFO 14:41:19:111 PlayerManager: initialized.
+INFO 14:41:19:133 Network: started.
+INFO 14:41:19:142 GameServer: started.
+INFO 14:42:11:105 AccountManager: authed islanzadie
+WARNING 14:43:47:146 RequestNpcLink: ArrayIndexOutOfBoundsException : Index 62 out of bounds for length 62 : stack trace:
+tera.gameserver.model.playable.Player.addExp(Player.java:349)
+tera.gameserver.model.quests.actions.ActionAddExp.apply(ActionAddExp.java:56)
+tera.gameserver.model.quests.Reward.giveReward(Reward.java:114)
+tera.gameserver.model.quests.classes.AbstractQuest.finish(AbstractQuest.java:306)
+tera.gameserver.model.quests.actions.ActionQuestFinish.apply(ActionQuestFinish.java:27)
+tera.gameserver.model.quests.events.AbstractQuestEventListener.notifyQuest(AbstractQuestEventListener.java:74)
+tera.gameserver.model.quests.events.LinkSelectListener.notifyQuest(LinkSelectListener.java:45)
+tera.gameserver.model.quests.classes.AbstractQuest.notifyQuest(AbstractQuest.java:410)
+tera.gameserver.model.quests.classes.AbstractQuest.notifyQuest(AbstractQuest.java:393)
+tera.gameserver.model.quests.classes.AbstractQuest.reply(AbstractQuest.java:541)
+tera.gameserver.model.npc.interaction.links.AbstractLink.reply(AbstractLink.java:90)
+tera.gameserver.network.clientpackets.RequestNpcLink.runImpl(RequestNpcLink.java:77)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 14:44:16:201 SelectedPlayer: ArrayIndexOutOfBoundsException : Index 62 out of bounds for length 62 : stack trace:
+tera.gameserver.network.serverpackets.PlayerEntered.getInstance(PlayerEntered.java:78)
+tera.gameserver.manager.PlayerManager.selectPlayer(PlayerManager.java:460)
+tera.gameserver.network.clientpackets.SelectedPlayer.runImpl(SelectedPlayer.java:28)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+INFO 14:45:25:814 AccountManager: close islanzadie
+INFO 14:47:30:657 AccountManager: authed islanzadie
+WARNING 14:47:38:049 SelectedPlayer: ArrayIndexOutOfBoundsException : Index 62 out of bounds for length 62 : stack trace:
+tera.gameserver.network.serverpackets.PlayerEntered.getInstance(PlayerEntered.java:78)
+tera.gameserver.manager.PlayerManager.selectPlayer(PlayerManager.java:460)
+tera.gameserver.network.clientpackets.SelectedPlayer.runImpl(SelectedPlayer.java:28)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+INFO 14:48:22:643 AccountManager: close islanzadie
+INFO 14:49:55:404 AccountManager: close islanzadie
+INFO 14:49:14:354 AccountManager: authed islanzadie
+INFO 14:51:05:802 AccountManager: authed islanzadie

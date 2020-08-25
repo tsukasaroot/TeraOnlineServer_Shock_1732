@@ -1,0 +1,1144 @@
+11:26:17  [main] 	Initialisere Control Panel
+11:26:17  [main] 	Windows Version:  Pro  64-bit
+11:26:17  [main] 	XAMPP Version: 7.3.9
+11:26:17  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:26:17  [main] 	Dein Benutzerprofil besitzt keine Administratorenrechte! Das reicht aus für die meisten
+11:26:17  [main] 	Anwendungsfunktionen, aber wann immer du etwas mit Windows-Diensten tun möchtest,
+11:26:17  [main] 	wird eine Sicherheitsabfrage erscheinen oder etwas wird garnicht erst funktionieren!
+11:26:17  [main] 	Also denke daran diese Anwendung mit Administratorrechten zu starten!
+11:26:17  [main] 	XAMPP Installationsverzeichnis: "d:\privateserver_tera\teraserveronline\web\"
+11:26:17  [main] 	Voraussetzungen werden geprüft
+11:26:18  [main] 	Alle Voraussetzungen sind erfüllt
+11:26:18  [main] 	Initialisiere Module
+11:26:18  [Apache] 	Problem festgestellt!
+11:26:18  [Apache] 	Port 80 in Benutzung von "Unable to get info" (PID 27940)!
+11:26:18  [Apache] 	Apache wird NICHT starten, wenn die konfigurierten Ports nicht frei sind!
+11:26:18  [Apache] 	Die blockierende Anwendung muss deinstalliert/deaktiviert/rekonfiguriert werden oder
+11:26:18  [Apache] 	Apache und das Control Panel müssen auf einen anderen Port zu lauschen
+11:26:18  [main] 	Das FileZilla Modul ist deaktiviert
+11:26:18  [main] 	Das Mercury Modul ist deaktiviert
+11:26:18  [main] 	Starte Check-Timer
+11:26:18  [main] 	Control Panel bereit
+11:26:29  [main] 	Führe aus: "services.msc"
+11:26:43  [main] 	Deinitialisiere Module
+11:26:43  [main] 	Deinitialisiere Control Panel
+
+11:26:45  [main] 	Initializing Control Panel
+11:26:45  [main] 	Windows Version:  Pro  64-bit
+11:26:45  [main] 	XAMPP Version: 7.3.9
+11:26:45  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:26:45  [main] 	You are not running with administrator rights! This will work for
+11:26:45  [main] 	most application stuff but whenever you do something with services
+11:26:45  [main] 	there will be a security dialogue or things will break! So think 
+11:26:45  [main] 	about running this application with administrator rights!
+11:26:45  [main] 	XAMPP Installation Directory: "d:\privateserver_tera\teraserveronline\web\"
+11:26:45  [main] 	Checking for prerequisites
+11:26:45  [main] 	All prerequisites found
+11:26:45  [main] 	Initializing Modules
+11:26:45  [Apache] 	Problem detected!
+11:26:45  [Apache] 	Port 80 in use by "Unable to get info" with PID 27940!
+11:26:45  [Apache] 	Apache WILL NOT start without the configured ports free!
+11:26:45  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+11:26:45  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+11:26:45  [main] 	The FileZilla module is disabled
+11:26:45  [main] 	The Mercury module is disabled
+11:26:45  [main] 	Starting Check-Timer
+11:26:45  [main] 	Control Panel Ready
+11:26:51  [Apache] 	Attempting to start Apache app...
+11:26:51  [Apache] 	Status change detected: running
+11:26:53  [mysql] 	Attempting to start MySQL app...
+11:26:53  [mysql] 	Status change detected: running
+11:41:43  [Apache] 	Attempting to stop Apache (PID: 37792)
+11:41:43  [Apache] 	Attempting to stop Apache (PID: 2988)
+11:41:43  [Apache] 	Status change detected: stopped
+11:41:44  [mysql] 	Attempting to stop MySQL app...
+11:41:44  [mysql] 	Status change detected: stopped
+11:41:46  [Apache] 	Problem detected!
+11:41:46  [Apache] 	Port 80 in use by "Unable to get info" with PID 37792!
+11:41:46  [Apache] 	Apache WILL NOT start without the configured ports free!
+11:41:46  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+11:41:46  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+11:41:46  [Apache] 	Attempting to start Apache app...
+11:41:46  [Apache] 	Status change detected: running
+11:46:32  [mysql] 	Attempting to start MySQL app...
+11:46:32  [mysql] 	Status change detected: running
+12:04:58  [main] 	Deinitializing Modules
+12:04:58  [main] 	Deinitializing Control Panel
+
+12:04:49  [main] 	Initializing Control Panel
+12:04:49  [main] 	Windows Version:  Pro  64-bit
+12:04:49  [main] 	XAMPP Version: 7.3.9
+12:04:49  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:04:49  [main] 	You are not running with administrator rights! This will work for
+12:04:49  [main] 	most application stuff but whenever you do something with services
+12:04:49  [main] 	there will be a security dialogue or things will break! So think 
+12:04:49  [main] 	about running this application with administrator rights!
+12:04:49  [main] 	XAMPP Installation Directory: "d:\privateserver_tera\teraserveronline\web\"
+12:04:49  [main] 	Checking for prerequisites
+12:04:49  [main] 	All prerequisites found
+12:04:49  [main] 	Initializing Modules
+12:04:49  [Apache] 	XAMPP Apache is already running on port 80
+12:04:49  [Apache] 	XAMPP Apache is already running on port 443
+12:04:49  [mysql] 	XAMPP MySQL is already running on port 3306
+12:04:49  [main] 	The FileZilla module is disabled
+12:04:49  [main] 	The Mercury module is disabled
+12:04:49  [main] 	Starting Check-Timer
+12:04:49  [main] 	Control Panel Ready
+13:02:07  [main] 	Executing "d:\privateserver_tera\teraserveronline\web\"
+13:48:18  [Apache] 	Attempting to stop Apache (PID: 2336)
+13:48:18  [Apache] 	Attempting to stop Apache (PID: 36736)
+13:48:18  [Apache] 	Status change detected: stopped
+13:48:21  [mysql] 	Attempting to stop MySQL app...
+13:48:21  [mysql] 	Status change detected: stopped
+14:00:40  [main] 	Deinitializing Modules
+14:00:40  [main] 	Deinitializing Control Panel
+
+14:08:54  [main] 	Initializing Control Panel
+14:08:55  [main] 	Windows Version:  Pro  64-bit
+14:08:55  [main] 	XAMPP Version: 7.3.9
+14:08:55  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+14:08:55  [main] 	You are not running with administrator rights! This will work for
+14:08:55  [main] 	most application stuff but whenever you do something with services
+14:08:55  [main] 	there will be a security dialogue or things will break! So think 
+14:08:55  [main] 	about running this application with administrator rights!
+14:08:55  [main] 	XAMPP Installation Directory: "d:\privateserver_tera\teraonlineserver_shock_1732\web\"
+14:08:55  [main] 	Checking for prerequisites
+14:08:55  [main] 	All prerequisites found
+14:08:55  [main] 	Initializing Modules
+14:08:55  [main] 	The FileZilla module is disabled
+14:08:55  [main] 	The Mercury module is disabled
+14:08:55  [main] 	Starting Check-Timer
+14:08:55  [main] 	Control Panel Ready
+14:09:00  [Apache] 	Attempting to start Apache app...
+14:09:00  [Apache] 	Status change detected: running
+14:09:07  [mysql] 	Attempting to start MySQL app...
+14:09:07  [mysql] 	Status change detected: running
+14:26:24  [Apache] 	Attempting to stop Apache (PID: 13456)
+14:26:24  [Apache] 	Attempting to stop Apache (PID: 26448)
+14:26:24  [Apache] 	Status change detected: stopped
+14:26:25  [mysql] 	Attempting to stop MySQL app...
+14:26:25  [mysql] 	Status change detected: stopped
+14:28:56  [main] 	Deinitializing Modules
+14:28:56  [main] 	Deinitializing Control Panel
+
+17:28:11  [main] 	Initializing Control Panel
+17:28:11  [main] 	Windows Version:  Enterprise  64-bit
+17:28:11  [main] 	XAMPP Version: 7.3.9
+17:28:11  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+17:28:11  [main] 	You are not running with administrator rights! This will work for
+17:28:11  [main] 	most application stuff but whenever you do something with services
+17:28:11  [main] 	there will be a security dialogue or things will break! So think 
+17:28:11  [main] 	about running this application with administrator rights!
+17:28:11  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+17:28:11  [main] 	Checking for prerequisites
+17:28:15  [main] 	All prerequisites found
+17:28:15  [main] 	Initializing Modules
+17:28:15  [main] 	The FileZilla module is disabled
+17:28:15  [main] 	The Mercury module is disabled
+17:28:15  [main] 	Starting Check-Timer
+17:28:15  [main] 	Control Panel Ready
+17:28:31  [Apache] 	Attempting to start Apache app...
+17:28:31  [Apache] 	Status change detected: running
+17:28:32  [mysql] 	Attempting to start MySQL app...
+17:28:33  [mysql] 	Status change detected: running
+18:03:59  [main] 	Deinitializing Modules
+18:03:59  [main] 	Deinitializing Control Panel
+
+10:11:58  [main] 	Initializing Control Panel
+10:11:58  [main] 	Windows Version:  Enterprise  64-bit
+10:11:58  [main] 	XAMPP Version: 7.3.9
+10:11:58  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:11:58  [main] 	You are not running with administrator rights! This will work for
+10:11:58  [main] 	most application stuff but whenever you do something with services
+10:11:58  [main] 	there will be a security dialogue or things will break! So think 
+10:11:58  [main] 	about running this application with administrator rights!
+10:11:58  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+10:11:58  [main] 	Checking for prerequisites
+10:11:58  [main] 	All prerequisites found
+10:11:58  [main] 	Initializing Modules
+10:11:59  [main] 	The FileZilla module is disabled
+10:11:59  [main] 	The Mercury module is disabled
+10:11:59  [main] 	Starting Check-Timer
+10:11:59  [main] 	Control Panel Ready
+10:12:02  [Apache] 	Attempting to start Apache app...
+10:12:02  [Apache] 	Status change detected: running
+10:12:02  [mysql] 	Attempting to start MySQL app...
+10:12:03  [mysql] 	Status change detected: running
+10:12:03  [Tomcat] 	Attempting to start Tomcat app...
+10:12:09  [Tomcat] 	Tomcat Started/Stopped with errors, return code: 1
+10:12:09  [Tomcat] 	Make sure you have Java JDK or JRE installed and the required ports are free
+10:12:09  [Tomcat] 	Check the "/xampp/tomcat/logs" folder for more information
+10:33:11  [Apache] 	Attempting to stop Apache (PID: 1200)
+10:33:11  [Apache] 	Attempting to stop Apache (PID: 8140)
+10:33:11  [Apache] 	Status change detected: stopped
+10:33:11  [mysql] 	Attempting to stop MySQL app...
+10:33:12  [mysql] 	Status change detected: stopped
+17:00:16  [main] 	Deinitializing Modules
+17:00:16  [main] 	Deinitializing Control Panel
+
+21:27:36  [main] 	Initializing Control Panel
+21:27:36  [main] 	Windows Version:  Enterprise  64-bit
+21:27:36  [main] 	XAMPP Version: 7.3.9
+21:27:36  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+21:27:36  [main] 	You are not running with administrator rights! This will work for
+21:27:36  [main] 	most application stuff but whenever you do something with services
+21:27:36  [main] 	there will be a security dialogue or things will break! So think 
+21:27:36  [main] 	about running this application with administrator rights!
+21:27:36  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+21:27:36  [main] 	Checking for prerequisites
+21:27:36  [main] 	All prerequisites found
+21:27:36  [main] 	Initializing Modules
+21:27:36  [main] 	The FileZilla module is disabled
+21:27:36  [main] 	The Mercury module is disabled
+21:27:36  [main] 	Starting Check-Timer
+21:27:36  [main] 	Control Panel Ready
+21:27:39  [Apache] 	Attempting to start Apache app...
+21:27:39  [Apache] 	Status change detected: running
+21:27:39  [mysql] 	Attempting to start MySQL app...
+21:27:39  [mysql] 	Status change detected: running
+21:52:12  [Apache] 	Attempting to stop Apache (PID: 3876)
+21:52:12  [Apache] 	Attempting to stop Apache (PID: 12852)
+21:52:13  [mysql] 	Attempting to stop MySQL app...
+21:52:13  [Apache] 	Status change detected: stopped
+21:52:13  [mysql] 	Status change detected: stopped
+21:55:09  [main] 	Deinitializing Modules
+21:55:09  [main] 	Deinitializing Control Panel
+
+19:17:18  [main] 	Initializing Control Panel
+19:17:18  [main] 	Windows Version:  Enterprise  64-bit
+19:17:18  [main] 	XAMPP Version: 7.3.9
+19:17:18  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+19:17:18  [main] 	You are not running with administrator rights! This will work for
+19:17:18  [main] 	most application stuff but whenever you do something with services
+19:17:18  [main] 	there will be a security dialogue or things will break! So think 
+19:17:18  [main] 	about running this application with administrator rights!
+19:17:18  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+19:17:18  [main] 	Checking for prerequisites
+19:17:19  [main] 	All prerequisites found
+19:17:19  [main] 	Initializing Modules
+19:17:19  [main] 	The FileZilla module is disabled
+19:17:19  [main] 	The Mercury module is disabled
+19:17:19  [main] 	Starting Check-Timer
+19:17:19  [main] 	Control Panel Ready
+19:17:21  [Apache] 	Attempting to start Apache app...
+19:17:21  [Apache] 	Status change detected: running
+19:17:21  [mysql] 	Attempting to start MySQL app...
+19:17:23  [mysql] 	Status change detected: running
+19:49:35  [mysql] 	Attempting to stop MySQL app...
+19:49:35  [mysql] 	Status change detected: stopped
+19:49:36  [Apache] 	Attempting to stop Apache (PID: 1252)
+19:49:36  [Apache] 	Attempting to stop Apache (PID: 11872)
+19:49:36  [Apache] 	Status change detected: stopped
+21:27:39  [Apache] 	Status change detected: running
+21:27:40  [mysql] 	Status change detected: running
+21:52:13  [Apache] 	Status change detected: stopped
+21:52:13  [mysql] 	Status change detected: stopped
+21:55:11  [main] 	Deinitializing Modules
+21:55:11  [main] 	Deinitializing Control Panel
+
+22:47:43  [main] 	Initializing Control Panel
+22:47:43  [main] 	Windows Version:  Enterprise  64-bit
+22:47:43  [main] 	XAMPP Version: 7.3.9
+22:47:43  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+22:47:43  [main] 	You are not running with administrator rights! This will work for
+22:47:43  [main] 	most application stuff but whenever you do something with services
+22:47:43  [main] 	there will be a security dialogue or things will break! So think 
+22:47:43  [main] 	about running this application with administrator rights!
+22:47:43  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+22:47:43  [main] 	Checking for prerequisites
+22:47:44  [main] 	All prerequisites found
+22:47:44  [main] 	Initializing Modules
+22:47:44  [main] 	The FileZilla module is disabled
+22:47:44  [main] 	The Mercury module is disabled
+22:47:44  [main] 	Starting Check-Timer
+22:47:44  [main] 	Control Panel Ready
+22:47:45  [Apache] 	Attempting to start Apache app...
+22:47:46  [Apache] 	Status change detected: running
+22:47:49  [mysql] 	Attempting to start MySQL app...
+22:47:49  [mysql] 	Status change detected: running
+23:26:51  [main] 	Deinitializing Modules
+23:26:51  [main] 	Deinitializing Control Panel
+
+23:34:09  [main] 	Initializing Control Panel
+23:34:09  [main] 	Windows Version:  Enterprise  64-bit
+23:34:09  [main] 	XAMPP Version: 7.3.9
+23:34:09  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+23:34:09  [main] 	You are not running with administrator rights! This will work for
+23:34:09  [main] 	most application stuff but whenever you do something with services
+23:34:09  [main] 	there will be a security dialogue or things will break! So think 
+23:34:09  [main] 	about running this application with administrator rights!
+23:34:09  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+23:34:09  [main] 	Checking for prerequisites
+23:34:09  [main] 	All prerequisites found
+23:34:09  [main] 	Initializing Modules
+23:34:09  [Apache] 	XAMPP Apache is already running on port 80
+23:34:09  [Apache] 	XAMPP Apache is already running on port 443
+23:34:09  [mysql] 	XAMPP MySQL is already running on port 3306
+23:34:09  [main] 	The FileZilla module is disabled
+23:34:09  [main] 	The Mercury module is disabled
+23:34:09  [main] 	Starting Check-Timer
+23:34:09  [main] 	Control Panel Ready
+23:36:12  [Apache] 	Attempting to stop Apache (PID: 12308)
+23:36:12  [Apache] 	Attempting to stop Apache (PID: 12052)
+23:36:12  [Apache] 	Status change detected: stopped
+23:36:13  [mysql] 	Attempting to stop MySQL app...
+23:36:13  [mysql] 	Status change detected: stopped
+23:36:14  [mysql] 	Attempting to start MySQL app...
+23:36:14  [mysql] 	Status change detected: running
+23:36:15  [Apache] 	Attempting to start Apache app...
+23:36:15  [Apache] 	Status change detected: running
+23:38:23  [Apache] 	Attempting to stop Apache (PID: 9096)
+23:38:23  [Apache] 	Attempting to stop Apache (PID: 1032)
+23:38:23  [Apache] 	Status change detected: stopped
+23:38:23  [mysql] 	Attempting to stop MySQL app...
+23:38:23  [mysql] 	Status change detected: stopped
+23:38:27  [main] 	Deinitializing Modules
+23:38:27  [main] 	Deinitializing Control Panel
+
+23:29:11  [main] 	Initializing Control Panel
+23:29:11  [main] 	Windows Version:  Enterprise  64-bit
+23:29:11  [main] 	XAMPP Version: 7.3.9
+23:29:11  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+23:29:11  [main] 	You are not running with administrator rights! This will work for
+23:29:11  [main] 	most application stuff but whenever you do something with services
+23:29:11  [main] 	there will be a security dialogue or things will break! So think 
+23:29:11  [main] 	about running this application with administrator rights!
+23:29:11  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+23:29:11  [main] 	Checking for prerequisites
+23:29:11  [main] 	All prerequisites found
+23:29:11  [main] 	Initializing Modules
+23:29:11  [Apache] 	XAMPP Apache is already running on port 80
+23:29:11  [Apache] 	XAMPP Apache is already running on port 443
+23:29:11  [mysql] 	XAMPP MySQL is already running on port 3306
+23:29:11  [main] 	The FileZilla module is disabled
+23:29:11  [main] 	The Mercury module is disabled
+23:29:11  [main] 	Starting Check-Timer
+23:29:11  [main] 	Control Panel Ready
+23:36:12  [Apache] 	Status change detected: stopped
+23:36:12  [Apache] 	Error: Apache shutdown unexpectedly.
+23:36:12  [Apache] 	This may be due to a blocked port, missing dependencies, 
+23:36:12  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+23:36:12  [Apache] 	Press the Logs button to view error logs and check
+23:36:12  [Apache] 	the Windows Event Viewer for more clues
+23:36:12  [Apache] 	If you need more help, copy and post this
+23:36:12  [Apache] 	entire log window on the forums
+23:36:13  [mysql] 	Status change detected: stopped
+23:36:13  [mysql] 	Error: MySQL shutdown unexpectedly.
+23:36:13  [mysql] 	This may be due to a blocked port, missing dependencies, 
+23:36:13  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+23:36:13  [mysql] 	Press the Logs button to view error logs and check
+23:36:13  [mysql] 	the Windows Event Viewer for more clues
+23:36:13  [mysql] 	If you need more help, copy and post this
+23:36:13  [mysql] 	entire log window on the forums
+23:36:14  [mysql] 	Status change detected: running
+23:36:15  [Apache] 	Status change detected: running
+23:38:23  [Apache] 	Status change detected: stopped
+23:38:23  [Apache] 	Error: Apache shutdown unexpectedly.
+23:38:23  [Apache] 	This may be due to a blocked port, missing dependencies, 
+23:38:23  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+23:38:23  [Apache] 	Press the Logs button to view error logs and check
+23:38:23  [Apache] 	the Windows Event Viewer for more clues
+23:38:23  [Apache] 	If you need more help, copy and post this
+23:38:23  [Apache] 	entire log window on the forums
+23:38:23  [mysql] 	Status change detected: stopped
+23:38:23  [mysql] 	Error: MySQL shutdown unexpectedly.
+23:38:23  [mysql] 	This may be due to a blocked port, missing dependencies, 
+23:38:23  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+23:38:23  [mysql] 	Press the Logs button to view error logs and check
+23:38:23  [mysql] 	the Windows Event Viewer for more clues
+23:38:23  [mysql] 	If you need more help, copy and post this
+23:38:23  [mysql] 	entire log window on the forums
+23:38:28  [main] 	Deinitializing Modules
+23:38:28  [main] 	Deinitializing Control Panel
+
+20:47:55  [main] 	Initializing Control Panel
+20:47:56  [main] 	Windows Version:  Enterprise  64-bit
+20:47:56  [main] 	XAMPP Version: 7.3.9
+20:47:56  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+20:47:56  [main] 	You are not running with administrator rights! This will work for
+20:47:56  [main] 	most application stuff but whenever you do something with services
+20:47:56  [main] 	there will be a security dialogue or things will break! So think 
+20:47:56  [main] 	about running this application with administrator rights!
+20:47:56  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+20:47:56  [main] 	Checking for prerequisites
+20:47:56  [main] 	All prerequisites found
+20:47:56  [main] 	Initializing Modules
+20:47:56  [main] 	The FileZilla module is disabled
+20:47:56  [main] 	The Mercury module is disabled
+20:47:56  [main] 	Starting Check-Timer
+20:47:56  [main] 	Control Panel Ready
+20:47:58  [Apache] 	Attempting to start Apache app...
+20:47:58  [Apache] 	Status change detected: running
+20:47:59  [mysql] 	Attempting to start MySQL app...
+20:47:59  [mysql] 	Status change detected: running
+23:15:00  [Apache] 	Attempting to stop Apache (PID: 9660)
+23:15:00  [Apache] 	Attempting to stop Apache (PID: 984)
+23:15:01  [Apache] 	Status change detected: stopped
+23:15:01  [mysql] 	Attempting to stop MySQL app...
+23:15:01  [mysql] 	Status change detected: stopped
+23:15:03  [main] 	Executing "services.msc"
+23:19:33  [Apache] 	Attempting to start Apache app...
+23:19:33  [Apache] 	Status change detected: running
+23:19:34  [mysql] 	Attempting to start MySQL app...
+23:19:35  [mysql] 	Status change detected: running
+23:36:12  [Apache] 	Status change detected: stopped
+23:36:12  [Apache] 	Error: Apache shutdown unexpectedly.
+23:36:12  [Apache] 	This may be due to a blocked port, missing dependencies, 
+23:36:12  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+23:36:12  [Apache] 	Press the Logs button to view error logs and check
+23:36:12  [Apache] 	the Windows Event Viewer for more clues
+23:36:12  [Apache] 	If you need more help, copy and post this
+23:36:12  [Apache] 	entire log window on the forums
+23:36:13  [mysql] 	Status change detected: stopped
+23:36:13  [mysql] 	Error: MySQL shutdown unexpectedly.
+23:36:13  [mysql] 	This may be due to a blocked port, missing dependencies, 
+23:36:13  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+23:36:13  [mysql] 	Press the Logs button to view error logs and check
+23:36:13  [mysql] 	the Windows Event Viewer for more clues
+23:36:13  [mysql] 	If you need more help, copy and post this
+23:36:13  [mysql] 	entire log window on the forums
+23:36:14  [mysql] 	Status change detected: running
+23:36:15  [Apache] 	Status change detected: running
+23:38:23  [Apache] 	Status change detected: stopped
+23:38:23  [Apache] 	Error: Apache shutdown unexpectedly.
+23:38:23  [Apache] 	This may be due to a blocked port, missing dependencies, 
+23:38:23  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+23:38:23  [Apache] 	Press the Logs button to view error logs and check
+23:38:23  [Apache] 	the Windows Event Viewer for more clues
+23:38:23  [Apache] 	If you need more help, copy and post this
+23:38:23  [Apache] 	entire log window on the forums
+23:38:23  [mysql] 	Status change detected: stopped
+23:38:23  [mysql] 	Error: MySQL shutdown unexpectedly.
+23:38:23  [mysql] 	This may be due to a blocked port, missing dependencies, 
+23:38:23  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+23:38:23  [mysql] 	Press the Logs button to view error logs and check
+23:38:23  [mysql] 	the Windows Event Viewer for more clues
+23:38:23  [mysql] 	If you need more help, copy and post this
+23:38:23  [mysql] 	entire log window on the forums
+23:38:29  [main] 	Deinitializing Modules
+23:38:29  [main] 	Deinitializing Control Panel
+
+23:38:44  [main] 	Initializing Control Panel
+23:38:44  [main] 	Windows Version:  Enterprise  64-bit
+23:38:44  [main] 	XAMPP Version: 7.3.9
+23:38:44  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+23:38:44  [main] 	You are not running with administrator rights! This will work for
+23:38:44  [main] 	most application stuff but whenever you do something with services
+23:38:44  [main] 	there will be a security dialogue or things will break! So think 
+23:38:44  [main] 	about running this application with administrator rights!
+23:38:44  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+23:38:44  [main] 	Checking for prerequisites
+23:38:44  [main] 	All prerequisites found
+23:38:44  [main] 	Initializing Modules
+23:38:44  [main] 	The FileZilla module is disabled
+23:38:44  [main] 	The Mercury module is disabled
+23:38:44  [main] 	Starting Check-Timer
+23:38:44  [main] 	Control Panel Ready
+23:38:46  [Apache] 	Attempting to start Apache app...
+23:38:46  [mysql] 	Attempting to start MySQL app...
+23:38:46  [Apache] 	Status change detected: running
+23:38:46  [mysql] 	Status change detected: running
+23:40:24  [Apache] 	Attempting to stop Apache (PID: 14024)
+23:40:24  [Apache] 	Attempting to stop Apache (PID: 13924)
+23:40:25  [mysql] 	Attempting to stop MySQL app...
+23:40:25  [Apache] 	Status change detected: stopped
+23:40:25  [mysql] 	Status change detected: stopped
+23:40:26  [mysql] 	Attempting to start MySQL app...
+23:40:26  [mysql] 	Status change detected: running
+23:40:26  [Apache] 	Attempting to start Apache app...
+23:40:27  [Apache] 	Status change detected: running
+23:43:10  [Apache] 	Attempting to stop Apache (PID: 3948)
+23:43:10  [Apache] 	Attempting to stop Apache (PID: 6416)
+23:43:10  [Apache] 	Status change detected: stopped
+23:43:11  [mysql] 	Attempting to stop MySQL app...
+23:43:11  [mysql] 	Status change detected: stopped
+23:43:12  [Apache] 	Attempting to start Apache app...
+23:43:12  [Apache] 	Status change detected: running
+23:43:12  [mysql] 	Attempting to start MySQL app...
+23:43:13  [mysql] 	Status change detected: running
+00:06:41  [Apache] 	Attempting to stop Apache (PID: 13924)
+00:06:41  [Apache] 	Attempting to stop Apache (PID: 10124)
+00:06:42  [Apache] 	Status change detected: stopped
+00:06:42  [mysql] 	Attempting to stop MySQL app...
+00:06:42  [mysql] 	Status change detected: stopped
+00:06:43  [Apache] 	Problem detected!
+00:06:43  [Apache] 	Port 80 in use by "Unable to get info" with PID 13924!
+00:06:43  [Apache] 	Apache WILL NOT start without the configured ports free!
+00:06:43  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+00:06:43  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+00:06:43  [Apache] 	Attempting to start Apache app...
+00:06:43  [Apache] 	Status change detected: running
+00:06:43  [mysql] 	Attempting to start MySQL app...
+00:06:43  [mysql] 	Status change detected: running
+00:07:04  [main] 	Deinitializing Modules
+00:07:04  [main] 	Deinitializing Control Panel
+
+00:06:57  [main] 	Initializing Control Panel
+00:06:57  [main] 	Windows Version:  Enterprise  64-bit
+00:06:57  [main] 	XAMPP Version: 7.3.9
+00:06:57  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+00:06:57  [main] 	You are not running with administrator rights! This will work for
+00:06:57  [main] 	most application stuff but whenever you do something with services
+00:06:57  [main] 	there will be a security dialogue or things will break! So think 
+00:06:57  [main] 	about running this application with administrator rights!
+00:06:57  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+00:06:57  [main] 	Checking for prerequisites
+00:06:57  [main] 	All prerequisites found
+00:06:57  [main] 	Initializing Modules
+00:06:57  [Apache] 	XAMPP Apache is already running on port 80
+00:06:57  [Apache] 	XAMPP Apache is already running on port 443
+00:06:57  [mysql] 	XAMPP MySQL is already running on port 3306
+00:06:57  [main] 	The FileZilla module is disabled
+00:06:57  [main] 	The Mercury module is disabled
+00:06:57  [main] 	Starting Check-Timer
+00:06:57  [main] 	Control Panel Ready
+01:00:03  [Apache] 	Attempting to stop Apache (PID: 896)
+01:00:03  [Apache] 	Attempting to stop Apache (PID: 10352)
+01:00:04  [Apache] 	Status change detected: stopped
+01:00:04  [mysql] 	Attempting to stop MySQL app...
+01:00:04  [mysql] 	Status change detected: stopped
+01:00:14  [main] 	Deinitializing Modules
+01:00:14  [main] 	Deinitializing Control Panel
+
+09:18:29  [main] 	Initializing Control Panel
+09:18:29  [main] 	Windows Version:  Enterprise  64-bit
+09:18:29  [main] 	XAMPP Version: 7.3.9
+09:18:29  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:18:29  [main] 	You are not running with administrator rights! This will work for
+09:18:29  [main] 	most application stuff but whenever you do something with services
+09:18:29  [main] 	there will be a security dialogue or things will break! So think 
+09:18:29  [main] 	about running this application with administrator rights!
+09:18:29  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+09:18:29  [main] 	Checking for prerequisites
+09:18:29  [main] 	All prerequisites found
+09:18:29  [main] 	Initializing Modules
+09:18:29  [main] 	The FileZilla module is disabled
+09:18:29  [main] 	The Mercury module is disabled
+09:18:29  [main] 	Starting Check-Timer
+09:18:29  [main] 	Control Panel Ready
+09:18:30  [Apache] 	Attempting to start Apache app...
+09:18:30  [Apache] 	Status change detected: running
+09:18:31  [mysql] 	Attempting to start MySQL app...
+09:18:31  [mysql] 	Status change detected: running
+09:39:32  [main] 	Deinitializing Modules
+09:39:32  [main] 	Deinitializing Control Panel
+
+09:39:27  [main] 	Initializing Control Panel
+09:39:27  [main] 	Windows Version:  Enterprise  64-bit
+09:39:27  [main] 	XAMPP Version: 7.3.9
+09:39:27  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:39:27  [main] 	You are not running with administrator rights! This will work for
+09:39:27  [main] 	most application stuff but whenever you do something with services
+09:39:27  [main] 	there will be a security dialogue or things will break! So think 
+09:39:27  [main] 	about running this application with administrator rights!
+09:39:27  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+09:39:27  [main] 	Checking for prerequisites
+09:39:27  [main] 	All prerequisites found
+09:39:27  [main] 	Initializing Modules
+09:39:28  [Apache] 	XAMPP Apache is already running on port 80
+09:39:28  [Apache] 	XAMPP Apache is already running on port 443
+09:39:28  [mysql] 	XAMPP MySQL is already running on port 3306
+09:39:28  [main] 	The FileZilla module is disabled
+09:39:28  [main] 	The Mercury module is disabled
+09:39:28  [main] 	Starting Check-Timer
+09:39:28  [main] 	Control Panel Ready
+19:20:56  [mysql] 	Attempting to stop MySQL app...
+19:20:56  [mysql] 	Status change detected: stopped
+19:20:56  [Apache] 	Attempting to stop Apache (PID: 6740)
+19:20:56  [Apache] 	Attempting to stop Apache (PID: 11044)
+19:20:56  [Apache] 	Status change detected: stopped
+19:20:57  [mysql] 	Attempting to start MySQL app...
+19:20:57  [mysql] 	Status change detected: running
+19:20:57  [Apache] 	Attempting to start Apache app...
+19:20:57  [Apache] 	Status change detected: running
+21:04:35  [main] 	Deinitializing Modules
+21:04:35  [main] 	Deinitializing Control Panel
+
+23:34:21  [main] 	Initializing Control Panel
+23:34:21  [main] 	Windows Version:  Enterprise  64-bit
+23:34:21  [main] 	XAMPP Version: 7.3.9
+23:34:21  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+23:34:21  [main] 	You are not running with administrator rights! This will work for
+23:34:21  [main] 	most application stuff but whenever you do something with services
+23:34:21  [main] 	there will be a security dialogue or things will break! So think 
+23:34:21  [main] 	about running this application with administrator rights!
+23:34:21  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+23:34:21  [main] 	Checking for prerequisites
+23:34:21  [main] 	All prerequisites found
+23:34:21  [main] 	Initializing Modules
+23:34:21  [Apache] 	XAMPP Apache is already running on port 80
+23:34:21  [Apache] 	XAMPP Apache is already running on port 443
+23:34:22  [mysql] 	XAMPP MySQL is already running on port 3306
+23:34:22  [main] 	The FileZilla module is disabled
+23:34:22  [main] 	The Mercury module is disabled
+23:34:22  [main] 	Starting Check-Timer
+23:34:22  [main] 	Control Panel Ready
+23:34:24  [Apache] 	Attempting to stop Apache (PID: 8164)
+23:34:24  [Apache] 	Attempting to stop Apache (PID: 14256)
+23:34:24  [Apache] 	Attempting to stop Apache (PID: 8164)
+23:34:24  [Apache] 	Problem killing PID 8164
+23:34:24  [Apache] 	Check that you have the proper privileges
+23:34:24  [Apache] 	Attempting to stop Apache (PID: 14256)
+23:34:24  [Apache] 	Problem killing PID 14256
+23:34:24  [Apache] 	Check that you have the proper privileges
+23:34:25  [Apache] 	Status change detected: stopped
+23:34:25  [Apache] 	Attempting to start Apache app...
+23:34:26  [Apache] 	Status change detected: running
+00:28:53  [main] 	Deinitializing Modules
+00:28:53  [main] 	Deinitializing Control Panel
+
+08:51:55  [main] 	Initializing Control Panel
+08:51:55  [main] 	Windows Version:  Enterprise  64-bit
+08:51:55  [main] 	XAMPP Version: 7.3.9
+08:51:55  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:51:55  [main] 	You are not running with administrator rights! This will work for
+08:51:55  [main] 	most application stuff but whenever you do something with services
+08:51:55  [main] 	there will be a security dialogue or things will break! So think 
+08:51:55  [main] 	about running this application with administrator rights!
+08:51:55  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+08:51:55  [main] 	Checking for prerequisites
+08:51:55  [main] 	All prerequisites found
+08:51:55  [main] 	Initializing Modules
+08:51:55  [main] 	The FileZilla module is disabled
+08:51:55  [main] 	The Mercury module is disabled
+08:51:55  [main] 	Starting Check-Timer
+08:51:55  [main] 	Control Panel Ready
+08:51:58  [Apache] 	Attempting to start Apache app...
+08:51:58  [Apache] 	Status change detected: running
+08:51:59  [mysql] 	Attempting to start MySQL app...
+08:51:59  [mysql] 	Status change detected: running
+18:13:43  [main] 	Deinitializing Modules
+18:13:43  [main] 	Deinitializing Control Panel
+
+18:47:45  [main] 	Initializing Control Panel
+18:47:45  [main] 	Windows Version:  Enterprise  64-bit
+18:47:45  [main] 	XAMPP Version: 7.3.9
+18:47:45  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+18:47:45  [main] 	You are not running with administrator rights! This will work for
+18:47:45  [main] 	most application stuff but whenever you do something with services
+18:47:45  [main] 	there will be a security dialogue or things will break! So think 
+18:47:45  [main] 	about running this application with administrator rights!
+18:47:45  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+18:47:45  [main] 	Checking for prerequisites
+18:47:47  [main] 	All prerequisites found
+18:47:47  [main] 	Initializing Modules
+18:47:47  [main] 	The FileZilla module is disabled
+18:47:47  [main] 	The Mercury module is disabled
+18:47:47  [main] 	Starting Check-Timer
+18:47:47  [main] 	Control Panel Ready
+18:47:49  [Apache] 	Attempting to start Apache app...
+18:47:49  [mysql] 	Attempting to start MySQL app...
+18:47:49  [Apache] 	Status change detected: running
+18:47:49  [mysql] 	Status change detected: running
+21:10:40  [mysql] 	Attempting to stop MySQL app...
+21:10:40  [mysql] 	Status change detected: stopped
+21:10:42  [mysql] 	Attempting to start MySQL app...
+21:10:42  [mysql] 	Status change detected: running
+00:57:03  [main] 	Deinitializing Modules
+00:57:03  [main] 	Deinitializing Control Panel
+
+08:43:59  [main] 	Initializing Control Panel
+08:43:59  [main] 	Windows Version:  Enterprise  64-bit
+08:44:00  [main] 	XAMPP Version: 7.3.9
+08:44:00  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:44:00  [main] 	You are not running with administrator rights! This will work for
+08:44:00  [main] 	most application stuff but whenever you do something with services
+08:44:00  [main] 	there will be a security dialogue or things will break! So think 
+08:44:00  [main] 	about running this application with administrator rights!
+08:44:00  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+08:44:00  [main] 	Checking for prerequisites
+08:44:00  [main] 	All prerequisites found
+08:44:00  [main] 	Initializing Modules
+08:44:00  [main] 	The FileZilla module is disabled
+08:44:00  [main] 	The Mercury module is disabled
+08:44:00  [main] 	Starting Check-Timer
+08:44:00  [main] 	Control Panel Ready
+08:44:02  [Apache] 	Attempting to start Apache app...
+08:44:02  [Apache] 	Status change detected: running
+08:44:02  [mysql] 	Attempting to start MySQL app...
+08:44:03  [mysql] 	Status change detected: running
+00:48:33  [main] 	Deinitializing Modules
+00:48:33  [main] 	Deinitializing Control Panel
+
+08:46:22  [main] 	Initializing Control Panel
+08:46:22  [main] 	Windows Version:  Enterprise  64-bit
+08:46:22  [main] 	XAMPP Version: 7.3.9
+08:46:22  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:46:22  [main] 	You are not running with administrator rights! This will work for
+08:46:22  [main] 	most application stuff but whenever you do something with services
+08:46:22  [main] 	there will be a security dialogue or things will break! So think 
+08:46:22  [main] 	about running this application with administrator rights!
+08:46:22  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+08:46:22  [main] 	Checking for prerequisites
+08:46:23  [main] 	All prerequisites found
+08:46:23  [main] 	Initializing Modules
+08:46:23  [main] 	The FileZilla module is disabled
+08:46:23  [main] 	The Mercury module is disabled
+08:46:23  [main] 	Starting Check-Timer
+08:46:23  [main] 	Control Panel Ready
+08:46:27  [Apache] 	Attempting to start Apache app...
+08:46:28  [Apache] 	Status change detected: running
+08:46:28  [mysql] 	Attempting to start MySQL app...
+08:46:28  [mysql] 	Status change detected: running
+18:28:01  [mysql] 	Attempting to stop MySQL app...
+18:28:01  [Apache] 	Attempting to stop Apache (PID: 10556)
+18:28:01  [Apache] 	Attempting to stop Apache (PID: 2700)
+18:28:01  [Apache] 	Status change detected: stopped
+18:28:01  [mysql] 	Status change detected: stopped
+19:56:29  [Apache] 	Status change detected: running
+19:56:32  [main] 	Deinitializing Modules
+19:56:32  [main] 	Deinitializing Control Panel
+
+19:56:27  [main] 	Initializing Control Panel
+19:56:27  [main] 	Windows Version:  Enterprise  64-bit
+19:56:27  [main] 	XAMPP Version: 7.3.9
+19:56:27  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+19:56:27  [main] 	You are not running with administrator rights! This will work for
+19:56:27  [main] 	most application stuff but whenever you do something with services
+19:56:27  [main] 	there will be a security dialogue or things will break! So think 
+19:56:27  [main] 	about running this application with administrator rights!
+19:56:27  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+19:56:27  [main] 	Checking for prerequisites
+19:56:27  [main] 	All prerequisites found
+19:56:27  [main] 	Initializing Modules
+19:56:27  [main] 	The FileZilla module is disabled
+19:56:27  [main] 	The Mercury module is disabled
+19:56:27  [main] 	Starting Check-Timer
+19:56:27  [main] 	Control Panel Ready
+19:56:29  [Apache] 	Attempting to start Apache app...
+19:56:29  [Apache] 	Status change detected: running
+19:56:34  [mysql] 	Attempting to start MySQL app...
+19:56:34  [mysql] 	Status change detected: running
+00:13:24  [main] 	Deinitializing Modules
+00:13:24  [main] 	Deinitializing Control Panel
+
+08:53:38  [main] 	Initializing Control Panel
+08:53:38  [main] 	Windows Version:  Enterprise  64-bit
+08:53:38  [main] 	XAMPP Version: 7.3.9
+08:53:38  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:53:38  [main] 	You are not running with administrator rights! This will work for
+08:53:38  [main] 	most application stuff but whenever you do something with services
+08:53:38  [main] 	there will be a security dialogue or things will break! So think 
+08:53:38  [main] 	about running this application with administrator rights!
+08:53:38  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+08:53:38  [main] 	Checking for prerequisites
+08:53:38  [main] 	All prerequisites found
+08:53:38  [main] 	Initializing Modules
+08:53:38  [main] 	The FileZilla module is disabled
+08:53:38  [main] 	The Mercury module is disabled
+08:53:38  [main] 	Starting Check-Timer
+08:53:38  [main] 	Control Panel Ready
+08:53:40  [Apache] 	Attempting to start Apache app...
+08:53:40  [Apache] 	Status change detected: running
+08:53:40  [mysql] 	Attempting to start MySQL app...
+08:53:40  [mysql] 	Status change detected: running
+18:38:33  [main] 	Deinitializing Modules
+18:38:33  [main] 	Deinitializing Control Panel
+
+20:49:52  [main] 	Initializing Control Panel
+20:49:52  [main] 	Windows Version:  Enterprise  64-bit
+20:49:53  [main] 	XAMPP Version: 7.3.9
+20:49:53  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+20:49:53  [main] 	You are not running with administrator rights! This will work for
+20:49:53  [main] 	most application stuff but whenever you do something with services
+20:49:53  [main] 	there will be a security dialogue or things will break! So think 
+20:49:53  [main] 	about running this application with administrator rights!
+20:49:53  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+20:49:53  [main] 	Checking for prerequisites
+20:49:53  [main] 	All prerequisites found
+20:49:53  [main] 	Initializing Modules
+20:49:53  [Apache] 	XAMPP Apache is already running on port 80
+20:49:53  [Apache] 	XAMPP Apache is already running on port 443
+20:49:53  [mysql] 	XAMPP MySQL is already running on port 3306
+20:49:53  [main] 	The FileZilla module is disabled
+20:49:53  [main] 	The Mercury module is disabled
+20:49:53  [main] 	Starting Check-Timer
+20:49:53  [main] 	Control Panel Ready
+20:49:57  [main] 	Deinitializing Modules
+20:49:57  [main] 	Deinitializing Control Panel
+
+20:49:59  [main] 	Initializing Control Panel
+20:49:59  [main] 	Windows Version:  Enterprise  64-bit
+20:49:59  [main] 	XAMPP Version: 7.3.9
+20:49:59  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+20:49:59  [main] 	You are not running with administrator rights! This will work for
+20:49:59  [main] 	most application stuff but whenever you do something with services
+20:49:59  [main] 	there will be a security dialogue or things will break! So think 
+20:49:59  [main] 	about running this application with administrator rights!
+20:49:59  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+20:49:59  [main] 	Checking for prerequisites
+20:50:00  [main] 	All prerequisites found
+20:50:00  [main] 	Initializing Modules
+20:50:00  [Apache] 	XAMPP Apache is already running on port 80
+20:50:00  [Apache] 	XAMPP Apache is already running on port 443
+20:50:00  [mysql] 	XAMPP MySQL is already running on port 3306
+20:50:00  [main] 	The FileZilla module is disabled
+20:50:00  [main] 	The Mercury module is disabled
+20:50:00  [main] 	Starting Check-Timer
+20:50:00  [main] 	Control Panel Ready
+00:19:16  [main] 	Deinitializing Modules
+00:19:16  [main] 	Deinitializing Control Panel
+
+11:08:35  [main] 	Initializing Control Panel
+11:08:35  [main] 	Windows Version:  Enterprise  64-bit
+11:08:35  [main] 	XAMPP Version: 7.3.9
+11:08:35  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:08:35  [main] 	You are not running with administrator rights! This will work for
+11:08:35  [main] 	most application stuff but whenever you do something with services
+11:08:35  [main] 	there will be a security dialogue or things will break! So think 
+11:08:35  [main] 	about running this application with administrator rights!
+11:08:35  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+11:08:35  [main] 	Checking for prerequisites
+11:08:35  [main] 	All prerequisites found
+11:08:35  [main] 	Initializing Modules
+11:08:35  [Apache] 	XAMPP Apache is already running on port 80
+11:08:35  [Apache] 	XAMPP Apache is already running on port 443
+11:08:35  [main] 	The FileZilla module is disabled
+11:08:35  [main] 	The Mercury module is disabled
+11:08:35  [main] 	Starting Check-Timer
+11:08:35  [main] 	Control Panel Ready
+11:08:44  [main] 	Deinitializing Modules
+11:08:44  [main] 	Deinitializing Control Panel
+
+16:14:47  [main] 	Initializing Control Panel
+16:14:47  [main] 	Windows Version:  Enterprise  64-bit
+16:14:47  [main] 	XAMPP Version: 7.3.9
+16:14:47  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+16:14:47  [main] 	You are not running with administrator rights! This will work for
+16:14:47  [main] 	most application stuff but whenever you do something with services
+16:14:47  [main] 	there will be a security dialogue or things will break! So think 
+16:14:47  [main] 	about running this application with administrator rights!
+16:14:47  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+16:14:47  [main] 	Checking for prerequisites
+16:14:47  [main] 	All prerequisites found
+16:14:47  [main] 	Initializing Modules
+16:14:47  [main] 	The FileZilla module is disabled
+16:14:47  [main] 	The Mercury module is disabled
+16:14:47  [main] 	Starting Check-Timer
+16:14:47  [main] 	Control Panel Ready
+16:14:49  [Apache] 	Attempting to start Apache app...
+16:14:49  [Apache] 	Status change detected: running
+16:14:50  [mysql] 	Attempting to start MySQL app...
+16:14:50  [mysql] 	Status change detected: running
+23:44:52  [main] 	Deinitializing Modules
+23:44:52  [main] 	Deinitializing Control Panel
+
+08:47:30  [main] 	Initializing Control Panel
+08:47:30  [main] 	Windows Version:  Enterprise  64-bit
+08:47:30  [main] 	XAMPP Version: 7.3.9
+08:47:30  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:47:30  [main] 	You are not running with administrator rights! This will work for
+08:47:30  [main] 	most application stuff but whenever you do something with services
+08:47:30  [main] 	there will be a security dialogue or things will break! So think 
+08:47:30  [main] 	about running this application with administrator rights!
+08:47:30  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+08:47:30  [main] 	Checking for prerequisites
+08:47:30  [main] 	All prerequisites found
+08:47:30  [main] 	Initializing Modules
+08:47:30  [main] 	The FileZilla module is disabled
+08:47:30  [main] 	The Mercury module is disabled
+08:47:30  [main] 	Starting Check-Timer
+08:47:30  [main] 	Control Panel Ready
+08:47:32  [Apache] 	Attempting to start Apache app...
+08:47:32  [mysql] 	Attempting to start MySQL app...
+08:47:32  [Apache] 	Status change detected: running
+08:47:32  [mysql] 	Status change detected: running
+23:05:29  [main] 	Deinitializing Modules
+23:05:29  [main] 	Deinitializing Control Panel
+
+08:38:27  [main] 	Initializing Control Panel
+08:38:27  [main] 	Windows Version:  Enterprise  64-bit
+08:38:27  [main] 	XAMPP Version: 7.3.9
+08:38:27  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:38:27  [main] 	You are not running with administrator rights! This will work for
+08:38:27  [main] 	most application stuff but whenever you do something with services
+08:38:27  [main] 	there will be a security dialogue or things will break! So think 
+08:38:27  [main] 	about running this application with administrator rights!
+08:38:27  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+08:38:27  [main] 	Checking for prerequisites
+08:38:27  [main] 	All prerequisites found
+08:38:27  [main] 	Initializing Modules
+08:38:27  [main] 	The FileZilla module is disabled
+08:38:27  [main] 	The Mercury module is disabled
+08:38:27  [main] 	Starting Check-Timer
+08:38:27  [main] 	Control Panel Ready
+08:38:30  [Apache] 	Attempting to start Apache app...
+08:38:31  [Apache] 	Status change detected: running
+08:38:31  [mysql] 	Attempting to start MySQL app...
+08:38:31  [mysql] 	Status change detected: running
+22:28:20  [main] 	Deinitializing Modules
+22:28:20  [main] 	Deinitializing Control Panel
+
+08:40:24  [main] 	Initializing Control Panel
+08:40:24  [main] 	Windows Version:  Enterprise  64-bit
+08:40:24  [main] 	XAMPP Version: 7.3.9
+08:40:24  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:40:24  [main] 	You are not running with administrator rights! This will work for
+08:40:24  [main] 	most application stuff but whenever you do something with services
+08:40:24  [main] 	there will be a security dialogue or things will break! So think 
+08:40:24  [main] 	about running this application with administrator rights!
+08:40:24  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+08:40:24  [main] 	Checking for prerequisites
+08:40:28  [main] 	All prerequisites found
+08:40:28  [main] 	Initializing Modules
+08:40:28  [main] 	The FileZilla module is disabled
+08:40:28  [main] 	The Mercury module is disabled
+08:40:28  [main] 	Starting Check-Timer
+08:40:28  [main] 	Control Panel Ready
+08:40:38  [Apache] 	Attempting to start Apache app...
+08:40:38  [Apache] 	Status change detected: running
+08:40:38  [mysql] 	Attempting to start MySQL app...
+08:40:39  [mysql] 	Status change detected: running
+08:44:13  [mysql] 	Attempting to stop MySQL app...
+08:44:14  [mysql] 	Status change detected: stopped
+08:44:14  [Apache] 	Attempting to stop Apache (PID: 5632)
+08:44:14  [Apache] 	Attempting to stop Apache (PID: 7064)
+08:44:14  [Apache] 	Status change detected: stopped
+13:45:10  [Apache] 	Attempting to start Apache app...
+13:45:10  [Apache] 	Status change detected: running
+13:45:11  [Apache] 	Attempting to stop Apache (PID: 12204)
+13:45:11  [Apache] 	Status change detected: stopped
+13:45:12  [Apache] 	Attempting to start Apache app...
+13:45:12  [Apache] 	Status change detected: running
+13:45:12  [mysql] 	Attempting to start MySQL app...
+13:45:12  [mysql] 	Status change detected: running
+13:46:40  [mysql] 	Status change detected: stopped
+13:46:40  [mysql] 	Error: MySQL shutdown unexpectedly.
+13:46:40  [mysql] 	This may be due to a blocked port, missing dependencies, 
+13:46:40  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+13:46:40  [mysql] 	Press the Logs button to view error logs and check
+13:46:40  [mysql] 	the Windows Event Viewer for more clues
+13:46:40  [mysql] 	If you need more help, copy and post this
+13:46:40  [mysql] 	entire log window on the forums
+18:39:18  [mysql] 	Attempting to start MySQL app...
+18:39:18  [mysql] 	Status change detected: running
+23:08:03  [main] 	Deinitializing Modules
+23:08:03  [main] 	Deinitializing Control Panel
+
+08:35:59  [main] 	Initializing Control Panel
+08:35:59  [main] 	Windows Version:  Enterprise  64-bit
+08:35:59  [main] 	XAMPP Version: 7.3.9
+08:35:59  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:35:59  [main] 	You are not running with administrator rights! This will work for
+08:35:59  [main] 	most application stuff but whenever you do something with services
+08:35:59  [main] 	there will be a security dialogue or things will break! So think 
+08:35:59  [main] 	about running this application with administrator rights!
+08:35:59  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+08:35:59  [main] 	Checking for prerequisites
+08:36:00  [main] 	All prerequisites found
+08:36:00  [main] 	Initializing Modules
+08:36:00  [main] 	The FileZilla module is disabled
+08:36:00  [main] 	The Mercury module is disabled
+08:36:00  [main] 	Starting Check-Timer
+08:36:00  [main] 	Control Panel Ready
+08:36:01  [Apache] 	Attempting to start Apache app...
+08:36:01  [Apache] 	Status change detected: running
+08:36:02  [mysql] 	Attempting to start MySQL app...
+08:36:02  [mysql] 	Status change detected: running
+22:56:04  [main] 	Deinitializing Modules
+22:56:04  [main] 	Deinitializing Control Panel
+
+08:49:26  [main] 	Initializing Control Panel
+08:49:26  [main] 	Windows Version:  Enterprise  64-bit
+08:49:26  [main] 	XAMPP Version: 7.3.9
+08:49:26  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:49:26  [main] 	You are not running with administrator rights! This will work for
+08:49:26  [main] 	most application stuff but whenever you do something with services
+08:49:26  [main] 	there will be a security dialogue or things will break! So think 
+08:49:26  [main] 	about running this application with administrator rights!
+08:49:26  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+08:49:26  [main] 	Checking for prerequisites
+08:49:26  [main] 	All prerequisites found
+08:49:26  [main] 	Initializing Modules
+08:49:26  [main] 	The FileZilla module is disabled
+08:49:26  [main] 	The Mercury module is disabled
+08:49:26  [main] 	Starting Check-Timer
+08:49:26  [main] 	Control Panel Ready
+08:49:28  [Apache] 	Attempting to start Apache app...
+08:49:28  [Apache] 	Status change detected: running
+08:49:28  [mysql] 	Attempting to start MySQL app...
+08:49:29  [mysql] 	Status change detected: running
+22:16:20  [main] 	Deinitializing Modules
+22:16:20  [main] 	Deinitializing Control Panel
+
+08:27:18  [main] 	Initializing Control Panel
+08:27:18  [main] 	Windows Version:  Enterprise  64-bit
+08:27:18  [main] 	XAMPP Version: 7.3.9
+08:27:18  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:27:18  [main] 	You are not running with administrator rights! This will work for
+08:27:18  [main] 	most application stuff but whenever you do something with services
+08:27:18  [main] 	there will be a security dialogue or things will break! So think 
+08:27:18  [main] 	about running this application with administrator rights!
+08:27:18  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+08:27:18  [main] 	Checking for prerequisites
+08:27:19  [main] 	All prerequisites found
+08:27:19  [main] 	Initializing Modules
+08:27:19  [main] 	The FileZilla module is disabled
+08:27:19  [main] 	The Mercury module is disabled
+08:27:19  [main] 	Starting Check-Timer
+08:27:19  [main] 	Control Panel Ready
+08:27:26  [Apache] 	Attempting to start Apache app...
+08:27:26  [Apache] 	Status change detected: running
+08:27:26  [mysql] 	Attempting to start MySQL app...
+08:27:26  [mysql] 	Status change detected: running
+15:27:03  [Apache] 	Attempting to stop Apache (PID: 7920)
+15:27:03  [Apache] 	Attempting to stop Apache (PID: 2060)
+15:27:03  [Apache] 	Status change detected: stopped
+15:27:03  [mysql] 	Attempting to stop MySQL app...
+15:27:04  [mysql] 	Status change detected: stopped
+15:27:12  [main] 	Deinitializing Modules
+15:27:12  [main] 	Deinitializing Control Panel
+
+10:34:28  [main] 	Initializing Control Panel
+10:34:28  [main] 	Windows Version:  Enterprise  64-bit
+10:34:28  [main] 	XAMPP Version: 7.3.9
+10:34:28  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:34:28  [main] 	You are not running with administrator rights! This will work for
+10:34:28  [main] 	most application stuff but whenever you do something with services
+10:34:28  [main] 	there will be a security dialogue or things will break! So think 
+10:34:28  [main] 	about running this application with administrator rights!
+10:34:28  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+10:34:28  [main] 	Checking for prerequisites
+10:34:28  [main] 	All prerequisites found
+10:34:28  [main] 	Initializing Modules
+10:34:28  [main] 	The FileZilla module is disabled
+10:34:28  [main] 	The Mercury module is disabled
+10:34:28  [main] 	Starting Check-Timer
+10:34:28  [main] 	Control Panel Ready
+10:34:30  [Apache] 	Attempting to start Apache app...
+10:34:30  [Apache] 	Status change detected: running
+10:34:31  [mysql] 	Attempting to start MySQL app...
+10:34:31  [mysql] 	Status change detected: running
+10:46:49  [Apache] 	Attempting to stop Apache (PID: 9612)
+10:46:49  [Apache] 	Attempting to stop Apache (PID: 7560)
+10:46:49  [Apache] 	Status change detected: stopped
+10:46:50  [Apache] 	Attempting to start Apache app...
+10:46:50  [Apache] 	Status change detected: running
+00:30:55  [main] 	Deinitializing Modules
+00:30:55  [main] 	Deinitializing Control Panel
+
+10:27:53  [main] 	Initializing Control Panel
+10:27:53  [main] 	Windows Version:  Enterprise  64-bit
+10:27:53  [main] 	XAMPP Version: 7.3.9
+10:27:53  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:27:53  [main] 	You are not running with administrator rights! This will work for
+10:27:53  [main] 	most application stuff but whenever you do something with services
+10:27:53  [main] 	there will be a security dialogue or things will break! So think 
+10:27:53  [main] 	about running this application with administrator rights!
+10:27:53  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+10:27:53  [main] 	Checking for prerequisites
+10:27:53  [main] 	All prerequisites found
+10:27:53  [main] 	Initializing Modules
+10:27:53  [main] 	The FileZilla module is disabled
+10:27:53  [main] 	The Mercury module is disabled
+10:27:53  [main] 	Starting Check-Timer
+10:27:53  [main] 	Control Panel Ready
+10:27:55  [Apache] 	Attempting to start Apache app...
+10:27:55  [Apache] 	Status change detected: running
+10:27:56  [mysql] 	Attempting to start MySQL app...
+10:27:56  [mysql] 	Status change detected: running
+18:30:47  [main] 	Deinitializing Modules
+18:30:47  [main] 	Deinitializing Control Panel
+
+11:28:41  [main] 	Initializing Control Panel
+11:28:41  [main] 	Windows Version:  Enterprise  64-bit
+11:28:41  [main] 	XAMPP Version: 7.3.9
+11:28:41  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:28:41  [main] 	You are not running with administrator rights! This will work for
+11:28:41  [main] 	most application stuff but whenever you do something with services
+11:28:41  [main] 	there will be a security dialogue or things will break! So think 
+11:28:41  [main] 	about running this application with administrator rights!
+11:28:41  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+11:28:41  [main] 	Checking for prerequisites
+11:28:42  [main] 	All prerequisites found
+11:28:42  [main] 	Initializing Modules
+11:28:42  [main] 	The FileZilla module is disabled
+11:28:42  [main] 	The Mercury module is disabled
+11:28:42  [main] 	Starting Check-Timer
+11:28:42  [main] 	Control Panel Ready
+11:28:45  [Apache] 	Attempting to start Apache app...
+11:28:45  [Apache] 	Status change detected: running
+11:28:45  [mysql] 	Attempting to start MySQL app...
+11:28:45  [mysql] 	Status change detected: running
+11:55:24  [main] 	Deinitializing Modules
+11:55:24  [main] 	Deinitializing Control Panel
+
+19:13:10  [main] 	Initializing Control Panel
+19:13:10  [main] 	Windows Version:  Enterprise  64-bit
+19:13:10  [main] 	XAMPP Version: 7.3.9
+19:13:10  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+19:13:10  [main] 	You are not running with administrator rights! This will work for
+19:13:10  [main] 	most application stuff but whenever you do something with services
+19:13:10  [main] 	there will be a security dialogue or things will break! So think 
+19:13:10  [main] 	about running this application with administrator rights!
+19:13:10  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+19:13:10  [main] 	Checking for prerequisites
+19:13:10  [main] 	All prerequisites found
+19:13:10  [main] 	Initializing Modules
+19:13:10  [main] 	The FileZilla module is disabled
+19:13:10  [main] 	The Mercury module is disabled
+19:13:10  [main] 	Starting Check-Timer
+19:13:10  [main] 	Control Panel Ready
+19:13:11  [Apache] 	Attempting to start Apache app...
+19:13:12  [Apache] 	Status change detected: running
+19:13:12  [mysql] 	Attempting to start MySQL app...
+19:13:12  [mysql] 	Status change detected: running
+20:13:31  [mysql] 	Attempting to stop MySQL app...
+20:13:32  [mysql] 	Status change detected: stopped
+20:13:32  [Apache] 	Attempting to stop Apache (PID: 3388)
+20:13:32  [Apache] 	Attempting to stop Apache (PID: 8444)
+20:13:32  [Apache] 	Status change detected: stopped
+23:09:20  [main] 	Deinitializing Modules
+23:09:20  [main] 	Deinitializing Control Panel
+
+23:47:55  [main] 	Initializing Control Panel
+23:47:55  [main] 	Windows Version:  Enterprise  64-bit
+23:47:55  [main] 	XAMPP Version: 7.3.9
+23:47:55  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+23:47:55  [main] 	You are not running with administrator rights! This will work for
+23:47:55  [main] 	most application stuff but whenever you do something with services
+23:47:55  [main] 	there will be a security dialogue or things will break! So think 
+23:47:55  [main] 	about running this application with administrator rights!
+23:47:55  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+23:47:55  [main] 	Checking for prerequisites
+23:47:55  [main] 	All prerequisites found
+23:47:55  [main] 	Initializing Modules
+23:47:55  [main] 	The FileZilla module is disabled
+23:47:55  [main] 	The Mercury module is disabled
+23:47:55  [main] 	Starting Check-Timer
+23:47:55  [main] 	Control Panel Ready
+23:47:56  [Apache] 	Attempting to start Apache app...
+23:47:57  [Apache] 	Status change detected: running
+23:47:57  [mysql] 	Attempting to start MySQL app...
+23:47:57  [mysql] 	Status change detected: running
+23:50:19  [main] 	Deinitializing Modules
+23:50:19  [main] 	Deinitializing Control Panel
+
+14:04:54  [main] 	Initializing Control Panel
+14:04:54  [main] 	Windows Version:  Enterprise  64-bit
+14:04:54  [main] 	XAMPP Version: 7.3.9
+14:04:54  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+14:04:54  [main] 	You are not running with administrator rights! This will work for
+14:04:54  [main] 	most application stuff but whenever you do something with services
+14:04:54  [main] 	there will be a security dialogue or things will break! So think 
+14:04:54  [main] 	about running this application with administrator rights!
+14:04:54  [main] 	XAMPP Installation Directory: "c:\users\jorou\downloads\teraonlineserver_shock_1732\web\"
+14:04:54  [main] 	Checking for prerequisites
+14:04:54  [main] 	All prerequisites found
+14:04:54  [main] 	Initializing Modules
+14:04:54  [main] 	The FileZilla module is disabled
+14:04:54  [main] 	The Mercury module is disabled
+14:04:54  [main] 	Starting Check-Timer
+14:04:54  [main] 	Control Panel Ready
+14:04:56  [Apache] 	Attempting to start Apache app...
+14:04:56  [Apache] 	Status change detected: running
+14:04:57  [mysql] 	Attempting to start MySQL app...
+14:04:57  [mysql] 	Status change detected: running
+14:38:57  [Apache] 	Attempting to stop Apache (PID: 10284)
+14:38:57  [Apache] 	Attempting to stop Apache (PID: 11120)
+14:38:58  [Apache] 	Status change detected: stopped
+14:38:58  [mysql] 	Attempting to stop MySQL app...
+14:38:58  [mysql] 	Status change detected: stopped
+14:39:04  [main] 	Deinitializing Modules
+14:39:04  [main] 	Deinitializing Control Panel
+

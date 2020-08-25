@@ -1,0 +1,222 @@
+INFO 21:51:40:324 ServerControl: open server socket on 2101 port.
+INFO 21:51:40:330 ExecutorManager: initialized.
+INFO 21:51:40:678 CleaningManager: delete 10 reuses from a character_skill_reuses.
+INFO 21:51:40:679 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 21:51:40:680 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 21:51:40:681 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 21:51:40:681 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 21:51:40:682 CleaningManager: delete 0 skills from a character_skills.
+INFO 21:51:40:682 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 21:51:40:684 CleaningManager: delete 0 chars from a character_friends.
+INFO 21:51:40:685 CleaningManager: delete 0 friends from a character_friends.
+INFO 21:51:40:685 CleaningManager: delete 0 settings from a character_settings.
+INFO 21:51:40:686 CleaningManager: delete 1 empty items from a items.
+INFO 21:51:40:687 CleaningManager: delete 0 no owner items from a items.
+INFO 21:51:40:688 CleaningManager: delete 0 no owner guild items from a items.
+INFO 21:51:40:774 CleaningManager: create buffer table items.
+INFO 21:51:40:776 CleaningManager: copy 230 items to buffer_items.
+INFO 21:51:40:777 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 21:51:40:788 CleaningManager: drop buffer table items.
+INFO 21:51:40:789 CleaningManager: delete 0 from a quests.
+INFO 21:51:40:789 CleaningManager: delete 0 from a quest variables.
+INFO 21:51:40:790 CleaningManager: delete 0 from a guild ranks.
+INFO 21:51:40:832 ClientPacketType: client packets prepared.
+INFO 21:51:40:843 EffectParser: initialized.
+INFO 21:51:40:845 RandomManager: initialized.
+INFO 21:51:40:846 IdFactory: prepare npc ids...
+INFO 21:51:40:848 BitSetIdGenerator: 102912 id's available.
+INFO 21:51:40:849 IdFactory: prepare objects ids...
+INFO 21:51:40:849 BitSetIdGenerator: 102912 id's available.
+INFO 21:51:40:850 IdFactory: prepare players ids...
+INFO 21:51:40:852 BitSetIdGenerator: extracted 12 ids.
+INFO 21:51:40:853 BitSetIdGenerator: 102912 id's available.
+INFO 21:51:40:853 IdFactory: prepare guilds ids...
+INFO 21:51:40:854 BitSetIdGenerator: extracted 1 ids.
+INFO 21:51:40:854 BitSetIdGenerator: 102912 id's available.
+INFO 21:51:40:855 IdFactory: prepare item ids...
+INFO 21:51:40:856 BitSetIdGenerator: extracted 230 ids.
+INFO 21:51:40:857 BitSetIdGenerator: 102912 id's available.
+INFO 21:51:40:868 ServerVarManager: loaded 0 variables.
+INFO 21:51:40:871 BossSpawnManager: loaded 0 boss spawns.
+INFO 21:51:41:492 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 21:51:44:106 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 21:51:44:108 ConditionParser: initializable.
+WARNING 21:51:44:570 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139064"
+WARNING 21:51:44:571 DocumentSkill: NullPointerException : null : stack trace:
+tera.gameserver.document.DocumentSkill.parseSkill(DocumentSkill.java:190)
+tera.gameserver.document.DocumentSkill.parse(DocumentSkill.java:53)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.SkillTable.<init>(SkillTable.java:220)
+tera.gameserver.tables.SkillTable.getInstance(SkillTable.java:51)
+tera.gameserver.GameServer.run(GameServer.java:212)
+
+WARNING 21:51:44:572 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139084"
+WARNING 21:51:44:572 DocumentSkill: NullPointerException : null : stack trace:
+tera.gameserver.document.DocumentSkill.parseSkill(DocumentSkill.java:190)
+tera.gameserver.document.DocumentSkill.parse(DocumentSkill.java:53)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.SkillTable.<init>(SkillTable.java:220)
+tera.gameserver.tables.SkillTable.getInstance(SkillTable.java:51)
+tera.gameserver.GameServer.run(GameServer.java:212)
+
+WARNING 21:51:44:591 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 21:51:44:616 SkillTable: loaded 4611 skills for 19 classes.
+WARNING 21:51:44:627 ItemTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\items\adaptations.txt
+INFO 21:51:45:035 ItemTable: loaded 10138 items.
+INFO 21:51:45:052 Race: race appearances initializable.
+INFO 21:51:45:075 PlayerTable: loaded 104 player templates.
+WARNING 21:51:45:289 DropTable: not found items [50048]
+INFO 21:51:45:290 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 21:51:45:295 TownTable: initialized.
+WARNING 21:51:45:320 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 21:51:45:348 NpcDialogTable: loaded 87 dialogs.
+INFO 21:51:45:358 MessagePackageTable: loaded 34 message packages.
+INFO 21:51:45:390 ConfigAITable: loaded 45 npc ai configs.
+INFO 21:51:45:401 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 21:51:45:528 NpcTable: found duplicate npc template NpcTemplate npcId = 30002, exp = 0, attack = 300000, defense = 1000, owerAttack = 15000, owerDefense = 13000, level = 100, aggro = 100, factionRange = 5000, name = *Elleon*, title = Valkyon's Hero, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 21:51:45:533 NpcTable: found duplicate npc template NpcTemplate npcId = 30004, exp = 0, attack = 40000, defense = 4000, owerAttack = 1500, owerDefense = 7000, level = 100, aggro = 100, factionRange = 5000, name = *Klaris*, title = Wise mage, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 21:51:45:534 NpcTable: found duplicate npc template NpcTemplate npcId = 30005, exp = 0, attack = 91000, defense = 5000, owerAttack = 1500, owerDefense = 10000, level = 100, aggro = 100, factionRange = 5000, name = *Joff*, title = Open minded, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 30.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 21:51:45:535 NpcTable: found duplicate npc template NpcTemplate npcId = 30007, exp = 0, attack = 300000, defense = 5000, owerAttack = 14500, owerDefense = 15000, level = 100, aggro = 100, factionRange = 5000, name = *KLei*, title = Testing, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 25.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 21:51:45:536 NpcTable: found duplicate npc template NpcTemplate npcId = 30008, exp = 0, attack = 91000, defense = 11000, owerAttack = 1000, owerDefense = 20000, level = 100, aggro = 100, factionRange = 5000, name = *Arei*, title = HUrrrr durrrr, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 30.0, geomHeight = 70.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 21:51:45:538 NpcTable: found duplicate npc template NpcTemplate npcId = 30010, exp = 0, attack = 410000, defense = 4000, owerAttack = 1500, owerDefense = 7000, level = 100, aggro = 100, factionRange = 5000, name = *Lola*, title = Lover, factionId = Alliance of Argons, type = 300, isRaid = false, canDrop = false, drop = null, minions = null, dialog = null, geomRadius = 20.0, geomHeight = 60.0, npcType = PLAYER_KILLER in file .\data\npcs\south_arun\velika_outskirt.xml
+WARNING 21:51:45:551 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 21:51:45:560 NpcTable: loaded  816 npcs.
+INFO 21:51:45:578 ResourseTable: loaded  253 resourses.
+INFO 21:51:45:592 MinionTable: loaded 303 minions for 42 npcs.
+INFO 21:51:45:593 RegenTaskManager: initializable.
+INFO 21:51:45:603 Formulas: initialized.
+INFO 21:51:45:604 EffectTaskManager: initialized.
+INFO 21:51:45:902 ObjectEventManager: initialized.
+INFO 21:51:45:902 MoveTaskManager: initialized.
+INFO 21:51:46:324 SpawnTable: loaded 19523 spawns for 622 npcs and 2013 spawns for 60 resourses.
+INFO 21:51:46:377 GeoMap3D: start fast import geodata_1.dat
+INFO 21:51:46:588 GeoMap3D: import ended. load 1867238 quards.
+INFO 21:51:46:590 GeoMap3D: start fast import geodata_2.dat
+INFO 21:51:46:675 GeoMap3D: import ended. load 440227 quards.
+INFO 21:51:46:685 GeoMap3D: start fast import geodata_3.dat
+INFO 21:51:46:701 GeoMap3D: import ended. load 58040 quards.
+INFO 21:51:46:716 GeoManager: initialized.
+INFO 21:51:46:726 ItemExecutorManager: loaded 0 executor items.
+INFO 21:51:46:745 CommandManager: loaded 96 commands.
+INFO 21:51:46:760 SkillLearnManager: loaded 949 skill learn's for 8 clases.
+INFO 21:51:46:770 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 21:51:46:783 AccountManager: initialized.
+INFO 21:51:46:804 GuildManager: loaded 1 guilds.
+INFO 21:51:47:100 QuestManager: loaded 455 quests.
+INFO 21:51:47:103 OnlineManager: initialized.
+INFO 21:51:47:117 GameLogManager: initialized.
+INFO 21:51:47:249 Region: next battle "Veritas District" in 2020.06.28 16:00.
+INFO 21:51:47:254 Region: next battle "Ostgarath" in 2020.06.28 16:00.
+INFO 21:51:47:256 Region: next battle "Val Palrada" in 2020.06.27 20:00.
+INFO 21:51:47:258 Region: next battle "Val Aureum" in 2020.06.27 20:00.
+INFO 21:51:47:259 EventManager: loaded 5 events.
+INFO 21:51:47:375 EventManager: the nearest event in 44 minutes.
+INFO 21:51:47:379 PlayerManager: initialized.
+INFO 21:51:47:388 Network: started.
+INFO 21:51:47:388 GameServer: started.
+INFO 21:56:05:536 AccountManager: authed islanzadie
+WARNING 21:56:15:077 DataBaseManager: not found skill id 67139064 class 4
+WARNING 21:56:31:389 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139084"
+WARNING 21:56:31:481 DocumentSkill: NullPointerException : null : stack trace:
+tera.gameserver.document.DocumentSkill.parseSkill(DocumentSkill.java:190)
+tera.gameserver.document.DocumentSkill.parse(DocumentSkill.java:53)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.SkillTable.reload(SkillTable.java:340)
+tera.gameserver.scripts.commands.SkillCommand.execution(SkillCommand.java:122)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 21:56:31:596 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 21:56:31:656 SkillTable: skills reloaded.
+WARNING 21:57:01:269 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139084"
+WARNING 21:57:01:269 DocumentSkill: NullPointerException : null : stack trace:
+tera.gameserver.document.DocumentSkill.parseSkill(DocumentSkill.java:190)
+tera.gameserver.document.DocumentSkill.parse(DocumentSkill.java:53)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.SkillTable.reload(SkillTable.java:340)
+tera.gameserver.scripts.commands.SkillCommand.execution(SkillCommand.java:122)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 21:57:01:304 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 21:57:01:317 SkillTable: skills reloaded.
+WARNING 21:59:40:899 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139064"
+WARNING 21:59:40:902 DocumentSkill: NullPointerException : null : stack trace:
+tera.gameserver.document.DocumentSkill.parseSkill(DocumentSkill.java:190)
+tera.gameserver.document.DocumentSkill.parse(DocumentSkill.java:53)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.SkillTable.reload(SkillTable.java:340)
+tera.gameserver.scripts.commands.SkillCommand.execution(SkillCommand.java:122)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 21:59:40:907 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139084"
+WARNING 21:59:40:908 DocumentSkill: NullPointerException : null : stack trace:
+tera.gameserver.document.DocumentSkill.parseSkill(DocumentSkill.java:190)
+tera.gameserver.document.DocumentSkill.parse(DocumentSkill.java:53)
+rlib.data.AbstractDocument.parse(AbstractDocument.java:67)
+tera.gameserver.tables.SkillTable.reload(SkillTable.java:340)
+tera.gameserver.scripts.commands.SkillCommand.execution(SkillCommand.java:122)
+tera.gameserver.manager.CommandManager.execute(CommandManager.java:74)
+tera.gameserver.network.clientpackets.PlayerSay.runImpl(PlayerSay.java:84)
+rlib.network.packets.AbstractReadeablePacket.run(AbstractReadeablePacket.java:175)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:830)
+
+WARNING 21:59:41:008 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 21:59:41:058 SkillTable: skills reloaded.
+WARNING 22:00:14:951 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139064"
+WARNING 22:00:14:951 DocumentSkill: NullPointerException : null : stack trace:
+
+WARNING 22:00:14:954 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139084"
+WARNING 22:00:14:954 DocumentSkill: NullPointerException : null : stack trace:
+
+WARNING 22:00:14:984 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 22:00:14:999 SkillTable: skills reloaded.
+WARNING 22:00:28:055 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139064"
+WARNING 22:00:28:055 DocumentSkill: NullPointerException : null : stack trace:
+
+WARNING 22:00:28:056 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139084"
+WARNING 22:00:28:060 DocumentSkill: NullPointerException : null : stack trace:
+
+WARNING 22:00:28:084 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 22:00:28:096 SkillTable: skills reloaded.
+WARNING 22:01:05:844 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139084"
+WARNING 22:01:05:844 DocumentSkill: NullPointerException : null : stack trace:
+
+WARNING 22:01:05:870 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 22:01:05:881 SkillTable: skills reloaded.
+WARNING 22:01:11:218 DocumentSkill: incorrect file .\data\skills\player_skills\sork.xml, and skill id="67139084"
+WARNING 22:01:11:219 DocumentSkill: NullPointerException : null : stack trace:
+
+WARNING 22:01:11:245 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 22:01:11:257 SkillTable: skills reloaded.
+WARNING 22:03:44:353 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 22:03:44:379 SkillTable: skills reloaded.
+WARNING 22:09:23:742 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 22:09:23:753 SkillTable: skills reloaded.
+WARNING 22:10:35:757 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 22:10:35:770 SkillTable: skills reloaded.
+WARNING 22:11:14:939 DataBaseManager: not found skill id 67139064 class 4
+WARNING 22:12:57:898 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 22:12:57:912 SkillTable: skills reloaded.
+WARNING 22:13:22:018 DataBaseManager: not found skill id 67139064 class 4
+WARNING 22:14:08:887 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 22:14:08:897 SkillTable: skills reloaded.
+WARNING 22:14:50:862 DataBaseManager: not found skill id 67139064 class 4
+WARNING 22:15:04:293 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 22:15:04:304 SkillTable: skills reloaded.
+INFO 22:15:18:288 AccountManager: close islanzadie

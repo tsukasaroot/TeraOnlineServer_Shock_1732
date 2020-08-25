@@ -1,0 +1,90 @@
+INFO 00:31:54:096 ServerControl: open server socket on 2101 port.
+INFO 00:31:54:103 ExecutorManager: initialized.
+INFO 00:31:54:462 CleaningManager: delete 0 reuses from a character_skill_reuses.
+INFO 00:31:54:464 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 00:31:54:464 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 00:31:54:465 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 00:31:54:466 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 00:31:54:467 CleaningManager: delete 0 skills from a character_skills.
+INFO 00:31:54:467 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 00:31:54:468 CleaningManager: delete 0 chars from a character_friends.
+INFO 00:31:54:469 CleaningManager: delete 0 friends from a character_friends.
+INFO 00:31:54:470 CleaningManager: delete 0 settings from a character_settings.
+INFO 00:31:54:470 CleaningManager: delete 0 empty items from a items.
+INFO 00:31:54:471 CleaningManager: delete 0 no owner items from a items.
+INFO 00:31:54:472 CleaningManager: delete 0 no owner guild items from a items.
+INFO 00:31:54:518 CleaningManager: create buffer table items.
+INFO 00:31:54:520 CleaningManager: copy 218 items to buffer_items.
+INFO 00:31:54:521 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 00:31:54:529 CleaningManager: drop buffer table items.
+INFO 00:31:54:530 CleaningManager: delete 0 from a quests.
+INFO 00:31:54:531 CleaningManager: delete 0 from a quest variables.
+INFO 00:31:54:531 CleaningManager: delete 0 from a guild ranks.
+INFO 00:31:54:577 ClientPacketType: client packets prepared.
+INFO 00:31:54:588 EffectParser: initialized.
+INFO 00:31:54:591 RandomManager: initialized.
+INFO 00:31:54:592 IdFactory: prepare npc ids...
+INFO 00:31:54:594 BitSetIdGenerator: 102912 id's available.
+INFO 00:31:54:594 IdFactory: prepare objects ids...
+INFO 00:31:54:594 BitSetIdGenerator: 102912 id's available.
+INFO 00:31:54:595 IdFactory: prepare players ids...
+INFO 00:31:54:598 BitSetIdGenerator: extracted 12 ids.
+INFO 00:31:54:598 BitSetIdGenerator: 102912 id's available.
+INFO 00:31:54:598 IdFactory: prepare guilds ids...
+INFO 00:31:54:599 BitSetIdGenerator: extracted 1 ids.
+INFO 00:31:54:599 BitSetIdGenerator: 102912 id's available.
+INFO 00:31:54:600 IdFactory: prepare item ids...
+INFO 00:31:54:602 BitSetIdGenerator: extracted 218 ids.
+INFO 00:31:54:603 BitSetIdGenerator: 102912 id's available.
+INFO 00:31:54:613 ServerVarManager: loaded 0 variables.
+INFO 00:31:54:618 BossSpawnManager: loaded 0 boss spawns.
+INFO 00:31:55:401 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 00:31:56:809 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 00:31:56:811 ConditionParser: initializable.
+WARNING 00:31:57:289 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 00:31:57:313 SkillTable: loaded 4613 skills for 19 classes.
+WARNING 00:31:57:321 ItemTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\items\adaptations.txt
+INFO 00:31:57:694 ItemTable: loaded 10138 items.
+INFO 00:31:57:715 Race: race appearances initializable.
+INFO 00:31:57:721 PlayerTable: loaded 104 player templates.
+WARNING 00:31:57:926 DropTable: not found items [50048]
+INFO 00:31:57:927 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 00:31:57:932 TownTable: initialized.
+WARNING 00:31:57:954 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 00:31:58:034 NpcDialogTable: loaded 87 dialogs.
+INFO 00:31:58:061 MessagePackageTable: loaded 34 message packages.
+INFO 00:31:58:100 ConfigAITable: loaded 45 npc ai configs.
+INFO 00:31:58:113 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 00:31:58:308 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 00:31:58:322 NpcTable: loaded  816 npcs.
+INFO 00:31:58:339 ResourseTable: loaded  253 resourses.
+INFO 00:31:58:362 MinionTable: loaded 303 minions for 42 npcs.
+INFO 00:31:58:363 RegenTaskManager: initializable.
+INFO 00:31:58:373 Formulas: initialized.
+INFO 00:31:58:375 EffectTaskManager: initialized.
+INFO 00:31:58:738 ObjectEventManager: initialized.
+INFO 00:31:58:739 MoveTaskManager: initialized.
+INFO 00:31:59:111 SpawnTable: loaded 19515 spawns for 617 npcs and 2013 spawns for 60 resourses.
+INFO 00:31:59:129 GeoMap3D: start fast import geodata_1.dat
+INFO 00:31:59:453 GeoMap3D: import ended. load 1867238 quards.
+INFO 00:31:59:473 GeoMap3D: start fast import geodata_2.dat
+INFO 00:31:59:562 GeoMap3D: import ended. load 440227 quards.
+INFO 00:31:59:565 GeoMap3D: start fast import geodata_3.dat
+INFO 00:31:59:615 GeoMap3D: import ended. load 58040 quards.
+INFO 00:31:59:619 GeoManager: initialized.
+INFO 00:31:59:624 ItemExecutorManager: loaded 0 executor items.
+INFO 00:31:59:635 CommandManager: loaded 95 commands.
+INFO 00:31:59:649 SkillLearnManager: loaded 950 skill learn's for 8 clases.
+INFO 00:31:59:656 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 00:31:59:658 AccountManager: initialized.
+INFO 00:31:59:681 GuildManager: loaded 1 guilds.
+INFO 00:32:00:094 QuestManager: loaded 455 quests.
+INFO 00:32:00:098 OnlineManager: initialized.
+INFO 00:32:00:103 GameLogManager: initialized.
+WARNING 00:32:00:168 GameServer: ClassCastException : class tera.gameserver.model.npc.spawn.NpcSpawn cannot be cast to class tera.gameserver.model.npc.spawn.RegionWarSpawn (tera.gameserver.model.npc.spawn.NpcSpawn and tera.gameserver.model.npc.spawn.RegionWarSpawn are in unnamed module of loader 'app') : stack trace:
+tera.gameserver.events.global.regionwars.Region.prepare(Region.java:775)
+tera.gameserver.events.global.regionwars.RegionWars.onLoad(RegionWars.java:140)
+tera.gameserver.manager.EventManager.<init>(EventManager.java:88)
+tera.gameserver.manager.EventManager.getInstance(EventManager.java:36)
+tera.gameserver.GameServer.run(GameServer.java:245)
+

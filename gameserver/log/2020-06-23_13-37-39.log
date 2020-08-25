@@ -1,0 +1,93 @@
+INFO 13:37:39:061 ServerControl: open server socket on 2101 port.
+INFO 13:37:39:068 ExecutorManager: initialized.
+INFO 13:37:39:442 CleaningManager: delete 0 reuses from a character_skill_reuses.
+INFO 13:37:39:443 CleaningManager: delete 0 spawns from a boss_spawn.
+INFO 13:37:39:443 CleaningManager: delete 0 appearances from a character_appearances.
+INFO 13:37:39:444 CleaningManager: delete 0 effects from a character_save_effects.
+INFO 13:37:39:444 CleaningManager: delete 0 inventors from a character_inventors.
+INFO 13:37:39:445 CleaningManager: delete 0 skills from a character_skills.
+INFO 13:37:39:445 CleaningManager: delete 0 hotkeys from a character_hotkey.
+INFO 13:37:39:446 CleaningManager: delete 0 chars from a character_friends.
+INFO 13:37:39:447 CleaningManager: delete 0 friends from a character_friends.
+INFO 13:37:39:447 CleaningManager: delete 0 settings from a character_settings.
+INFO 13:37:39:448 CleaningManager: delete 1 empty items from a items.
+INFO 13:37:39:448 CleaningManager: delete 0 no owner items from a items.
+INFO 13:37:39:449 CleaningManager: delete 0 no owner guild items from a items.
+INFO 13:37:39:494 CleaningManager: create buffer table items.
+INFO 13:37:39:497 CleaningManager: copy 163 items to buffer_items.
+INFO 13:37:39:497 CleaningManager: delete 0 no owner items from a buffer_items.
+INFO 13:37:39:510 CleaningManager: drop buffer table items.
+INFO 13:37:39:510 CleaningManager: delete 0 from a quests.
+INFO 13:37:39:511 CleaningManager: delete 0 from a quest variables.
+INFO 13:37:39:512 CleaningManager: delete 0 from a guild ranks.
+INFO 13:37:39:562 ClientPacketType: client packets prepared.
+INFO 13:37:39:576 EffectParser: initialized.
+INFO 13:37:39:579 RandomManager: initialized.
+INFO 13:37:39:579 IdFactory: prepare npc ids...
+INFO 13:37:39:581 BitSetIdGenerator: 102912 id's available.
+INFO 13:37:39:581 IdFactory: prepare objects ids...
+INFO 13:37:39:581 BitSetIdGenerator: 102912 id's available.
+INFO 13:37:39:582 IdFactory: prepare players ids...
+INFO 13:37:39:585 BitSetIdGenerator: extracted 11 ids.
+INFO 13:37:39:585 BitSetIdGenerator: 102912 id's available.
+INFO 13:37:39:585 IdFactory: prepare guilds ids...
+INFO 13:37:39:586 BitSetIdGenerator: extracted 1 ids.
+INFO 13:37:39:587 BitSetIdGenerator: 102912 id's available.
+INFO 13:37:39:587 IdFactory: prepare item ids...
+INFO 13:37:39:590 BitSetIdGenerator: extracted 163 ids.
+INFO 13:37:39:591 BitSetIdGenerator: 102912 id's available.
+INFO 13:37:39:604 ServerVarManager: loaded 0 variables.
+INFO 13:37:39:606 BossSpawnManager: loaded 0 boss spawns.
+INFO 13:37:40:290 TerritoryTable: loaded 160 territories for 18803 regions.
+INFO 13:37:41:686 WorldZoneTable: loaded 12 world zones for 31986 regions.
+INFO 13:37:41:688 ConditionParser: initializable.
+WARNING 13:37:42:190 SkillTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 13:37:42:228 SkillTable: loaded 4613 skills for 19 classes.
+INFO 13:37:42:665 ItemTable: loaded 10138 items.
+INFO 13:37:42:677 Race: race appearances initializable.
+INFO 13:37:42:683 PlayerTable: loaded 104 player templates.
+WARNING 13:37:42:912 DropTable: not found items [50048]
+INFO 13:37:42:914 DropTable: load drop for 407 npcs and 126 for resourse.
+INFO 13:37:42:921 TownTable: initialized.
+WARNING 13:37:42:945 NpcDialogTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\dialogs\dialogs.txt
+INFO 13:37:42:979 NpcDialogTable: loaded 87 dialogs.
+INFO 13:37:42:986 MessagePackageTable: loaded 34 message packages.
+INFO 13:37:43:016 ConfigAITable: loaded 45 npc ai configs.
+INFO 13:37:43:029 NpcAppearanceTable: initialized. Loaded 59 appearances.
+WARNING 13:37:43:155 NpcTable: detected once the file C:\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\gameserver\.\data\npcs\summons\playable_summons.zip
+INFO 13:37:43:163 NpcTable: loaded  816 npcs.
+INFO 13:37:43:177 ResourseTable: loaded  253 resourses.
+INFO 13:37:43:192 MinionTable: loaded 303 minions for 42 npcs.
+INFO 13:37:43:192 RegenTaskManager: initializable.
+INFO 13:37:43:200 Formulas: initialized.
+INFO 13:37:43:204 EffectTaskManager: initialized.
+INFO 13:37:43:542 ObjectEventManager: initialized.
+INFO 13:37:43:543 MoveTaskManager: initialized.
+INFO 13:37:44:024 SpawnTable: loaded 19515 spawns for 617 npcs and 2013 spawns for 60 resourses.
+INFO 13:37:44:043 GeoMap3D: start fast import geodata_1.dat
+INFO 13:37:44:277 GeoMap3D: import ended. load 1867238 quards.
+INFO 13:37:44:278 GeoMap3D: start fast import geodata_2.dat
+INFO 13:37:44:335 GeoMap3D: import ended. load 440227 quards.
+INFO 13:37:44:339 GeoMap3D: start fast import geodata_3.dat
+INFO 13:37:44:374 GeoMap3D: import ended. load 58040 quards.
+INFO 13:37:44:375 GeoManager: initialized.
+INFO 13:37:44:378 ItemExecutorManager: loaded 0 executor items.
+INFO 13:37:44:394 CommandManager: loaded 95 commands.
+INFO 13:37:44:405 SkillLearnManager: loaded 950 skill learn's for 8 clases.
+INFO 13:37:44:408 AnnounceManager: loaded 0 start announces and 0 running announces.
+INFO 13:37:44:416 AccountManager: initialized.
+INFO 13:37:44:436 GuildManager: loaded 1 guilds.
+INFO 13:37:45:056 QuestManager: loaded 455 quests.
+INFO 13:37:45:060 OnlineManager: initialized.
+INFO 13:37:45:072 GameLogManager: initialized.
+INFO 13:37:45:164 Region: next battle "Veritas District" in 2020.06.28 16:00.
+INFO 13:37:45:166 Region: next battle "Ostgarath" in 2020.06.28 16:00.
+INFO 13:37:45:169 Region: next battle "Val Palrada" in 2020.06.27 20:00.
+INFO 13:37:45:171 Region: next battle "Val Aureum" in 2020.06.27 20:00.
+INFO 13:37:45:172 EventManager: loaded 5 events.
+INFO 13:37:45:304 EventManager: the nearest event in 33 minutes.
+INFO 13:37:45:308 PlayerManager: initialized.
+INFO 13:37:45:315 Network: started.
+INFO 13:37:45:315 GameServer: started.
+INFO 13:37:49:697 AccountManager: authed islanzadie
+INFO 13:40:54:141 AccountManager: close islanzadie
