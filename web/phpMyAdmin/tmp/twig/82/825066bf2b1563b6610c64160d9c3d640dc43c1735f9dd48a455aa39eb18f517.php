@@ -93,6 +93,6 @@ class __TwigTemplate_da35481882af6986c05540a5cf0a199c81e108f75c62411ae2c18805dab
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/show_all_checkbox.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\display\\results\\show_all_checkbox.twig");
+        return new Source("", "display/results/show_all_checkbox.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\display\\results\\show_all_checkbox.twig");
     }
 }

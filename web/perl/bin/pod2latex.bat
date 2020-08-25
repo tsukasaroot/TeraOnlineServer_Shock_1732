@@ -24,9 +24,9 @@ if %errorlevel% == 9009 echo You do not have Perl in your PATH.
 if errorlevel 1 goto script_failed_so_exit_with_non_zero_val 2>nul
 goto endofperl
 @rem ';
-#!\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe 
+#!\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe 
 #line 29
-    eval 'exec \Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe -S $0 ${1+"$@"}'
+    eval 'exec \Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe -S $0 ${1+"$@"}'
 	if $running_under_some_shell;
 
 # pod2latex conversion program

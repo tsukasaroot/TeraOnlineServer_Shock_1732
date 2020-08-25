@@ -63,6 +63,6 @@ class __TwigTemplate_ca1787a16111ee1e3d9313a678af66e73a54e43ba63ce305f575d890e82
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/browse_table.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\database\\structure\\browse_table.twig");
+        return new Source("", "database/structure/browse_table.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\database\\structure\\browse_table.twig");
     }
 }

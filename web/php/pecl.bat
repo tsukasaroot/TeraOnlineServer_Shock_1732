@@ -25,12 +25,12 @@ REM -------------------
 REM Test to see if this is a raw pear.bat (uninstalled version)
 SET TMPTMPTMPTMPT=@includ
 SET PMTPMTPMT=%TMPTMPTMPTMPT%e_path@
-FOR %%x IN ("\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\pear") DO (if %%x=="%PMTPMTPMT%" GOTO :NOTINSTALLED)
+FOR %%x IN ("\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\pear") DO (if %%x=="%PMTPMTPMT%" GOTO :NOTINSTALLED)
 
 REM Check PEAR global ENV, set them if they do not exist
-IF "%PHP_PEAR_INSTALL_DIR%"=="" SET "PHP_PEAR_INSTALL_DIR=\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\pear"
-IF "%PHP_PEAR_BIN_DIR%"=="" SET "PHP_PEAR_BIN_DIR=\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\"
-IF "%PHP_PEAR_PHP_BIN%"=="" SET "PHP_PEAR_PHP_BIN=\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\php.exe"
+IF "%PHP_PEAR_INSTALL_DIR%"=="" SET "PHP_PEAR_INSTALL_DIR=\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\pear"
+IF "%PHP_PEAR_BIN_DIR%"=="" SET "PHP_PEAR_BIN_DIR=\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\"
+IF "%PHP_PEAR_PHP_BIN%"=="" SET "PHP_PEAR_PHP_BIN=\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\php.exe"
 GOTO :INSTALLED
 
 :NOTINSTALLED

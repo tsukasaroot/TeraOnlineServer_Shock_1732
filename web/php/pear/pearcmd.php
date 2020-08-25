@@ -26,8 +26,8 @@ define('PEAR_IGNORE_BACKTRACE', 1);
  */
 //the space is needed for windows include paths with trailing backslash
 // http://pear.php.net/bugs/bug.php?id=19482
-if ('\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\pear ' != '@'.'include_path'.'@ ') {
-    ini_set('include_path', trim('\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\pear '). PATH_SEPARATOR .  get_include_path());
+if ('\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\pear ' != '@'.'include_path'.'@ ') {
+    ini_set('include_path', trim('\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\pear '). PATH_SEPARATOR .  get_include_path());
     $raw = false;
 } else {
     // this is a raw, uninstalled pear, either a cvs checkout, or php distro

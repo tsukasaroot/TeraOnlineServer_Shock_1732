@@ -95,6 +95,6 @@ class __TwigTemplate_fd6c79f81393ddc71126fbc8a777cd9b5bbc31892d1813696b98e73952a
 
     public function getSourceContext()
     {
-        return new Source("", "console/query_action.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\console\\query_action.twig");
+        return new Source("", "console/query_action.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\console\\query_action.twig");
     }
 }

@@ -83,6 +83,6 @@ class __TwigTemplate_41fabab912c9b5bdc96e425d376e934ad6bbb085381ba32ded4fef90f74
 
     public function getSourceContext()
     {
-        return new Source("", "checkbox.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\checkbox.twig");
+        return new Source("", "checkbox.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\checkbox.twig");
     }
 }

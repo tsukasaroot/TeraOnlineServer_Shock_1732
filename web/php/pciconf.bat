@@ -12,5 +12,5 @@ rem @version    CVS: $Id: pciconf.bat,v 1.1 2008/11/29 18:18:55 farell Exp $
 rem @link       http://pear.php.net/package/PHP_CompatInfo
 rem @since      File available since Release 1.9.0b1
 
-set XAMPPPHPDIR=\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php
+set XAMPPPHPDIR=\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php
 "%XAMPPPHPDIR%\.\php.exe" -f "%XAMPPPHPDIR%\pciconf" -- %*

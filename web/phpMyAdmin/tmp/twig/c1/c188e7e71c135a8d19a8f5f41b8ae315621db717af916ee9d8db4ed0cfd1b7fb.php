@@ -73,6 +73,6 @@ class __TwigTemplate_c346eea0feeeaa68941c4e422c948a0ec3b5f722d6c04bdac7f7aeeb1f5
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/null_display.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\display\\results\\null_display.twig");
+        return new Source("", "display/results/null_display.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\display\\results\\null_display.twig");
     }
 }

@@ -79,6 +79,6 @@ class __TwigTemplate_4335addd613873fd3274bc28e2663868dd7f1a0af1f36fb0360653049e7
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/comment_for_row.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\display\\results\\comment_for_row.twig");
+        return new Source("", "display/results/comment_for_row.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\display\\results\\comment_for_row.twig");
     }
 }

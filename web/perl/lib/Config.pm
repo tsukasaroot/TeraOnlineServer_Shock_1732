@@ -83,7 +83,7 @@ sub AUTOLOAD {
 
 # tie returns the object, so the value returned to require will be true.
 tie %Config, 'Config', {
-    archlibexp => '\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\perl\\lib',
+    archlibexp => '\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\perl\\lib',
     archname => 'MSWin32-x64-multi-thread',
     cc => 'gcc',
     d_readlink => undef,
@@ -95,14 +95,14 @@ tie %Config, 'Config', {
     inc_version_list => '',
     intsize => '4',
     ldlibpthname => '',
-    libpth => '\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib',
+    libpth => '\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib',
     osname => 'MSWin32',
     osvers => '4.0',
     path_sep => ';',
-    privlibexp => '\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\perl\\lib',
-    scriptdir => '\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\perl\\bin',
-    sitearchexp => '\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\perl\\site\\lib',
-    sitelibexp => '\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\perl\\site\\lib',
+    privlibexp => '\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\perl\\lib',
+    scriptdir => '\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\perl\\bin',
+    sitearchexp => '\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\perl\\site\\lib',
+    sitelibexp => '\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\perl\\site\\lib',
     so => 'dll',
     useithreads => 'define',
     usevendorprefix => 'define',

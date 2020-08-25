@@ -26,7 +26,7 @@ goto endofperl
 @rem ';
 #!perl
 #line 29
-    eval 'exec \Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe -S $0 ${1+"$@"}'
+    eval 'exec \Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe -S $0 ${1+"$@"}'
         if $running_under_some_shell;
 
 # perlivp v5.16.3
@@ -70,7 +70,7 @@ my $pass__total = 0;
 my $error_total = 0;
 my $tests_total = 0;
 
-my $perlpath = '\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe';
+my $perlpath = '\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe';
 my $useithreads = 'define';
 
 print "## Checking Perl binary via variable '\$perlpath' = $perlpath.\n" if $opt{'p'};

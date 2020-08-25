@@ -1,4 +1,4 @@
-#!"\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe"
+#!"\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe"
 ##
 ##  printenv -- demo CGI program which just prints its environment
 ##

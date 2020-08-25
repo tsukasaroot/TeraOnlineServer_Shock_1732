@@ -114,7 +114,7 @@ abstract class PHPUnit_Util_PHP
                     PHP_BINDIR . '/php',
                     PHP_BINDIR . '/php-cli.exe',
                     PHP_BINDIR . '/php.exe',
-                    'C:\long_subdirectory_for\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\.\php.exe',
+                    'C:\long_subdirectory_for\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\.\php.exe',
                 );
                 foreach ($possibleBinaryLocations as $binary) {
                     if (is_readable($binary)) {

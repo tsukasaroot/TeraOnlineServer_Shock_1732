@@ -72,6 +72,6 @@ class __TwigTemplate_c77f727821af5607cf86320b40829e1b93312937cde1c3c5988ae708df9
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/print_view_data_dictionary_link.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\database\\structure\\print_view_data_dictionary_link.twig");
+        return new Source("", "database/structure/print_view_data_dictionary_link.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\database\\structure\\print_view_data_dictionary_link.twig");
     }
 }

@@ -40,7 +40,7 @@ goto endofperl
 @rem ';
 #!perl
 #line 43
-    eval 'exec \Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe -S $0 ${1+"$@"}'
+    eval 'exec \Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe -S $0 ${1+"$@"}'
 	if $running_under_some_shell;
 my $startperl;
 my $perlpath;
@@ -48,7 +48,7 @@ my $perlpath;
 #!perl
 /../
 ($perlpath = <<'/../') =~ s/\s*\z//;
-\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe
+\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\perl\bin\perl.exe
 /../
 
 $0 =~ s/^.*?(\w+)[\.\w]*$/$1/;

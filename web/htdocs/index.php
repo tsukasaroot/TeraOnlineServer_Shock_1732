@@ -30,7 +30,8 @@ $general->logged_in_protect();
 		
 		<h2_hl>GameServer:</h2_hl><br>
 		<h2_std>-Client Revision: 1732 (TERA Shock)</h2_std><br>
-		<a href="/client.7z" download><h2_hl>Download game</h2_hl></a>
+		<a href="https://mega.nz/#F!RJdmgAaQ!1lQJdA0irA4vu6gEw2x37w"><h2_hl>mega download</h2_hl></a><br />
+		<a href="/client/"><h2_hl>Download game</h2_hl></a>
 	</div>
 </body>
 </html>

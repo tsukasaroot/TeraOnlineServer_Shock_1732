@@ -15,11 +15,11 @@ if (empty($_POST) === false)
 	{
 		$errors[] = 'Sorry, but this Username doesn\'t exists.';
 	} 
-	else if ($accounts->account_activated($username) === false) 
+	/*else if ($accounts->account_activated($username) === false) 
 	{
 		$errors[] = 'Sorry, your Account ist not Activated!<br>Please check your E-Mails for an Activation Mail or...<br> <h2_std>
 		<a href="confirm-activation.php">Re-Send Activation E-Mail?</a></h2_std> ';
-	}
+	}*/
 	else 
 	{
 		if (strlen($password) > 32) 

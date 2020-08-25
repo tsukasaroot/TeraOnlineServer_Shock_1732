@@ -76,6 +76,6 @@ class __TwigTemplate_73b670c5a7f964ddf9bfdd7d63b42325477c89a33512fe3215e28188eef
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/favorite_anchor.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\database\\structure\\favorite_anchor.twig");
+        return new Source("", "database/structure/favorite_anchor.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\database\\structure\\favorite_anchor.twig");
     }
 }

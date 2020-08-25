@@ -90,6 +90,6 @@ class __TwigTemplate_323532a1d6fdcbfbfa531456e835a0d32ff0bac4d7618f48b7aad18be42
 
     public function getSourceContext()
     {
-        return new Source("", "radio_fields.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\radio_fields.twig");
+        return new Source("", "radio_fields.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\radio_fields.twig");
     }
 }

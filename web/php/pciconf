@@ -1,4 +1,4 @@
-#!\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\.\php.exe
+#!\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\.\php.exe
 <?php
 /**
  * The Predefined Classes/Constants array script generator.
@@ -98,7 +98,7 @@ if ($args->isDefined('v')) {
 if ($args->isDefined('o')) {
     $o = $args->getValue('o');
     if (strpos($o, '@'.'php_dir@')) {
-        $o = str_replace('@'.'php_dir@', '\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\pear', $o);
+        $o = str_replace('@'.'php_dir@', '\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\pear', $o);
     }
     if (is_dir($o) && (is_writable($o))) {
         /* Directory where to write
@@ -113,7 +113,7 @@ if ($args->isDefined('o')) {
         exit(1);
     }
 } else {
-    $target_directory = '\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\pear' . $ds . 'PHP' .$ds . 'CompatInfo' . $ds;
+    $target_directory = '\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\pear' . $ds . 'PHP' .$ds . 'CompatInfo' . $ds;
 }
 
 // enable

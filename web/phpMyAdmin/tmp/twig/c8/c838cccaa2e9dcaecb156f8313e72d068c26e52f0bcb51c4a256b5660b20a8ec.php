@@ -81,6 +81,6 @@ class __TwigTemplate_a27a12a7f07f96d2263bcb64bf43cc8afafb267e28282077d67b636164a
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/additional_fields.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\display\\results\\additional_fields.twig");
+        return new Source("", "display/results/additional_fields.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\display\\results\\additional_fields.twig");
     }
 }

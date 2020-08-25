@@ -291,6 +291,6 @@ class __TwigTemplate_243ba77b20c3e15ee19b70efc690cd0dac86437081c7533431d9dd765a6
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/body_for_table_summary.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\database\\structure\\body_for_table_summary.twig");
+        return new Source("", "database/structure/body_for_table_summary.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\database\\structure\\body_for_table_summary.twig");
     }
 }

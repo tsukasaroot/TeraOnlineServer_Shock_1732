@@ -51,6 +51,6 @@ class __TwigTemplate_7d2a5f6a20131193d9d76699d213dc7146d7ecd692c299bb51532e9d4be
 
     public function getSourceContext()
     {
-        return new Source("", "config/form_display/tabs_bottom.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\config\\form_display\\tabs_bottom.twig");
+        return new Source("", "config/form_display/tabs_bottom.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\config\\form_display\\tabs_bottom.twig");
     }
 }

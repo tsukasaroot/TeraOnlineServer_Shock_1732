@@ -2,7 +2,7 @@
 <serverlist>
 	<server>
         <id>1</id>
-        <ip>192.168.0.17</ip>
+        <ip>51.210.41.122</ip>
         <port>11101</port>
 		<category sort="1"><![CDATA[<font color="#ffffff">PVP</font>]]></category>
         <name raw_name="Tera - Battleground"><![CDATA[<font color="#ffffff">Battleground Alpha PVP</font><info icon="null", text="Standard PVP Test Server" />]]></name>

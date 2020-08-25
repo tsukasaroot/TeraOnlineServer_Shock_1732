@@ -1,4 +1,4 @@
-#!\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\.\php.exe
+#!\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\.\php.exe
 <?php
 /* PHPUnit
  *
@@ -37,10 +37,10 @@
 
 define('PHPUnit_MAIN_METHOD', 'PHPUnit_TextUI_Command::main');
 
-if (strpos('\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\.\php.exe', '@php_bin') === 0) {
+if (strpos('\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\.\php.exe', '@php_bin') === 0) {
     require dirname(__FILE__) . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
 } else {
-    require '\Users\jorou\Downloads\TeraOnlineServer_Shock_1732\web\php\pear' . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
+    require '\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\web\php\pear' . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
 }
 
 PHPUnit_TextUI_Command::main();

@@ -90,6 +90,6 @@ class __TwigTemplate_5b03ea718845751fcb59a1dd9ff791d5bfc492a10bee63c23b3cb479ca1
 
     public function getSourceContext()
     {
-        return new Source("", "div_for_slider_effect.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\div_for_slider_effect.twig");
+        return new Source("", "div_for_slider_effect.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\div_for_slider_effect.twig");
     }
 }

@@ -84,6 +84,6 @@ class __TwigTemplate_3e218eec1127d2e5f085dacc085011512fbdaadb3b3c505d9b4771c2c29
 
     public function getSourceContext()
     {
-        return new Source("", "navigation/logo.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\navigation\\logo.twig");
+        return new Source("", "navigation/logo.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\navigation\\logo.twig");
     }
 }

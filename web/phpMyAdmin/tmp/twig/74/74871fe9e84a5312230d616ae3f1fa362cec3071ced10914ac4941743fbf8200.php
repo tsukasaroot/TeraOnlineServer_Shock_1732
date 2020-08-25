@@ -79,6 +79,6 @@ class __TwigTemplate_8e94e25b8fd4ca4a9b3d1c380081b686934e0ac33efb7077808b7379892
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/multi_row_operations_form.twig", "D:\\privateServer_Tera\\TeraServerOnline\\web\\phpMyAdmin\\templates\\display\\results\\multi_row_operations_form.twig");
+        return new Source("", "display/results/multi_row_operations_form.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\display\\results\\multi_row_operations_form.twig");
     }
 }

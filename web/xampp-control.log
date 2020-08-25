@@ -1142,3 +1142,125 @@
 14:39:04  [main] 	Deinitializing Modules
 14:39:04  [main] 	Deinitializing Control Panel
 
+18:09:20  [main] 	Initializing Control Panel
+18:09:20  [main] 	Windows Version:   64-bit
+18:09:20  [main] 	XAMPP Version: 7.3.9
+18:09:20  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+18:09:20  [main] 	Running with Administrator rights - good!
+18:09:20  [main] 	XAMPP Installation Directory: "c:\users\administrator\documents\github\teraonlineserver_shock_1732\web\"
+18:09:20  [main] 	Checking for prerequisites
+18:09:22  [main] 	All prerequisites found
+18:09:22  [main] 	Initializing Modules
+18:09:22  [main] 	The FileZilla module is disabled
+18:09:22  [main] 	The Mercury module is disabled
+18:09:22  [main] 	Starting Check-Timer
+18:09:22  [main] 	Control Panel Ready
+18:09:28  [Apache] 	Attempting to start Apache app...
+18:09:28  [Apache] 	Status change detected: running
+18:09:33  [Apache] 	Status change detected: stopped
+18:09:33  [Apache] 	Error: Apache shutdown unexpectedly.
+18:09:33  [Apache] 	This may be due to a blocked port, missing dependencies, 
+18:09:33  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+18:09:33  [Apache] 	Press the Logs button to view error logs and check
+18:09:33  [Apache] 	the Windows Event Viewer for more clues
+18:09:33  [Apache] 	If you need more help, copy and post this
+18:09:33  [Apache] 	entire log window on the forums
+18:09:38  [mysql] 	Attempting to start MySQL app...
+18:09:38  [mysql] 	Status change detected: running
+18:09:58  [mysql] 	Status change detected: stopped
+18:09:58  [mysql] 	Error: MySQL shutdown unexpectedly.
+18:09:58  [mysql] 	This may be due to a blocked port, missing dependencies, 
+18:09:58  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+18:09:58  [mysql] 	Press the Logs button to view error logs and check
+18:09:58  [mysql] 	the Windows Event Viewer for more clues
+18:09:58  [mysql] 	If you need more help, copy and post this
+18:09:58  [mysql] 	entire log window on the forums
+18:12:03  [Apache] 	Attempting to start Apache app...
+18:12:03  [Apache] 	Status change detected: running
+18:12:04  [Apache] 	Status change detected: stopped
+18:12:04  [Apache] 	Error: Apache shutdown unexpectedly.
+18:12:04  [Apache] 	This may be due to a blocked port, missing dependencies, 
+18:12:04  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+18:12:04  [Apache] 	Press the Logs button to view error logs and check
+18:12:04  [Apache] 	the Windows Event Viewer for more clues
+18:12:04  [Apache] 	If you need more help, copy and post this
+18:12:04  [Apache] 	entire log window on the forums
+18:15:28  [Apache] 	Attempting to start Apache app...
+18:15:28  [Apache] 	Status change detected: running
+18:15:29  [Apache] 	Status change detected: stopped
+18:15:29  [Apache] 	Error: Apache shutdown unexpectedly.
+18:15:29  [Apache] 	This may be due to a blocked port, missing dependencies, 
+18:15:29  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+18:15:29  [Apache] 	Press the Logs button to view error logs and check
+18:15:29  [Apache] 	the Windows Event Viewer for more clues
+18:15:29  [Apache] 	If you need more help, copy and post this
+18:15:29  [Apache] 	entire log window on the forums
+18:15:31  [mysql] 	Attempting to start MySQL app...
+18:15:31  [mysql] 	Status change detected: running
+18:15:32  [mysql] 	Status change detected: stopped
+18:15:32  [mysql] 	Error: MySQL shutdown unexpectedly.
+18:15:32  [mysql] 	This may be due to a blocked port, missing dependencies, 
+18:15:32  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+18:15:32  [mysql] 	Press the Logs button to view error logs and check
+18:15:32  [mysql] 	the Windows Event Viewer for more clues
+18:15:32  [mysql] 	If you need more help, copy and post this
+18:15:32  [mysql] 	entire log window on the forums
+18:15:37  [main] 	Deinitializing Modules
+18:15:37  [main] 	Deinitializing Control Panel
+
+18:15:52  [main] 	Initializing Control Panel
+18:15:52  [main] 	Windows Version:   64-bit
+18:15:52  [main] 	XAMPP Version: 7.3.9
+18:15:52  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+18:15:52  [main] 	Running with Administrator rights - good!
+18:15:52  [main] 	XAMPP Installation Directory: "c:\users\administrator\documents\github\teraonlineserver_shock_1732\web\"
+18:15:52  [main] 	Checking for prerequisites
+18:15:53  [main] 	All prerequisites found
+18:15:53  [main] 	Initializing Modules
+18:15:53  [main] 	The FileZilla module is disabled
+18:15:53  [main] 	The Mercury module is disabled
+18:15:53  [main] 	Starting Check-Timer
+18:15:53  [main] 	Control Panel Ready
+18:15:54  [Apache] 	Attempting to start Apache app...
+18:15:55  [Apache] 	Status change detected: running
+18:15:56  [Apache] 	Status change detected: stopped
+18:15:56  [Apache] 	Error: Apache shutdown unexpectedly.
+18:15:56  [Apache] 	This may be due to a blocked port, missing dependencies, 
+18:15:56  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+18:15:56  [Apache] 	Press the Logs button to view error logs and check
+18:15:56  [Apache] 	the Windows Event Viewer for more clues
+18:15:56  [Apache] 	If you need more help, copy and post this
+18:15:56  [Apache] 	entire log window on the forums
+18:15:57  [mysql] 	Attempting to start MySQL app...
+18:15:57  [mysql] 	Status change detected: running
+18:15:57  [mysql] 	Status change detected: stopped
+18:15:57  [mysql] 	Error: MySQL shutdown unexpectedly.
+18:15:57  [mysql] 	This may be due to a blocked port, missing dependencies, 
+18:15:57  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+18:15:57  [mysql] 	Press the Logs button to view error logs and check
+18:15:57  [mysql] 	the Windows Event Viewer for more clues
+18:15:57  [mysql] 	If you need more help, copy and post this
+18:15:57  [mysql] 	entire log window on the forums
+18:16:27  [main] 	Deinitializing Modules
+18:16:27  [main] 	Deinitializing Control Panel
+
+18:16:48  [main] 	Initializing Control Panel
+18:16:48  [main] 	Windows Version:   64-bit
+18:16:48  [main] 	XAMPP Version: 7.3.9
+18:16:48  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+18:16:48  [main] 	Running with Administrator rights - good!
+18:16:48  [main] 	XAMPP Installation Directory: "c:\users\administrator\documents\github\teraonlineserver_shock_1732\web\"
+18:16:48  [main] 	Checking for prerequisites
+18:16:48  [main] 	All prerequisites found
+18:16:48  [main] 	Initializing Modules
+18:16:48  [main] 	The FileZilla module is disabled
+18:16:48  [main] 	The Mercury module is disabled
+18:16:48  [main] 	Starting Check-Timer
+18:16:48  [main] 	Control Panel Ready
+18:16:50  [Apache] 	Attempting to start Apache app...
+18:16:50  [Apache] 	Status change detected: running
+18:16:55  [mysql] 	Attempting to start MySQL app...
+18:16:55  [mysql] 	Status change detected: running
+18:33:57  [main] 	Deinitializing Modules
+18:33:57  [main] 	Deinitializing Control Panel
+
