@@ -29,7 +29,7 @@
 	<!-- a chance to remove the crystal death (13) value was 8 -->
 	<set name="WORLD_CHANCE_DELETE_CRYSTAL" value="0" />
 	<!-- Max level for collect (300) -->
-	<set name="WORLD_MAX_COLLECT_LEVEL" value="3" />
+	<set name="WORLD_MAX_COLLECT_LEVEL" value="300" />
 	<!-- number of continents in the world (3) -->
 	<set name="WORLD_CONTINENT_COUNT" value="3" />
 	
