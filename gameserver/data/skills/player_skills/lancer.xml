@@ -1478,7 +1478,7 @@
 	<!-- power 7631 reusedelay 60000-->
 	<skill id="67269664" class="1" name="Second Wind VIII" levels="1">
         <set name="power" value="100000" />
-		<set name="reuseDelay" value="3000"/>
+		<set name="reuseDelay" value="60000"/>
 		<set name="delay" value="500"/>
 		<set name="targetType" value="TARGET_SELF"/>		
 		<set name="skillType" value="HEAL" />
@@ -2424,7 +2424,7 @@
         <set name="mpConsume" value="200"/>
 		<set name="delay" value="600"/>
         <set name="hitTime" value="2000"/>
-        <set name="reuseDelay" value="1000"/>
+        <set name="reuseDelay" value="150000"/>
 		<set name="owerturnMod" value="0.1" />
 		<set name="moveDistance" value="100" />
 		<set name="moveTime" value="1000" />
