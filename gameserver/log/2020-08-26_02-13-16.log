@@ -108,3 +108,23 @@ INFO 02:14:08:620 EventManager: the nearest event in 44 minutes.
 INFO 02:14:08:651 PlayerManager: initialized.
 INFO 02:14:08:667 Network: started.
 INFO 02:14:08:667 GameServer: started.
+INFO 02:32:00:432 AccountManager: authed islanzadie
+WARNING 02:54:37:272 SkillTable: detected once the file C:\Users\Administrator\Documents\GitHub\TeraOnlineServer_Shock_1732\gameserver\.\data\skills\summon_skills\deprecated.zip
+INFO 02:54:37:350 SkillTable: skills reloaded.
+INFO 03:04:19:771 AccountManager: close islanzadie
+INFO 03:18:58:596 AccountManager: close islanzadie
+INFO 03:18:06:393 AccountManager: authed islanzadie
+INFO 03:28:35:970 AccountManager: authed islanzadie
+INFO 03:28:35:970 AccountManager: close islanzadie
+INFO 03:28:35:970 AccountManager: authed islanzadie
+INFO 03:28:35:970 AccountManager: close islanzadie
+INFO 03:28:35:970 AccountManager: authed islanzadie
+INFO 03:28:35:970 AccountManager: close islanzadie
+INFO 03:28:35:986 AccountManager: authed islanzadie
+INFO 03:43:33:921 AccountManager: close islanzadie
+INFO 07:00:16:314 AccountManager: authed islanzadie
+INFO 07:26:40:040 AccountManager: close islanzadie
+INFO 12:29:45:709 AccountManager: authed islanzadie
+INFO 13:03:51:437 AccountManager: close islanzadie
+INFO 02:04:31:871 AccountManager: authed tsuka
+INFO 02:08:41:854 AccountManager: close tsuka
