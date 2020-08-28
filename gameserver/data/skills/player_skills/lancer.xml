@@ -419,7 +419,7 @@
     </skill>
 
 	<skill id="67128964" class="1" name="Stand Fast" levels="1">
-		<set name="reuseDelay" value="1000" />
+		<set name="reuseDelay" value="100" />
 		<set name="targetType" value="TARGET_SELF" />	
 		<set name="skillType" value="LANCER_DEFENSE" />		
 		<set name="operateType" value="ACTIVATE" />

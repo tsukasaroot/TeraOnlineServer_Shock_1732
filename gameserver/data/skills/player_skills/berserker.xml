@@ -386,7 +386,7 @@
     </skill>
 	
 	<skill id="67128964" class="3" name="Weapon Block" levels="1">
-	    <set name="reuseDelay" value="1000" />
+	    <set name="reuseDelay" value="100" />
 		<set name="targetType" value="TARGET_SELF" />	
 		<set name="skillType" value="DEFENSE" />		
 		<set name="operateType" value="ACTIVATE" />
