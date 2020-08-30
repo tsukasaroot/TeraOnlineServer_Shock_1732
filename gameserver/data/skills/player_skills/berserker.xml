@@ -390,7 +390,7 @@
 		<set name="targetType" value="TARGET_SELF" />	
 		<set name="skillType" value="DEFENSE" />		
 		<set name="operateType" value="ACTIVATE" />
-		<set name="mpConsume" value="100" />
+		<set name="mpConsume" value="10" />
 		<set name="implemented" value="true" />
 		<cond>
 			<using weapon="AXE" msg="Can only be used with an axe." />
