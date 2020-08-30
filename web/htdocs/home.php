@@ -43,7 +43,7 @@ $username	= htmlentities($account['login']); // storing the user's username afte
 				var cpt = 0;
 				var i=0;
 				for(i=0; i<10;i++){
-					var ping = $.now();            
+					var ping = $.now();
 					$.ajax({ type: "HEAD",
 							url: "http://"+ip,
 							cache:false,
@@ -54,10 +54,10 @@ $username	= htmlentities($account['login']); // storing the user's username afte
 								if (ping < 1000) { // 1 times out of 2, the diff is not computed
 									cpt++;
 									avg+= ping/cpt - avg/cpt; //update average val
-									$("#"+msg).text(avg+" ms (on "+cpt+"tests)");
-									if(avg < 200) {
+									$("#"+msg).text(Math.round(avg / 10) +" ms (on "+cpt+"tests)");
+									if(avg < 400) {
 										$("#"+msg).css({"color": "green"});
-									} else if (avg < 500) {
+									} else if (avg < 700) {
 										$("#"+msg).css({"color": "orange"});
 									} else {
 										$("#"+msg).css({"color": "red"});
