@@ -8,19 +8,19 @@ if(basename($_SERVER["PHP_SELF"]) == "auth.php")
 */
 
 
-if(empty($_POST['username']))
+if(empty($_GET['username']))
 {
         echo ('empty_user');
 }
-else if(strlen($_POST['username']) < 4)
+else if(strlen($_GET['username']) < 4)
 {
         echo ('small_user');
 }
-else if(empty($_POST['password']))
+else if(empty($_GET['password']))
 {
         echo ('empty_pass');
 }
-else if(strlen($_POST['password']) < 4)
+else if(strlen($_GET['password']) < 4)
 {
         echo ('small_pass');
 }
@@ -28,9 +28,9 @@ else
 {
 	require_once("auth-config.php");
     
-	$username = $mysqli->real_escape_string($_POST['username']);
+	$username = $mysqli->real_escape_string($_GET['username']);
 	//password should be sent already encrypted...
-    $password = $mysqli->real_escape_string($_POST['password']);
+    $password = $mysqli->real_escape_string($_GET['password']);
 	
     $check = $mysqli->query("SELECT * from ".$database['table']." WHERE ".$database['username']." = '".$username."' AND ".$database['password']." = '".$password."'");
     
