@@ -69,6 +69,8 @@ $username	= htmlentities($account['login']); // storing the user's username afte
 			});
 		});
 		</script>
+		<h2_std>To come : an executable to install the launcher</h2_std><br />
+		<a href="/client/TERA-Launcher.exe" download><h2_hl>Downloading launcher</h2_hl></a>
 	</div>
 </body>
 </html>

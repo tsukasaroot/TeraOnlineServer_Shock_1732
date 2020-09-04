@@ -1505,3 +1505,23 @@
 02:54:36  [main] 	Deinitializing Modules
 02:54:36  [main] 	Deinitializing Control Panel
 
+03:38:58  [main] 	Initializing Control Panel
+03:38:58  [main] 	Windows Version:   64-bit
+03:38:58  [main] 	XAMPP Version: 7.3.9
+03:38:58  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+03:38:58  [main] 	Running with Administrator rights - good!
+03:38:58  [main] 	XAMPP Installation Directory: "c:\users\administrator\documents\github\teraonlineserver_shock_1732\web\"
+03:38:58  [main] 	Checking for prerequisites
+03:39:01  [main] 	All prerequisites found
+03:39:01  [main] 	Initializing Modules
+03:39:01  [main] 	The FileZilla module is disabled
+03:39:01  [main] 	The Mercury module is disabled
+03:39:01  [main] 	Starting Check-Timer
+03:39:01  [main] 	Control Panel Ready
+03:39:15  [Apache] 	Attempting to start Apache app...
+03:39:15  [Apache] 	Status change detected: running
+03:39:16  [mysql] 	Attempting to start MySQL app...
+03:39:16  [mysql] 	Status change detected: running
+20:10:07  [main] 	Deinitializing Modules
+20:10:07  [main] 	Deinitializing Control Panel
+

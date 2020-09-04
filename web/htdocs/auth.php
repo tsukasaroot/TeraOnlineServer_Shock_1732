@@ -46,11 +46,11 @@ else
 			$_SESSION['admin'] = $account['admin'];
 		}*/
 		//$_SESSION['success'] = 1;
-        echo ('success');
+        echo ('true');
 	}
     else if($check->num_rows != 1)
     {
-        echo ('wrong');
+        echo ('false');
     }
     else 
 	{
