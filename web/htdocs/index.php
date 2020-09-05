@@ -19,7 +19,6 @@ $general->logged_in_protect();
 		<h2_hl>GameServer:</h2_hl><br>
 		<h2_std>-Client Revision: 1732 (TERA Shock)</h2_std><br>
 		<a href="https://mega.nz/#F!RJdmgAaQ!1lQJdA0irA4vu6gEw2x37w"><h2_hl>mega download</h2_hl></a><br />
-		<h2_std>To come : an executable to install the launcher</h2_std><br />
 		<a href="/client/TERA-Launcher.exe" download><h2_hl>Downloading launcher</h2_hl></a>
 	</div>
 </body>

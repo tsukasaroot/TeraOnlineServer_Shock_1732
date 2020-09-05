@@ -1525,3 +1525,43 @@
 20:10:07  [main] 	Deinitializing Modules
 20:10:07  [main] 	Deinitializing Control Panel
 
+20:18:44  [main] 	Initializing Control Panel
+20:18:44  [main] 	Windows Version:   64-bit
+20:18:44  [main] 	XAMPP Version: 7.3.9
+20:18:44  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+20:18:44  [main] 	Running with Administrator rights - good!
+20:18:44  [main] 	XAMPP Installation Directory: "c:\users\administrator\documents\github\teraonlineserver_shock_1732\web\"
+20:18:44  [main] 	Checking for prerequisites
+20:18:47  [main] 	All prerequisites found
+20:18:47  [main] 	Initializing Modules
+20:18:47  [main] 	The FileZilla module is disabled
+20:18:47  [main] 	The Mercury module is disabled
+20:18:47  [main] 	Starting Check-Timer
+20:18:47  [main] 	Control Panel Ready
+20:18:53  [Apache] 	Attempting to start Apache app...
+20:18:53  [Apache] 	Status change detected: running
+20:18:54  [mysql] 	Attempting to start MySQL app...
+20:18:54  [mysql] 	Status change detected: running
+23:51:50  [main] 	Deinitializing Modules
+23:51:50  [main] 	Deinitializing Control Panel
+
+00:43:21  [main] 	Initializing Control Panel
+00:43:21  [main] 	Windows Version:   64-bit
+00:43:21  [main] 	XAMPP Version: 7.3.9
+00:43:21  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+00:43:21  [main] 	Running with Administrator rights - good!
+00:43:21  [main] 	XAMPP Installation Directory: "c:\users\administrator\documents\github\teraonlineserver_shock_1732\web\"
+00:43:21  [main] 	Checking for prerequisites
+00:43:22  [main] 	All prerequisites found
+00:43:22  [main] 	Initializing Modules
+00:43:22  [main] 	The FileZilla module is disabled
+00:43:22  [main] 	The Mercury module is disabled
+00:43:22  [main] 	Starting Check-Timer
+00:43:22  [main] 	Control Panel Ready
+00:43:24  [Apache] 	Attempting to start Apache app...
+00:43:24  [Apache] 	Status change detected: running
+00:43:24  [mysql] 	Attempting to start MySQL app...
+00:43:25  [mysql] 	Status change detected: running
+00:48:09  [main] 	Deinitializing Modules
+00:48:09  [main] 	Deinitializing Control Panel
+

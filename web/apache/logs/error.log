@@ -743,3 +743,35 @@ operable program or batch file.
 [Fri Sep 04 20:18:59.879136 2020] [ssl:warn] [pid 5836:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Fri Sep 04 20:19:00.019808 2020] [ssl:warn] [pid 5836:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Fri Sep 04 20:19:00.097957 2020] [mpm_winnt:notice] [pid 5836:tid 628] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 04 22:36:38.968022 2020] [autoindex:error] [pid 5836:tid 1920] [client 91.160.237.131:25459] AH01276: Cannot serve directory C:/Users/Administrator/Documents/GitHub/TeraOnlineServer_Shock_1732/web/htdocs/client/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sat Sep 05 00:24:33.753270 2020] [ssl:warn] [pid 4168:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:24:33.815762 2020] [core:warn] [pid 4168:tid 620] AH00098: pid file C:/Users/Administrator/Documents/GitHub/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Sep 05 00:24:33.831027 2020] [ssl:warn] [pid 4168:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:24:34.362291 2020] [mpm_winnt:notice] [pid 4168:tid 620] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sat Sep 05 00:24:34.362291 2020] [mpm_winnt:notice] [pid 4168:tid 620] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sat Sep 05 00:24:34.362291 2020] [core:notice] [pid 4168:tid 620] AH00094: Command line: 'c:\\users\\administrator\\documents\\github\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/Administrator/Documents/GitHub/TeraOnlineServer_Shock_1732/web/apache'
+[Sat Sep 05 00:24:34.378127 2020] [mpm_winnt:notice] [pid 4168:tid 620] AH00418: Parent: Created child process 7112
+[Sat Sep 05 00:24:34.972074 2020] [ssl:warn] [pid 7112:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:24:35.034544 2020] [ssl:warn] [pid 7112:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:24:35.096673 2020] [mpm_winnt:notice] [pid 7112:tid 664] AH00354: Child: Starting 150 worker threads.
+[Sat Sep 05 00:43:26.311174 2020] [ssl:warn] [pid 4900:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:43:26.389352 2020] [core:warn] [pid 4900:tid 620] AH00098: pid file C:/Users/Administrator/Documents/GitHub/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Sep 05 00:43:26.420850 2020] [ssl:warn] [pid 4900:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:43:26.873616 2020] [mpm_winnt:notice] [pid 4900:tid 620] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sat Sep 05 00:43:26.873616 2020] [mpm_winnt:notice] [pid 4900:tid 620] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sat Sep 05 00:43:26.873616 2020] [core:notice] [pid 4900:tid 620] AH00094: Command line: 'c:\\users\\administrator\\documents\\github\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/Administrator/Documents/GitHub/TeraOnlineServer_Shock_1732/web/apache'
+[Sat Sep 05 00:43:26.873616 2020] [mpm_winnt:notice] [pid 4900:tid 620] AH00418: Parent: Created child process 956
+[Sat Sep 05 00:43:27.420804 2020] [ssl:warn] [pid 956:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:43:27.483545 2020] [ssl:warn] [pid 956:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:43:27.529850 2020] [mpm_winnt:notice] [pid 956:tid 628] AH00354: Child: Starting 150 worker threads.
+[Sat Sep 05 00:53:43.378868 2020] [ssl:warn] [pid 928:tid 520] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:53:43.457315 2020] [core:warn] [pid 928:tid 520] AH00098: pid file C:/Users/Administrator/Documents/GitHub/TeraOnlineServer_Shock_1732/web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Sep 05 00:53:43.472613 2020] [ssl:warn] [pid 928:tid 520] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:53:43.926008 2020] [mpm_winnt:notice] [pid 928:tid 520] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 configured -- resuming normal operations
+[Sat Sep 05 00:53:43.926008 2020] [mpm_winnt:notice] [pid 928:tid 520] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sat Sep 05 00:53:43.926008 2020] [core:notice] [pid 928:tid 520] AH00094: Command line: 'c:\\users\\administrator\\documents\\github\\teraonlineserver_shock_1732\\web\\apache\\bin\\httpd.exe -d C:/Users/Administrator/Documents/GitHub/TeraOnlineServer_Shock_1732/web/apache'
+[Sat Sep 05 00:53:43.926008 2020] [mpm_winnt:notice] [pid 928:tid 520] AH00418: Parent: Created child process 1244
+[Sat Sep 05 00:53:44.519476 2020] [ssl:warn] [pid 1244:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:53:44.629018 2020] [ssl:warn] [pid 1244:tid 684] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Sep 05 00:53:44.660010 2020] [mpm_winnt:notice] [pid 1244:tid 684] AH00354: Child: Starting 150 worker threads.
+[Sat Sep 05 01:40:16.922598 2020] [negotiation:error] [pid 1244:tid 1956] [client 196.70.250.24:33208] AH00690: no acceptable variant: C:/Users/Administrator/Documents/GitHub/TeraOnlineServer_Shock_1732/web/apache/error/HTTP_NOT_FOUND.html.var
