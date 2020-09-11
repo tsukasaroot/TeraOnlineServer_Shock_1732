@@ -350,13 +350,14 @@
 		</for>
     </skill>
 	
+	<!--hit time 1900 delay 900 800 1100 1200-->
 	<skill id="67119964" class="3" name="Combo Attack XI" levels="4">
         <table name="#power">279 308 338 457</table>
 		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_AURA TARGET_ONE_AREA</table>     
 		<table name="#radius">50 50 90 50</table>
 		<table name="#range">50 50 90 50</table>
-		<table name="#hitTime">1900 1800 2100 3300</table>
-		<table name="#delay">900 800 1100 1200</table>
+		<table name="#hitTime">1700 1800 2100 3300</table>
+		<table name="#delay">400 400 800 800</table>
 		<table name="#moveDistance">55 30 30 60</table>	
 		<table name="#moveTime">1000 500 1000 700</table>	
 		<table name="#moveDelay">0 500 500 1000</table>	

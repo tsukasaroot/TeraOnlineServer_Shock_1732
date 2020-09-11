@@ -95,6 +95,6 @@ class __TwigTemplate_2af1980f5ac128771411aa25a516dc6e932fdbdf4c27338c9e577e9c324
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/table_navigation_button.twig", "C:\\Users\\jorou\\Downloads\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\display\\results\\table_navigation_button.twig");
+        return new Source("", "display/results/table_navigation_button.twig", "C:\\Users\\Administrator\\Documents\\GitHub\\TeraOnlineServer_Shock_1732\\web\\phpMyAdmin\\templates\\display\\results\\table_navigation_button.twig");
     }
 }

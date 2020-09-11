@@ -2489,8 +2489,8 @@
 		<set name="range" value="250"/>
 		<set name="delay" value="1000"/>
 		<set name="reuseDelay" value="12000"/>
-		<set name="reuseId" value="67169464"/>
-		<set name="hasFast" value="#hasFast" />
+		<!--<set name="reuseId" value="67169464"/>-->
+		<!--<set name="hasFast" value="#hasFast" />-->
 		<!--<set name="prevSkillNames" value="FLAME_PILLAR" />-->
 
 		<set name="damageId" value="67188964" />

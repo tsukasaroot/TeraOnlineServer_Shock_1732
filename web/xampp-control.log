@@ -1565,3 +1565,104 @@
 00:48:09  [main] 	Deinitializing Modules
 00:48:09  [main] 	Deinitializing Control Panel
 
+00:53:38  [main] 	Initializing Control Panel
+00:53:38  [main] 	Windows Version:   64-bit
+00:53:38  [main] 	XAMPP Version: 7.3.9
+00:53:38  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+00:53:38  [main] 	Running with Administrator rights - good!
+00:53:38  [main] 	XAMPP Installation Directory: "c:\users\administrator\documents\github\teraonlineserver_shock_1732\web\"
+00:53:38  [main] 	Checking for prerequisites
+00:53:40  [main] 	All prerequisites found
+00:53:40  [main] 	Initializing Modules
+00:53:40  [main] 	The FileZilla module is disabled
+00:53:40  [main] 	The Mercury module is disabled
+00:53:40  [main] 	Starting Check-Timer
+00:53:40  [main] 	Control Panel Ready
+00:53:41  [Apache] 	Attempting to start Apache app...
+00:53:41  [Apache] 	Status change detected: running
+00:53:42  [mysql] 	Attempting to start MySQL app...
+00:53:43  [mysql] 	Status change detected: running
+17:55:29  [Apache] 	Attempting to stop Apache (PID: 928)
+17:55:29  [Apache] 	Attempting to stop Apache (PID: 1244)
+17:55:29  [Apache] 	Status change detected: stopped
+17:55:29  [mysql] 	Attempting to stop MySQL app...
+17:55:29  [mysql] 	Status change detected: stopped
+17:55:30  [Apache] 	Attempting to start Apache app...
+17:55:30  [Apache] 	Status change detected: running
+17:55:31  [mysql] 	Attempting to start MySQL app...
+17:55:31  [mysql] 	Status change detected: running
+17:58:25  [main] 	Executing "services.msc"
+17:58:46  [Apache] 	Attempting to stop Apache (PID: 5648)
+17:58:46  [Apache] 	Attempting to stop Apache (PID: 6780)
+17:58:46  [Apache] 	Status change detected: stopped
+17:58:47  [mysql] 	Attempting to stop MySQL app...
+17:58:47  [mysql] 	Status change detected: stopped
+17:58:48  [Apache] 	Attempting to start Apache app...
+17:58:48  [Apache] 	Status change detected: running
+17:58:49  [mysql] 	Attempting to start MySQL app...
+17:58:49  [mysql] 	Status change detected: running
+18:02:25  [Apache] 	Attempting to stop Apache (PID: 684)
+18:02:25  [Apache] 	Attempting to stop Apache (PID: 4796)
+18:02:25  [mysql] 	Attempting to stop MySQL app...
+18:02:25  [Apache] 	Status change detected: stopped
+18:02:25  [mysql] 	Status change detected: stopped
+18:02:26  [Apache] 	Attempting to start Apache app...
+18:02:26  [Apache] 	Status change detected: running
+18:02:26  [mysql] 	Attempting to start MySQL app...
+18:02:27  [mysql] 	Status change detected: running
+18:04:33  [Apache] 	Attempting to stop Apache (PID: 3736)
+18:04:33  [Apache] 	Attempting to stop Apache (PID: 2584)
+18:04:34  [Apache] 	Status change detected: stopped
+18:04:34  [mysql] 	Attempting to stop MySQL app...
+18:04:34  [mysql] 	Status change detected: stopped
+18:04:39  [Apache] 	Attempting to start Apache app...
+18:04:39  [Apache] 	Status change detected: running
+18:04:39  [mysql] 	Attempting to start MySQL app...
+18:04:40  [mysql] 	Status change detected: running
+18:11:38  [Apache] 	Attempting to stop Apache (PID: 384)
+18:11:38  [Apache] 	Attempting to stop Apache (PID: 3452)
+18:11:38  [Apache] 	Status change detected: stopped
+18:11:39  [Apache] 	Attempting to start Apache app...
+18:11:39  [Apache] 	Status change detected: running
+18:14:59  [Apache] 	Attempting to stop Apache (PID: 4520)
+18:14:59  [Apache] 	Attempting to stop Apache (PID: 6736)
+18:14:59  [Apache] 	Status change detected: stopped
+18:14:59  [Apache] 	Attempting to start Apache app...
+18:15:00  [Apache] 	Status change detected: running
+18:15:49  [Apache] 	Attempting to stop Apache (PID: 3756)
+18:15:49  [Apache] 	Attempting to stop Apache (PID: 6028)
+18:15:49  [Apache] 	Status change detected: stopped
+18:15:50  [Apache] 	Attempting to start Apache app...
+18:15:50  [Apache] 	Status change detected: running
+18:19:11  [Apache] 	Attempting to stop Apache (PID: 5412)
+18:19:11  [Apache] 	Attempting to stop Apache (PID: 5980)
+18:19:11  [Apache] 	Status change detected: stopped
+18:19:11  [mysql] 	Attempting to stop MySQL app...
+18:19:11  [mysql] 	Status change detected: stopped
+18:19:12  [Apache] 	Attempting to start Apache app...
+18:19:12  [Apache] 	Status change detected: running
+18:19:12  [mysql] 	Attempting to start MySQL app...
+18:19:13  [mysql] 	Status change detected: running
+18:21:20  [Apache] 	Attempting to stop Apache (PID: 3996)
+18:21:20  [Apache] 	Attempting to stop Apache (PID: 6836)
+18:21:21  [Apache] 	Status change detected: stopped
+18:21:21  [Apache] 	Attempting to start Apache app...
+18:21:22  [Apache] 	Status change detected: running
+18:21:36  [Apache] 	Attempting to stop Apache (PID: 5700)
+18:21:36  [Apache] 	Attempting to stop Apache (PID: 912)
+18:21:36  [Apache] 	Status change detected: stopped
+18:21:37  [Apache] 	Attempting to start Apache app...
+18:21:37  [Apache] 	Status change detected: running
+18:38:46  [Apache] 	Attempting to stop Apache (PID: 4944)
+18:38:46  [Apache] 	Attempting to stop Apache (PID: 324)
+18:38:46  [Apache] 	Status change detected: stopped
+18:38:48  [Apache] 	Attempting to start Apache app...
+18:38:48  [Apache] 	Status change detected: running
+10:56:27  [Apache] 	Attempting to stop Apache (PID: 2844)
+10:56:27  [Apache] 	Attempting to stop Apache (PID: 2828)
+10:56:28  [Apache] 	Status change detected: stopped
+10:56:28  [Apache] 	Attempting to start Apache app...
+10:56:29  [Apache] 	Status change detected: running
+17:16:52  [main] 	Deinitializing Modules
+17:16:52  [main] 	Deinitializing Control Panel
+
