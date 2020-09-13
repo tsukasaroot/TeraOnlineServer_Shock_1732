@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <list>
-	<!--
 	<!-- Warrior Castanic Male
 	<template id="30001" iconId="10701" name="*Воин*" title="Убиватель" appearance="top_warrior_male" class="PLAYER_KILLER" type="300" level="60" exp="0" attack="180000" defense="5000" impact="1500" balance="10000" maxHp="200000" maxMp="3000" atkSpd="156" runSpd="142" critRate="135" critRcpt="135" geomRadius="20" geomHeight="60" aggro="0" fractionRange="500" owerturnTime="2500" fractionId="Мастер Джедай" skills="30001;30002;30003;30004;30005;30006;30007;30008;30009;30010;30011;30012;30013;" >
 		<add stat="weakRcpt" order="0x40" val="95" />

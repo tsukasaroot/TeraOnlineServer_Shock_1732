@@ -375,14 +375,16 @@
 		</for>		
     </skill>
 	
+	
+	<!-- reuseDelay 5000  & mpConsume 70 -->
 	<skill id="67128964" class="0" name="Evasive Roll" levels="1">
-		<set name="reuseDelay" value="5000"/>
+		<set name="reuseDelay" value="2000"/>
 		<set name="moveDistance" value="150" />	
 		<set name="targetType" value="TARGET_SELF"/>		
 		<set name="skillType" value="JUMP" />
 		<set name="operateType" value="ACTIVE" />
 		<set name="rangeType" value="OTHER_SKILL" />
-		<set name="mpConsume" value="70" />
+		<set name="mpConsume" value="900" />
 		<set name="hitTime" value="2000" />	
 		<set name="moveTime" value="1000" />	
 		<set name="evasion" value="true" />		

@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
+	<!-- the 3 NPCs close to arena VO -->
 	<npc id="30002" type="300" >
 		 <ai newAI="true" class="DEFAULT" config="DefaultMonster" >
-			<time respawn="2000" >
+			<time respawn="1000" >
 				<point x="12649.727" y="11468.47" z="970.37524" />
 			</time>
 		</ai>
@@ -10,7 +11,7 @@
 	
 	<npc id="30004" type="300" >
 		 <ai newAI="true" class="DEFAULT" config="DefaultMonster" >
-			<time respawn="2000" >
+			<time respawn="1000" >
 				<point x="12418.81" y="11482.044" z="930.7019" />
 			</time>
 		</ai>
@@ -18,7 +19,7 @@
 	
 	<npc id="30005" type="300" >
 		 <ai newAI="true" class="DEFAULT" config="DefaultMonster" >
-			<time respawn="2000" >
+			<time respawn="1000" >
 				<point x="12533.806" y="11685.605" z="953.0049" />
 			</time>
 		</ai>
