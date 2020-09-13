@@ -7,4 +7,11 @@
 			</time>
 		</ai>
 	</npc>
+	<npc id="1150" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-5912.3384" y="63273.83" z="6084.856" heading="40234" />
+			</time>
+		</ai>
+	</npc>
 </list>

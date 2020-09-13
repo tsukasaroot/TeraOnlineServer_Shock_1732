@@ -1100,7 +1100,7 @@
 		<point x="-34268" y="31575" z="2078" />
 	</territory>
 	
-	<territory id="100" name="Костер в Furmount" type="CAMP_TERRITORY" centerX="93832" centerY="69031" centerZ="1612" minZ="1500" maxZ="1700">
+	<territory id="100" name="Cauldron Fyrmount" type="CAMP_TERRITORY" centerX="93832" centerY="69031" centerZ="1612" minZ="1300" maxZ="1900">
 		<point x="93957" y="69016" z="1588" />
 		<point x="93911" y="69098" z="1592" />
 		<point x="93833" y="69130" z="1597" />
@@ -1680,7 +1680,7 @@
 		<point x="-63990" y="-74858" z="110" />
 	</territory>
 	
-	<territory id="223" name="Cauldron Outpost" type="LOCAL_TERRITORY" x="93954" y="68980" z="1588" minZ="1500" maxZ="1600" >
+	<territory id="223" name="Cauldron Outpost" type="LOCAL_TERRITORY" x="93954" y="68980" z="1588" minZ="1500" maxZ="1700" >
 		<point x="94185" y="68959" z="1581" />
 		<point x="94060" y="68859" z="1581" />
 		<point x="94047" y="68738" z="1579" />
@@ -2174,9 +2174,22 @@
 		<point x="-18425" y="63541" z="871" />
 	</territory>
 	
+	<territory id="412" name="Firebase Audacity" type="CAMP_TERRITORY" x="-4235.0527" y="44169.207" z="4955.3257" minZ="4900" maxZ="5000" continentId="2">
+		<point x="-4182.5947" y="44304.234" z="4909.985" heading="12162" />
+	</territory>
 	
-	
-	
+	<territory id="412" name="Firebase Audacity" type="LOCAL_TERRITORY" x="-4235.0527" y="44169.207" z="4955.3257" minZ="4900" maxZ="5000" continentId="2">
+		<point x="-3324" y="57565" z="1119" heading="448" />
+		<point x="-3245" y="57745" z="1122" heading="33216" />
+		<point x="-3022" y="57946" z="1128" heading="8640" />
+		<point x="-2506" y="58012" z="1125" heading="448" />
+		<point x="-2139" y="57895" z="1133" heading="51306" />
+		<point x="-2133" y="57559" z="1131" heading="51306" />
+		<point x="-2269" y="57091" z="1193" heading="38092" />
+		<point x="-3142" y="56733" z="1300" heading="38071" />
+		<point x="-3115" y="57207" z="1121" heading="9653" />
+		<point x="-3311" y="57409" z="1112" heading="60614" />
+	</territory>
 	
 	
 	

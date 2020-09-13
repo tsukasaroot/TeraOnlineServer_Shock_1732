@@ -1,6 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<list>		
-
+<list>
+	<npc id="1150" type="64">
+		<!-- Habere -->
+		<link name="Teleport" icon="GREEN" >
+			<reply name="ReplyTeleport" >
+				<loc name="Firebase Audacity" price="262" index="1" />
+				<loc name="Gravewatch of the Exiled" price="262" index="2" />
+				<loc name="Valumnir Outpost" price="262" index="2" />
+			</reply>
+		</link>	
+	</npc>
+	
 	<npc id="1050" type="64">
 		<!-- Island of Dawn -->
 		<link name="Teleport" icon="GREEN" >

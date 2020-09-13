@@ -1276,4 +1276,23 @@
 			</time>
 		</ai>
 	</npc>
+	
+	<!-- Added Cleric -->
+	<!-- Velika -->	
+	<npc id="1101" type="366" >
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="4060.4243" y="11507.226" z="1868.1276" heading="37320" />
+			</time>
+		</ai>
+	</npc>
+	
+	<!-- Velika Outskirt -->
+	<npc id="1101" type="366" >
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="12887.641" y="7639.3906" z="971.7191" heading="25972" />
+			</time>
+		</ai>
+	</npc>
 </list>

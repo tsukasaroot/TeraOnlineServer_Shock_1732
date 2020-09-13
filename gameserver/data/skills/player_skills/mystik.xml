@@ -669,7 +669,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -685,7 +685,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -701,7 +701,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -717,7 +717,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -733,7 +733,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -749,7 +749,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -765,7 +765,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -781,7 +781,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	

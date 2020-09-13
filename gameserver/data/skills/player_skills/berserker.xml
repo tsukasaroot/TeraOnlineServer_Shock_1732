@@ -914,6 +914,12 @@
         <set name="reuseDelay" value="30000"/>
 		<set name="blockingMove" value="false" />
 		<set name="implemented" value="true" />
+		<for> 
+			<effect id="400700" time="10" count="1" type="BUFF" stackType="special_stat_up" >
+				<mul stat="balance" order="0x30" val="2" />
+				<mul stat="stunRcpt" order="0x30" val="2" />
+			</effect>
+		</for>
     </skill>
 	
 	<skill id="67158964" class="3" name="Dash I" levels="1">
@@ -2493,7 +2499,7 @@
         <set name="implemented" value="true" />
     </skill>
     
-    <!--   <skill id="67348964" class="3" name="Evasive Smash" levels="13">
+     <skill id="67348964" class="3" name="Evasive Smash" levels="13">
 		<table name="#operateType">CHARGE ACTIVE</table>
         <table name="#skillType">CHARGE CHARGE_STRIKE</table>
 		<table name="#delay">800 500</table>
@@ -2524,5 +2530,5 @@
 		<cond>
 			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
-    </skill> -->
+    </skill>
 </list>
