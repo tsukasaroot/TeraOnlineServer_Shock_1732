@@ -1,2 +1,0 @@
-cd gameserver
-StartGameServer.bat
