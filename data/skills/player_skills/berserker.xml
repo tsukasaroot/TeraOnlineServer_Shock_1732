@@ -2425,6 +2425,11 @@
 		<set name="delay" value="1500"/>
         <set name="reuseDelay" value="30000"/>
 		<set name="implemented" value="true" />
+		<for> 
+			<effect id="100300" time="5" count="1" type="STUN" dynamicTime="true" chance="50" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
     </skill>
 	
 	<skill id="67308964" class="3" name="Inescapable Doom" levels="1">
@@ -2442,8 +2447,8 @@
 		<for> 
 			<effect id="400800" time="30" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
 				<mul stat="runSpd" order="0x30" val="0.4" />
-			</effect>	
-		</for>		
+			</effect>
+		</for>
     </skill>
 	
 	<skill id="67278964" class="3" name="Flurry of Blows" levels="1">
@@ -2500,13 +2505,13 @@
     </skill>
     
      <skill id="67348964" class="3" name="Evasive Smash" levels="13">
-		<table name="#operateType">CHARGE ACTIVE</table>
-        <table name="#skillType">CHARGE CHARGE_STRIKE</table>
+		<table name="#operateType">ACTIVE</table>
+        <table name="#skillType">CHARGE_STRIKE</table>
 		<table name="#delay">800 500</table>
 		<table name="#hitTime">6000 2900</table>
 		<table name="#interval">800 500</table>
 		<table name="#moveDistance">0 100</table>
-		<table name="#castCount">1 1</table>
+		<table name="#castCount">2 2</table>
 		<table name="#mpConsume">100 150 0</table>
 		<set name="power" value="89"/>
 		<set name="chargeMod" value="0.1"/>
@@ -2527,6 +2532,11 @@
 		<set name="mpConsume" value="#mpConsume" />
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
+		<for>
+			<effect id="100300" time="2" count="1" type="STUN" chance="77" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
 		<cond>
 			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	

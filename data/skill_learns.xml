@@ -594,6 +594,10 @@
 		<skill id="200100" name="Auto" minLevel="58" price="380650" />
 
 		<skill id="240100" name="Evasive Smash" minLevel="60" price="441966" />
+
+		<skill id="240100" name="Evasive Smash" minLevel="60" price="441966" />
+
+		<skill id="70100" name="Mocking Shout" minLevel="60" price="441966" />
 	</class>
 
 	<class id="4" >
