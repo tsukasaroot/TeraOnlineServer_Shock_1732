@@ -22,7 +22,6 @@
 		 <ai class="DEFAULT" config="DefaultFriendly">
 			<time respawn="45" >
 				<point x="-5920.999" y="63282.13" z="6085.9272" heading="38774" />
-				<point x="-4241.5547" y="43897.188" z="4911.0264" heading="18000" />
 			</time>
 		</ai>
 	</npc>
@@ -31,6 +30,23 @@
 		 <ai class="DEFAULT" config="DefaultFriendly">
 			<time respawn="45" >
 				<point x="-7573.6865" y="62710.793" z="6132.594" heading="124" />
+			</time>
+		</ai>
+	</npc>
+
+	<!-- cleric -->
+	<npc id="1101" type="364" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly">
+			<time respawn="45" >
+				<point x="-6465.8506" y="61881.73" z="6075.2866" heading="33894" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1002" type="360" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly">
+			<time respawn="45" >
+				<point x="-3833.7576" y="65186.535" z="6546.9375" heading="32308" />
 			</time>
 		</ai>
 	</npc>

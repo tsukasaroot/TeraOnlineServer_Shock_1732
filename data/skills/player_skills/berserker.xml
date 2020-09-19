@@ -914,10 +914,10 @@
         <set name="reuseDelay" value="30000"/>
 		<set name="blockingMove" value="false" />
 		<set name="implemented" value="true" />
-		<for> 
-			<effect id="400700" time="10" count="1" type="BUFF" stackType="special_stat_up" >
-				<mul stat="balance" order="0x30" val="2" />
-				<mul stat="stunRcpt" order="0x30" val="2" />
+		<for>
+			<effect id="400700" time="10" count="1" type="BUFF" stackType="special_stat_up">
+				<add stat="owerturnRcpt" order="0x40" val="300" />	
+				<add stat="stunRcpt" order="0x40" val="100" />
 			</effect>
 		</for>
     </skill>
@@ -2426,7 +2426,7 @@
         <set name="reuseDelay" value="30000"/>
 		<set name="implemented" value="true" />
 		<for> 
-			<effect id="100300" time="5" count="1" type="STUN" dynamicTime="true" chance="50" stackType="stun" debuff="true" >
+			<effect id="100300" time="5" count="1" type="STUN" dynamicTime="true" chance="100" stackType="stun" debuff="true" >
 				<mul stat="runSpd" order="0x50" val="0" />
 			</effect>
 		</for>
@@ -2444,9 +2444,12 @@
         <set name="reuseDelay" value="120000"/>
 		<set name="blockingMove" value="false" />
 		<set name="implemented" value="true" />
-		<for> 
-			<effect id="400800" time="30" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+		<for>
+			<effect id="400800" time="35" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
 				<mul stat="runSpd" order="0x30" val="0.4" />
+			</effect>
+			<effect id="400200" time="5" count="1" type="STUN" dynamicTime="true" chance="100" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0" />
 			</effect>
 		</for>
     </skill>

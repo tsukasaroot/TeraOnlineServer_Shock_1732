@@ -2174,7 +2174,7 @@
 		<point x="-18425" y="63541" z="871" />
 	</territory>
 	
-	<territory id="412" name="Firebase Audacity Territory" type="PEACE_TERRITORY" x="-4235.0527" y="44169.207" z="4955.3257" minZ="4900" maxZ="5000" continentId="2">
+	<territory id="412" name="Firebase Audacity Territory" type="PEACE_TERRITORY" x="-4235.0527" y="44169.207" z="4955.3257" minZ="700" maxZ="8000" continentId="2">
 		<point x="-3862.0142" y="44920.453" z="4916.1885" />
 		<point x="-4124.2827" y="45048.137" z="4916.384" />
 		<point x="-4513.9604" y="44994.65" z="4905.0664" />
@@ -2187,7 +2187,20 @@
 		<point x="-3827.427" y="43371.668" z="4910.241" />
 	</territory>
 	
-	<territory id="413" name="Firebase Audacity" type="LOCAL_TERRITORY" x="-4235.0527" y="44169.207" z="4955.3257" minZ="4900" maxZ="5000" continentId="2">
+	<territory id="413" name="Firebase Audacity" type="LOCAL_TERRITORY" x="-4235.0527" y="44169.207" z="4955.3257" minZ="4800" maxZ="5300" continentId="2">
+		<!--point x="-3862.0142" y="44920.453" z="4916.1885" />
+		<point x="-4124.2827" y="45048.137" z="4916.384" />
+		<point x="-4513.9604" y="44994.65" z="4905.0664" />
+		<point x="-4810.3286" y="44850.42" z="4909.353" />
+		<point x="-5024.005" y="44568.812" z="4907.522" />
+		<point x="-5103.2764" y="44308.723" z="4906.1143" />
+		<point x="-5058.546" y="43863.05" z="4903.0664" />
+		<point x="-4832.5464" y="43525.066" z="4904.398" />
+		<point x="-4306.328" y="43297.78" z="4898.711" />
+		<point x="-3827.427" y="43371.668" z="4910.241" /-->
+	</territory>
+	
+	<territory id="414" name="Firebase Audacity Camp" type="CAMP_TERRITORY" centerX="-4235.0527" centerY="44169.207" centerZ="4955.3257" minZ="4000" maxZ="6000" continentId="2">
 		<point x="-3862.0142" y="44920.453" z="4916.1885" />
 		<point x="-4124.2827" y="45048.137" z="4916.384" />
 		<point x="-4513.9604" y="44994.65" z="4905.0664" />
@@ -2200,16 +2213,5 @@
 		<point x="-3827.427" y="43371.668" z="4910.241" />
 	</territory>
 	
-	<territory id="414" name="Firebase Audacity Camp" type="CAMP_TERRITORY" x="-4235.0527" y="44169.207" z="4955.3257" minZ="4900" maxZ="5000" continentId="2">
-		<point x="-3862.0142" y="44920.453" z="4916.1885" />
-		<point x="-4124.2827" y="45048.137" z="4916.384" />
-		<point x="-4513.9604" y="44994.65" z="4905.0664" />
-		<point x="-4810.3286" y="44850.42" z="4909.353" />
-		<point x="-5024.005" y="44568.812" z="4907.522" />
-		<point x="-5103.2764" y="44308.723" z="4906.1143" />
-		<point x="-5058.546" y="43863.05" z="4903.0664" />
-		<point x="-4832.5464" y="43525.066" z="4904.398" />
-		<point x="-4306.328" y="43297.78" z="4898.711" />
-		<point x="-3827.427" y="43371.668" z="4910.241" />
-	</territory>
+	<territory id="415" name="Remote Lodge" type="LOCAL_TERRITORY" x="7128.816" y="67909.64" z="7168.75" minZ="6000" maxZ="8000" continentId="2"/>
 </list>

@@ -1,18 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
-		<!-- Habere -->
-	<npc id="1150" type="64">
+		<!-- Habere not working -->
+	<npc id="1050" type="64">
 		<link name="Teleport" icon="GREEN" >
 			<reply name="ReplyTeleport" >
-				<loc name="Firebase Audacity" price="262" index="413" />
+				<loc name="Firebase Audacity" price="262" index="100" />
 			</reply>
 		</link>	
 	</npc>
 	
 	<npc id="1050" type="64">
-		<!-- Island of Dawn -->
 		<link name="Teleport" icon="GREEN" >
 			<reply name="ReplyTeleport" >
+			<!-- Habere -->
+				<loc name="RemoteLodge" price="262" index="103" />
+				<loc name="Firebase Audacity" price="262" index="100" />
+				<!-- Island of Dawn -->
 				<loc name="Leander's Outpost" price="262" index="1" />
 				<loc name="Tainted Gorge" price="262" index="2" />
 			</reply>

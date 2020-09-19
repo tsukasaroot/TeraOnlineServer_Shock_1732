@@ -1751,9 +1751,9 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cast>
-			<mul stat="def" order="0x50" val="1.5" />	
-			<add stat="owerturnRcpt" order="0x40" val="100" />	
-			<add stat="stunRcpt" order="0x40" val="100" />	
+			<mul stat="def" order="0x50" val="1.5" />
+			<add stat="owerturnRcpt" order="0x40" val="100" />
+			<add stat="stunRcpt" order="0x40" val="100" />
 		</cast>
     </skill>
 	
