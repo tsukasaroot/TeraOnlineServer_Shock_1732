@@ -2808,7 +2808,10 @@
 	
 	<weapon id="10483" type="greatSword" name="Skycarver" requiredLevel="58" rank="epic" bindType="onEquip" attack="2502" impact="7420" sockets="4" enchantable="false" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="6727595" sellPrice="672759">
 		<funcs>
-			<add stat="absMpOnMax" order="0x40" val="57"/>			
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+			<add stat="maxMp" order="0x40" val="1000"/>
+			<add stat="regMp" order="0x40" val="53"/>
+			<mul stat="atk" order="0x50" val="8" />			
 		</funcs>
 	</weapon>	
 	

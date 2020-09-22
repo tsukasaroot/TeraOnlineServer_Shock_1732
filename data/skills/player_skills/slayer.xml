@@ -887,7 +887,7 @@
 	<skill id="67299064" class="2" name="Tenacity II" levels="1">
 		<set name="operateType" value="ACTIVE"/>
         <set name="skillType" value="MANAHEAL"/>
-		<set name="power" value="360"/>
+		<set name="power" value="1000"/>
         <set name="targetType" value="TARGET_SELF"/>
 		<set name="rangeType" value="OTHER_SKILL" />
         <set name="hitTime" value="1000"/>
@@ -2332,12 +2332,12 @@
         <set name="targetType" value="TARGET_AURA" />
         <set name="radius" value="100"/>
         <set name="mpConsume" value="150"/>
-        <set name="hitTime" value="2300"/>
+        <set name="hitTime" value="4000"/>
         <set name="reuseDelay" value="12000"/>
 		<set name="moveDelay" value="1800" />
 		<set name="moveDistance" value="190" />
 		<set name="moveTime" value="700" />
-        <set name="delay" value="2000"/>
+        <set name="delay" value="2800"/>
 		<set name="implemented" value="true" />
 		<set name="owerturnMod" value="10" />
         <cond>
@@ -2345,7 +2345,7 @@
 		</cond>
     </skill>
 	
-	<!-- <skill id="67168964" class="2" name="Backstab" levels="1">
+	<skill id="67168964" class="2" name="Backstab" levels="1">
         <set name="power" value="700"/>
         <set name="operateType" value="ACTIVE"/>
         <set name="skillType" value="STRIKE"/>
@@ -2368,5 +2368,5 @@
 				<mul stat="rangeReuse" order="0x30" val="1.5" />
 			</effect>
 		</for>
-    </skill> -->
+    </skill>
 </list>

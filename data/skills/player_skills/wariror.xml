@@ -3825,7 +3825,7 @@
     </skill>
 	
 	<skill id="67408964" class="0" name="Scythe" levels="1">
-        <set name="power" value="226"/>
+        <set name="power" value="1000"/>
         <set name="operateType" value="ACTIVE"/>
         <set name="skillType" value="STRIKE"/>
         <set name="targetType" value="TARGET_AURA"/>

@@ -7,4 +7,39 @@
 			</time>
 		</ai>
 	</npc>
+
+<!-- tradebroker -->
+	<npc id="1004" type="63" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly">
+			<time respawn="45" >
+				<point x="-40173.598" y="9998.423" z="4619.703" heading="46292" />
+				<point x="-40245.26" y="7813.7134" z="4579.7026" heading="25052" />
+			</time>
+		</ai>
+	</npc>
+<!-- tradebroker -->	
+	<npc id="1113" type="63" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly">
+			<time respawn="45" >
+				<point x="-40122.17" y="9983.243" z="4619.703" heading="46670" />
+				<point x="-40265.527" y="7772.3477" z="4579.7026" heading="28202" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1101" type="364" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly">
+			<time respawn="45" >
+				<point x="-40475.133" y="8731.681" z="4565.6636" heading="46390" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1050" type="64" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly">
+			<time respawn="45" >
+				<point x="-40633.844" y="8343.593" z="4547.637" heading="62222" />
+			</time>
+		</ai>
+	</npc>
 </list>

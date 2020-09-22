@@ -12,9 +12,12 @@
 	<npc id="1050" type="64">
 		<link name="Teleport" icon="GREEN" >
 			<reply name="ReplyTeleport" >
-			<!-- Habere -->
+				<!-- Dragonfall -->
+				<loc name="RemoteLodge" price="262" index="75" />
+				<!-- Habere -->
 				<loc name="RemoteLodge" price="262" index="103" />
 				<loc name="Firebase Audacity" price="262" index="100" />
+				<loc name="Gravewatch of the Exiled" price="262" index="101" />
 				<!-- Island of Dawn -->
 				<loc name="Leander's Outpost" price="262" index="1" />
 				<loc name="Tainted Gorge" price="262" index="2" />

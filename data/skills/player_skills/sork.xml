@@ -422,7 +422,7 @@
 	
 	<skill id="67189864" class="4" name="Flame Pillar X" levels="1">
 		<set name="skillName" value="FLAME_PILLAR"/>
-		<set name="reuseDelay" value="4000" />
+		<set name="reuseDelay" value="2000" />
 		<set name="targetType" value="TARGET_AREA" />		
 		<set name="range" value="60"/>
 		<set name="radius" value="40"/>
@@ -1600,7 +1600,7 @@
         <set name="skillType" value="STRIKE"/>
         <set name="targetType" value="TRAP_AURA"/>
         <set name="radius" value="100"/>
-		<set name="owerturnMod" value="0.01" />
+		<set name="owerturnMod" value="20" />
 		<cond>
 			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>
@@ -2347,6 +2347,7 @@
 		</for>
     </skill>
 	
+	<!--  -->
 	<skill id="67239064" class="4" name="Mindblast II" levels="1">
         <set name="operateType" value="ACTIVE"/>
         <set name="skillType" value="DEBUFF"/>
@@ -2470,31 +2471,31 @@
 		</cond>	
     </skill>
 	
-	<!-- 7200 reuse delay 12000 -->
+	<!-- 7200 reuse delay 12000 mp consume 1000 -->
 	<!-- delay 6500 hit time 7200 6900 0.1 owerturn-->
 	<skill id="67169464" class="4" name="Fireblast VI" levels="1">
-		<table name="#hitTime">6000 6000</table>
-		<table name="#delay">6900</table>
+		<table name="#hasFast">true false</table>
+		<table name="#hitTime">7200 6900</table>
+		<table name="#delay">6500</table>
 		<table name="#reuseDelay">12000 12000</table>
 	
-		<set name="speed" value="900"/>
         <set name="operateType" value="ACTIVE"/>
-		<set name="power" value="4311"/>
+		<set name="power" value="10000"/>
         <set name="skillType" value="STRIKE"/>
         <set name="targetType" value="TARGET_AREA"/>
 		<set name="rangeType" value="RANGE_SKILL" />
-        <set name="hitTime" value="6000"/>
-		<set name="mpConsume" value="1000"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="mpConsume" value="300"/>
 		<set name="radius" value="120"/>
 		<set name="range" value="250"/>
-		<set name="delay" value="1000"/>
-		<set name="reuseDelay" value="12000"/>
-		<!--<set name="reuseId" value="67169464"/>-->
-		<!--<set name="hasFast" value="#hasFast" />-->
+		<set name="delay" value="#delay"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67169464"/>
+		<set name="hasFast" value="#hasFast" />
 		<!--<set name="prevSkillNames" value="FLAME_PILLAR" />-->
 
 		<set name="damageId" value="67188964" />
-		<set name="owerturnMod" value="1" />
+		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
 			<using weapon="DISC" msg="It is used only with a disk."/>
@@ -2739,7 +2740,7 @@
         <for>
 			<!-- 1.25 -->
 			<effect id="501200" time="15" count="1" type="BUFF" stackType="attack_speed_up" >
-				<mul stat="atkSpd" order="0x30" val="1.80" />
+				<mul stat="atkSpd" order="0x30" val="2" />
 			</effect>
 		</for>
     </skill>
